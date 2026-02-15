@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Just Haus</title>
+  <meta name="description" content="Just Haus — high-performance, thoughtfully built homes in Franconia, NH." />
+  <style>
+    :root { --fg:#111; --muted:#666; --bg:#fff; --card:#f6f6f6; }
+    *{ box-sizing:border-box; }
+    body{
+      margin:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+      color:var(--fg); background:var(--bg);
+    }
+    .wrap{ max-width:920px; margin:0 auto; padding:56px 20px; }
+    header{ display:flex; align-items:baseline; justify-content:space-between; gap:16px; flex-wrap:wrap; }
+    h1{ margin:0; font-size:36px; letter-spacing:-0.02em; }
+    .tag{ color:var(--muted); font-size:14px; }
+    .hero{ margin-top:28px; padding:22px; background:var(--card); border-radius:18px; }
+    .hero p{ margin:0; font-size:18px; line-height:1.5; }
+    .grid{ display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:14px; margin-top:18px; }
+    .card{ padding:18px; border-radius:16px; background:#fff; border:1px solid #e9e9e9; }
+    .card h2{ margin:0 0 8px; font-size:16px; }
+    .card p{ margin:0; color:var(--muted); line-height:1.45; font-size:14px; }
+    a{ color:inherit; text-underline-offset:3px; }
+    footer{ margin-top:36px; display:flex; gap:14px; flex-wrap:wrap; color:var(--muted); font-size:14px; }
+    .btn{
+      display:inline-block; padding:10px 12px; border-radius:12px;
+      border:1px solid #e2e2e2; background:#fff; text-decoration:none;
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <header>
+      <h1>Just Haus</h1>
+      <div class="tag">Franconia, New Hampshire</div>
+    </header>
+
+    <section class="hero">
+      <p>
+        High-performance, thoughtfully built homes — designed for comfort, durability, and simplicity.
+      </p>
+      <div style="margin-top:14px; display:flex; gap:10px; flex-wrap:wrap;">
+        <a class="btn" href="mailto:hello@justha.us">Email</a>
+        <a class="btn" href="#" onclick="alert('Coming soon!'); return false;">Project updates</a>
+      </div>
+    </section>
+
+    <section class="grid" aria-label="What we do">
+      <div class="card">
+        <h2>R&amp;D + Prototypes</h2>
+        <p>Testing details, materials, and assemblies to build better over time.</p>
+      </div>
+      <div class="card">
+        <h2>Small Homes / ADUs</h2>
+        <p>Compact, low-maintenance spaces with excellent comfort and efficiency.</p>
+      </div>
+      <div class="card">
+        <h2>Spec Builds</h2>
+        <p>One at a time — carefully executed, with lessons rolled into each build.</p>
+      </div>
+      <div class="card">
+        <h2>Local-first</h2>
+        <p>Built for the North Country climate and the way people actually live here.</p>
+      </div>
+    </section>
+
+    <footer>
+      <span>© <span id="y"></span> Just Haus</span>
+      <span>•</span>
+      <a href="mailto:hello@justha.us">hello@justha.us</a>
+      <span>•</span>
+      <a href="https://justha.us">justha.us</a>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
