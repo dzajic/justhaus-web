@@ -15,6 +15,7 @@
       --bg: #fff;
       --card: #f6f6f6;
       --line: #e8e8e8;
+      --shadow: 0 18px 48px rgba(0, 0, 0, 0.08);
     }
 
     * {
@@ -58,6 +59,15 @@
       padding: 28px;
       background: var(--card);
       border-radius: 18px;
+      border: 1px solid var(--line);
+      box-shadow: var(--shadow);
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.05fr) minmax(280px, 0.95fr);
+      gap: 24px;
+      align-items: center;
     }
 
     .hero p {
@@ -84,6 +94,33 @@
       color: #222;
     }
 
+    .hero-media {
+      margin: 0;
+    }
+
+    .hero-image-frame {
+      aspect-ratio: 16 / 9;
+      overflow: hidden;
+      border-radius: 16px;
+      border: 1px solid #d9d9d9;
+      background: #ededed;
+    }
+
+    .hero-image {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      filter: grayscale(100%);
+    }
+
+    .hero-caption {
+      margin-top: 10px;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.5;
+    }
+
     .actions {
       margin-top: 26px;
       display: flex;
@@ -93,16 +130,20 @@
 
     .btn {
       display: inline-block;
-      padding: 10px 12px;
+      padding: 11px 14px;
       border-radius: 12px;
       border: 1px solid #e2e2e2;
       background: #fff;
       text-decoration: none;
       color: inherit;
+      box-shadow: none;
+      transition: transform 180ms ease, box-shadow 180ms ease, background 180ms ease;
     }
 
     .btn:hover {
       background: #fcfcfc;
+      transform: translateY(-1px);
+      box-shadow: 0 6px 14px rgba(0, 0, 0, 0.05);
     }
 
     .contact {
@@ -149,6 +190,10 @@
         padding: 22px;
       }
 
+      .hero-grid {
+        grid-template-columns: 1fr;
+      }
+
       .hero-lead {
         font-size: 24px;
       }
@@ -156,6 +201,10 @@
       .hero-block,
       .hero-emphasis {
         font-size: 16px;
+      }
+
+      .hero-media {
+        order: -1;
       }
     }
   </style>
@@ -168,28 +217,46 @@
     </header>
 
     <section class="hero">
-      <p class="hero-lead">
-        <strong>Building a home is a journey</strong> with many twists and turns.
-        Let me be your <strong>guide</strong>, to make it <strong>effortless</strong> and <strong>fun</strong>.
-      </p>
+      <div class="hero-grid">
+        <div>
+          <p class="hero-lead">
+            <strong>Building a home is a journey</strong> with many twists and turns.
+            Let me be your <strong>guide</strong>, to make it <strong>effortless</strong> and <strong>fun</strong>.
+          </p>
 
-      <p class="hero-block">
-        What do you truly <em>need</em>? What brings you <em>joy</em>?
-      </p>
+          <p class="hero-block">
+            What do you truly <em>need</em>? What brings you <em>joy</em>?
+          </p>
 
-      <p class="hero-block">
-        <em>Question</em> what is assumed.
-        <em>Discover</em> possibilities you hadn’t imagined.
-      </p>
+          <p class="hero-block">
+            <em>Question</em> what is assumed.
+            <em>Discover</em> possibilities you hadn’t imagined.
+          </p>
 
-      <p class="hero-emphasis">
-        A home is a place where <em>life unfolds</em> —
-        <strong>always becoming more.</strong>
-      </p>
+          <p class="hero-emphasis">
+            A home is a place where <em>life unfolds</em> —
+            <strong>always becoming more.</strong>
+          </p>
 
-      <div class="actions">
-        <a class="btn" href="https://photos.app.goo.gl/9Ff6oVJRnxn4yU3u5">Project updates</a>
-        <a class="btn" href="mailto:justhaus.us@gmail.com">Start a conversation</a>
+          <div class="actions">
+            <a class="btn" href="alpha.html">About Alpha</a>
+            <a class="btn" href="https://photos.app.goo.gl/9Ff6oVJRnxn4yU3u5">Project updates</a>
+            <a class="btn" href="mailto:justhaus.us@gmail.com">Start a conversation</a>
+          </div>
+        </div>
+
+        <figure class="hero-media">
+          <div class="hero-image-frame">
+            <img
+              class="hero-image"
+              src="images/just-haus-alpha-master-plan.jpg"
+              alt="Aerial rendering of the Just Haus Alpha home in a forest clearing"
+            />
+          </div>
+          <figcaption class="hero-caption">
+            <a href="alpha.html">Just Haus Alpha master plan rendering.</a>
+          </figcaption>
+        </figure>
       </div>
 
       <section class="contact">

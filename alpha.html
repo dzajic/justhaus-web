@@ -1,0 +1,337 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Just Haus Alpha</title>
+  <meta
+    name="description"
+    content="Just Haus Alpha — a modern home project shaped by landscape, clarity, and daily life in Franconia, New Hampshire."
+  />
+  <style>
+    :root {
+      --fg: #111;
+      --muted: #666;
+      --bg: #fff;
+      --card: #f6f6f6;
+      --line: #e8e8e8;
+      --shadow: 0 18px 48px rgba(0, 0, 0, 0.08);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+      color: var(--fg);
+      background: var(--bg);
+    }
+
+    a {
+      color: inherit;
+      text-underline-offset: 3px;
+    }
+
+    .wrap {
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 56px 20px;
+    }
+
+    .topbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+
+    .eyebrow {
+      margin: 0 0 8px;
+      color: var(--muted);
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+    }
+
+    h1,
+    h2 {
+      letter-spacing: -0.02em;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 42px;
+      line-height: 1.1;
+    }
+
+    h2 {
+      margin: 0 0 14px;
+      font-size: 24px;
+    }
+
+    p {
+      margin: 0;
+      line-height: 1.7;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 11px 14px;
+      border-radius: 12px;
+      border: 1px solid #e2e2e2;
+      background: #fff;
+      text-decoration: none;
+      color: inherit;
+      transition: transform 180ms ease, box-shadow 180ms ease, background 180ms ease;
+    }
+
+    .btn:hover {
+      background: #fcfcfc;
+      transform: translateY(-1px);
+      box-shadow: 0 6px 14px rgba(0, 0, 0, 0.05);
+    }
+
+    .hero {
+      margin-top: 28px;
+      padding: 28px;
+      background: var(--card);
+      border-radius: 18px;
+      border: 1px solid var(--line);
+      box-shadow: var(--shadow);
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr);
+      gap: 22px;
+    }
+
+    .lead {
+      max-width: 46rem;
+      font-size: 19px;
+      color: #222;
+    }
+
+    .image-frame {
+      aspect-ratio: 16 / 9;
+      overflow: hidden;
+      border-radius: 16px;
+      border: 1px solid #d9d9d9;
+      background: #ededed;
+    }
+
+    .image-frame img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      filter: grayscale(100%);
+    }
+
+    .caption {
+      margin-top: 10px;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.5;
+    }
+
+    .sections {
+      margin-top: 28px;
+      display: grid;
+      gap: 18px;
+    }
+
+    .section-card {
+      padding: 24px;
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+    }
+
+    .section-card p + p {
+      margin-top: 14px;
+    }
+
+    .facts {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 14px;
+      margin-top: 28px;
+    }
+
+    .fact {
+      padding: 20px;
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+    }
+
+    .fact-label {
+      margin-bottom: 8px;
+      color: var(--muted);
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .fact-value {
+      font-size: 18px;
+      line-height: 1.4;
+    }
+
+    .cta {
+      margin-top: 28px;
+      padding: 24px;
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+    }
+
+    .cta p {
+      max-width: 42rem;
+    }
+
+    .cta-actions {
+      margin-top: 18px;
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    footer {
+      margin-top: 36px;
+      display: flex;
+      gap: 14px;
+      flex-wrap: wrap;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    @media (max-width: 720px) {
+      .wrap {
+        padding: 36px 16px;
+      }
+
+      h1 {
+        font-size: 34px;
+      }
+
+      .lead {
+        font-size: 17px;
+      }
+
+      .facts {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <div class="topbar">
+      <div>
+        <p class="eyebrow">Just Haus</p>
+        <h1>Alpha</h1>
+      </div>
+      <a class="btn" href="index.html">Back to home</a>
+    </div>
+
+    <section class="hero">
+      <div class="hero-grid">
+        <div>
+          <p class="lead">
+            Just Haus Alpha is the first full expression of the project: a modern home composed as a series of
+            clear volumes, set lightly into the Franconia landscape and organized around how daily life actually unfolds.
+          </p>
+        </div>
+
+        <figure>
+          <div class="image-frame">
+            <img
+              src="images/just-haus-alpha-master-plan.jpg"
+              alt="Aerial rendering of the Just Haus Alpha home in a forest clearing"
+            />
+          </div>
+          <figcaption class="caption">Full Just Haus Alpha project plan.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="facts" aria-label="Project highlights">
+      <div class="fact">
+        <div class="fact-label">Setting</div>
+        <div class="fact-value">A home placed in conversation with meadow, forest, and mountain backdrop.</div>
+      </div>
+      <div class="fact">
+        <div class="fact-label">Approach</div>
+        <div class="fact-value">Simple forms, disciplined materials, and spaces designed for real use over time.</div>
+      </div>
+      <div class="fact">
+        <div class="fact-label">Intent</div>
+        <div class="fact-value">To make a house that feels calm, durable, and generous without excess.</div>
+      </div>
+    </section>
+
+    <section class="sections">
+      <article class="section-card">
+        <h2>The Idea</h2>
+        <p>
+          Alpha begins with a straightforward question: what does a home need in order to support a rich daily life?
+          Instead of starting from convention, the project starts from use, movement, light, privacy, gathering, and rest.
+        </p>
+        <p>
+          The result is a plan that feels intentional rather than ornamental. Each mass has a job to do, and together they
+          create a house that is grounded, legible, and open to the landscape around it.
+        </p>
+      </article>
+
+      <article class="section-card">
+        <h2>The Form</h2>
+        <p>
+          The architecture is composed of strong, simple volumes that break down the scale of the home while giving each
+          part a clear identity. That keeps the building from feeling monolithic and allows the site to remain present.
+        </p>
+        <p>
+          Seen from above, the project reads as a collection of connected elements rather than a single oversized object.
+          That balance between unity and separation is central to the character of Alpha.
+        </p>
+      </article>
+
+      <article class="section-card">
+        <h2>The Experience</h2>
+        <p>
+          A good home should not only photograph well. It should be easy to live in. Alpha is imagined as a place that
+          supports everyday rhythms: arrival, gathering, retreat, work, quiet, and connection to weather and season.
+        </p>
+        <p>
+          The goal is not spectacle. It is clarity. A house that helps life feel more focused, more spacious, and more at ease.
+        </p>
+      </article>
+    </section>
+
+    <section class="cta">
+      <h2>Interested in the Alpha project?</h2>
+      <p>
+        If you want to follow its development, talk through the design thinking, or discuss a project of your own, reach out.
+      </p>
+      <div class="cta-actions">
+        <a class="btn" href="mailto:justhaus.us@gmail.com">Start a conversation</a>
+        <a class="btn" href="https://photos.app.goo.gl/9Ff6oVJRnxn4yU3u5">Project updates</a>
+      </div>
+    </section>
+
+    <footer>
+      <span>© <span id="y"></span> Just Haus</span>
+      <span>•</span>
+      <a href="mailto:justhaus.us@gmail.com">justhaus.us@gmail.com</a>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
