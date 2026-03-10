@@ -4,29 +4,159 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Just Haus</title>
-  <meta name="description" content="Just Haus — high-performance, thoughtfully built homes in Franconia, NH." />
+  <meta
+    name="description"
+    content="Just Haus — thoughtful design and building in Franconia, New Hampshire."
+  />
   <style>
-    :root { --fg:#111; --muted:#666; --bg:#fff; --card:#f6f6f6; }
-    *{ box-sizing:border-box; }
-    body{
-      margin:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
-      color:var(--fg); background:var(--bg);
+    :root {
+      --fg: #111;
+      --muted: #666;
+      --bg: #fff;
+      --card: #f6f6f6;
+      --line: #e8e8e8;
     }
-    .wrap{ max-width:920px; margin:0 auto; padding:56px 20px; }
-    header{ display:flex; align-items:baseline; justify-content:space-between; gap:16px; flex-wrap:wrap; }
-    h1{ margin:0; font-size:36px; letter-spacing:-0.02em; }
-    .tag{ color:var(--muted); font-size:14px; }
-    .hero{ margin-top:28px; padding:22px; background:var(--card); border-radius:18px; }
-    .hero p{ margin:0; font-size:18px; line-height:1.5; }
-    .grid{ display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:14px; margin-top:18px; }
-    .card{ padding:18px; border-radius:16px; background:#fff; border:1px solid #e9e9e9; }
-    .card h2{ margin:0 0 8px; font-size:16px; }
-    .card p{ margin:0; color:var(--muted); line-height:1.45; font-size:14px; }
-    a{ color:inherit; text-underline-offset:3px; }
-    footer{ margin-top:36px; display:flex; gap:14px; flex-wrap:wrap; color:var(--muted); font-size:14px; }
-    .btn{
-      display:inline-block; padding:10px 12px; border-radius:12px;
-      border:1px solid #e2e2e2; background:#fff; text-decoration:none;
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+      color: var(--fg);
+      background: var(--bg);
+    }
+
+    .wrap {
+      max-width: 920px;
+      margin: 0 auto;
+      padding: 56px 20px;
+    }
+
+    header {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 36px;
+      letter-spacing: -0.02em;
+    }
+
+    .tag {
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .hero {
+      margin-top: 28px;
+      padding: 28px;
+      background: var(--card);
+      border-radius: 18px;
+    }
+
+    .hero p {
+      margin: 0;
+      line-height: 1.65;
+    }
+
+    .hero-lead {
+      font-size: 28px;
+      line-height: 1.35;
+      letter-spacing: -0.02em;
+    }
+
+    .hero-block {
+      margin-top: 22px;
+      max-width: 42rem;
+      font-size: 17px;
+      color: #333;
+    }
+
+    .hero-emphasis {
+      margin-top: 18px;
+      font-size: 18px;
+      color: #222;
+    }
+
+    .actions {
+      margin-top: 26px;
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 12px;
+      border-radius: 12px;
+      border: 1px solid #e2e2e2;
+      background: #fff;
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .btn:hover {
+      background: #fcfcfc;
+    }
+
+    .contact {
+      margin-top: 30px;
+      padding-top: 22px;
+      border-top: 1px solid var(--line);
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 14px;
+    }
+
+    .contact h2 {
+      margin: 0 0 10px;
+      font-size: 16px;
+    }
+
+    .contact p {
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.6;
+      font-size: 15px;
+    }
+
+    a {
+      color: inherit;
+      text-underline-offset: 3px;
+    }
+
+    footer {
+      margin-top: 36px;
+      display: flex;
+      gap: 14px;
+      flex-wrap: wrap;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    @media (max-width: 640px) {
+      .wrap {
+        padding: 36px 16px;
+      }
+
+      .hero {
+        padding: 22px;
+      }
+
+      .hero-lead {
+        font-size: 24px;
+      }
+
+      .hero-block,
+      .hero-emphasis {
+        font-size: 16px;
+      }
     }
   </style>
 </head>
@@ -37,32 +167,53 @@
       <div class="tag">Franconia, New Hampshire</div>
     </header>
 
-<section class="hero">
-  <p>
-    Independent, inspired, thoughtful.
-  </p>
-  <h3>Goals</h3>
-  <ul style="margin-top:10px; padding-left:18px; line-height:1.6;">
-    <li>Simple</li>
-    <li>Comfortable</li>
-    <li>Efficient</li>
-    <li>Maintainable</li>
-    <li>Sustainable</li>
-  </ul>
+    <section class="hero">
+      <p class="hero-lead">
+        <strong>Building a home is a journey</strong> with many twists and turns.
+        Let me be your <strong>guide</strong>, to make it <strong>effortless</strong> and <strong>fun</strong>.
+      </p>
 
-  <p style="margin-top:16px;">
-    A never-ending experiment to enjoy hard work, learn and inspire others to do the same.
-  </p>
+      <p class="hero-block">
+        What do you truly <em>need</em>? What brings you <em>joy</em>?
+      </p>
 
-  <div style="margin-top:20px; display:flex; gap:10px; flex-wrap:wrap;">
-    <a class="btn" href="https://photos.app.goo.gl/9Ff6oVJRnxn4yU3u5">Project updates</a>
-  </div>
-</section>
+      <p class="hero-block">
+        <em>Question</em> what is assumed.
+        <em>Discover</em> possibilities you hadn’t imagined.
+      </p>
+
+      <p class="hero-emphasis">
+        A home is a place where <em>life unfolds</em> —
+        <strong>always becoming more.</strong>
+      </p>
+
+      <div class="actions">
+        <a class="btn" href="https://photos.app.goo.gl/9Ff6oVJRnxn4yU3u5">Project updates</a>
+        <a class="btn" href="mailto:justhaus.us@gmail.com">Start a conversation</a>
+      </div>
+
+      <section class="contact">
+        <div>
+          <h2>Contact</h2>
+          <p>
+            Daniel Zajic<br />
+            Franconia, NH
+          </p>
+        </div>
+        <div>
+          <h2>Reach out</h2>
+          <p>
+            <a href="mailto:justhaus.us@gmail.com">justhaus.us@gmail.com</a><br />
+            <a href="tel:15033323412">503-332-3412</a>
+          </p>
+        </div>
+      </section>
+    </section>
 
     <footer>
       <span>© <span id="y"></span> Just Haus</span>
       <span>•</span>
-      <a href="mailto:hello@justha.us">justhaus.us@gmail.com</a>
+      <a href="mailto:justhaus.us@gmail.com">justhaus.us@gmail.com</a>
     </footer>
   </main>
 
