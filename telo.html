@@ -1,0 +1,380 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TELO × Just Haus — Cold-Climate Field Use Concept</title>
+  <meta
+    name="description"
+    content="An independent concept for testing compact electric-truck utility across construction, winter roads, and solar-powered rural properties."
+  />
+  <meta name="robots" content="noindex, nofollow, noarchive" />
+  <style>
+    :root {
+      --fg: #111;
+      --muted: #666;
+      --bg: #fff;
+      --card: #f6f6f6;
+      --line: #e2e2e2;
+      --dark: #171917;
+      --dark-muted: #c5cac4;
+      --accent: #c9a56a;
+      --shadow: 0 18px 48px rgba(0, 0, 0, 0.08);
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      color: var(--fg);
+      background: var(--bg);
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    }
+
+    a { color: inherit; text-underline-offset: 3px; }
+
+    .wrap {
+      max-width: 1080px;
+      margin: 0 auto;
+      padding: 40px 20px 56px;
+    }
+
+    .topbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+      flex-wrap: wrap;
+      margin-bottom: 22px;
+    }
+
+    .brand { text-decoration: none; font-size: 18px; font-weight: 700; letter-spacing: -0.02em; }
+
+    .top-actions { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
+
+    .quiet-link { color: var(--muted); font-size: 14px; }
+
+    .btn {
+      display: inline-block;
+      padding: 11px 14px;
+      border: 1px solid #dedede;
+      border-radius: 12px;
+      background: #fff;
+      text-decoration: none;
+      transition: transform 180ms ease, box-shadow 180ms ease, background 180ms ease;
+    }
+
+    .btn:hover, .btn:focus-visible {
+      background: #fcfcfc;
+      transform: translateY(-1px);
+      box-shadow: 0 6px 14px rgba(0, 0, 0, 0.06);
+    }
+
+    .btn-dark { border-color: #333; color: #fff; background: var(--dark); }
+    .btn-dark:hover, .btn-dark:focus-visible { background: #262926; }
+
+    .hero {
+      overflow: hidden;
+      border: 1px solid #242724;
+      border-radius: 20px;
+      color: #fff;
+      background: var(--dark);
+      box-shadow: var(--shadow);
+    }
+
+    .hero-copy { padding: 44px 44px 36px; }
+
+    .label {
+      display: inline-flex;
+      align-items: center;
+      gap: 9px;
+      margin: 0 0 22px;
+      color: var(--dark-muted);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+
+    .label::before { width: 24px; height: 2px; content: ""; background: var(--accent); }
+
+    h1, h2, h3 { letter-spacing: -0.025em; }
+    h1 { max-width: 850px; margin: 0; font-size: clamp(42px, 7vw, 76px); line-height: 0.98; }
+    h2 { margin: 0; font-size: clamp(28px, 4vw, 42px); line-height: 1.08; }
+    h3 { margin: 0 0 10px; font-size: 19px; }
+
+    .hero-lead {
+      max-width: 720px;
+      margin: 26px 0 0;
+      color: var(--dark-muted);
+      font-size: 20px;
+      line-height: 1.6;
+    }
+
+    .hero-media { margin: 0; }
+    .hero-media img { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; }
+    .hero-caption { padding: 11px 18px 13px; color: #aeb4ae; font-size: 12px; line-height: 1.5; }
+
+    .intro-grid {
+      display: grid;
+      grid-template-columns: 0.85fr 1.15fr;
+      gap: 50px;
+      padding: 72px 10px;
+    }
+
+    .kicker { margin: 0 0 12px; color: var(--muted); font-size: 13px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; }
+    .body-copy { color: #333; font-size: 17px; line-height: 1.75; }
+    .body-copy p { margin: 0; }
+    .body-copy p + p { margin-top: 18px; }
+
+    .principles { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin-bottom: 72px; }
+    .principle { padding: 24px; border: 1px solid var(--line); border-radius: 16px; background: var(--card); }
+    .principle-index { margin-bottom: 22px; color: var(--muted); font-size: 12px; font-weight: 700; letter-spacing: 0.08em; }
+    .principle p { margin: 0; color: #444; line-height: 1.65; }
+
+    .section { margin-top: 18px; padding: 38px; border: 1px solid var(--line); border-radius: 18px; }
+    .section-head { display: grid; grid-template-columns: 0.8fr 1.2fr; gap: 34px; margin-bottom: 30px; }
+    .section-head p { margin: 0; color: #444; font-size: 16px; line-height: 1.7; }
+
+    .detail-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+    .detail { padding-top: 16px; border-top: 1px solid var(--line); }
+    .detail strong { display: block; margin-bottom: 7px; font-size: 14px; }
+    .detail span { color: var(--muted); font-size: 14px; line-height: 1.55; }
+
+    .dark-section { color: #fff; background: var(--dark); border-color: var(--dark); }
+    .dark-section .section-head p, .dark-section .detail span { color: var(--dark-muted); }
+    .dark-section .detail { border-color: #3a3d3a; }
+
+    .plan { margin-top: 72px; }
+    .plan > .kicker, .plan > h2 { margin-left: 10px; }
+    .plan-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; margin-top: 28px; }
+    .plan-card { padding: 26px; border: 1px solid var(--line); border-radius: 16px; }
+    .plan-card p { margin: 0; color: var(--muted); line-height: 1.65; }
+    .plan-card ul { margin: 16px 0 0; padding-left: 19px; color: #333; line-height: 1.8; }
+
+    .value { margin-top: 72px; padding: 44px; border-radius: 18px; background: var(--card); }
+    .value-grid { display: grid; grid-template-columns: 0.75fr 1.25fr; gap: 44px; }
+    .value-list { display: grid; grid-template-columns: repeat(2, 1fr); gap: 0 26px; }
+    .value-item { padding: 16px 0; border-bottom: 1px solid #ddd; }
+    .value-item strong { display: block; margin-bottom: 5px; }
+    .value-item span { color: var(--muted); font-size: 14px; line-height: 1.5; }
+
+    .disclosure { margin-top: 18px; padding: 20px 22px; border-left: 3px solid var(--accent); background: #fbfaf7; }
+    .disclosure strong { display: block; margin-bottom: 5px; }
+    .disclosure p { margin: 0; color: #555; font-size: 14px; line-height: 1.6; }
+
+    .cta { margin-top: 72px; padding: 46px; border-radius: 18px; color: #fff; background: var(--dark); }
+    .cta p { max-width: 700px; margin: 18px 0 0; color: var(--dark-muted); font-size: 18px; line-height: 1.65; }
+    .cta-actions { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 26px; }
+
+    footer { display: flex; gap: 14px; flex-wrap: wrap; margin-top: 34px; color: var(--muted); font-size: 14px; }
+
+    @media (max-width: 760px) {
+      .wrap { padding: 24px 14px 40px; }
+      .hero-copy, .section, .value, .cta { padding: 28px 22px; }
+      .hero-lead { font-size: 17px; }
+      .intro-grid, .section-head, .value-grid { grid-template-columns: 1fr; gap: 22px; }
+      .intro-grid { padding: 52px 8px; }
+      .principles, .detail-grid, .plan-grid, .value-list { grid-template-columns: 1fr; }
+      .principles { margin-bottom: 52px; }
+      .plan, .value, .cta { margin-top: 52px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <nav class="topbar" aria-label="Page navigation">
+      <a class="brand" href="index.html">Just Haus</a>
+      <div class="top-actions">
+        <a class="quiet-link" href="#field-plan">Field-use plan</a>
+        <a class="btn" href="mailto:justhaus.us@gmail.com?subject=TELO%20field-use%20concept">Start a conversation</a>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="label">Independent · unofficial concept</p>
+        <h1>Compact electric utility for building in the North.</h1>
+        <p class="hero-lead">
+          A concept for putting a TELO MT1 to work across residential construction, deep-winter roads,
+          and solar-powered rural properties—then turning that use into structured, useful field evidence.
+        </p>
+      </div>
+      <figure class="hero-media">
+        <img
+          src="images/telo-just-haus-winter-concept-v4.png"
+          alt="Close illustrative view of a Just Haus-branded TELO MT1 carrying building materials outside a dark modern home in winter"
+        />
+        <figcaption class="hero-caption">
+          Independent AI-generated concept composite based on TELO’s published MT1 design. Not an official TELO rendering or a representation of a production vehicle or unannounced features.
+        </figcaption>
+      </figure>
+    </section>
+
+    <section class="intro-grid">
+      <div>
+        <p class="kicker">Why it fits</p>
+        <h2>Right-sized by the same logic as a good building.</h2>
+      </div>
+      <div class="body-copy">
+        <p>
+          Just Haus is exploring compact, highly efficient homes shaped around real use rather than excess.
+          The MT1’s proposition—a small exterior footprint with meaningful truck utility—speaks to the same discipline.
+        </p>
+        <p>
+          Here, compactness would not be a lifestyle accessory. It would be tested against lumber runs, tools,
+          sheet goods, towing, rural travel, site visits, and daily work in conditions that quickly expose what is useful.
+        </p>
+      </div>
+    </section>
+
+    <section class="principles" aria-label="Concept principles">
+      <article class="principle">
+        <div class="principle-index">01 · Compact</div>
+        <h3>Less vehicle, intelligently used</h3>
+        <p>A smaller footprint for narrow sites and everyday driving, without giving up the work a truck needs to do.</p>
+      </article>
+      <article class="principle">
+        <div class="principle-index">02 · Electric</div>
+        <h3>Energy as part of the system</h3>
+        <p>Charging can be observed alongside solar production, home batteries, inverter limits, and real household loads.</p>
+      </article>
+      <article class="principle">
+        <div class="principle-index">03 · Useful</div>
+        <h3>Evidence from actual work</h3>
+        <p>Feedback grounded in construction use, loaded travel, winter operation, rural charging, and long-term ownership.</p>
+      </article>
+    </section>
+
+    <section class="section dark-section">
+      <div class="section-head">
+        <div>
+          <p class="kicker">Northern test environment</p>
+          <h2>Conditions that cannot be reproduced in a short demo.</h2>
+        </div>
+        <p>
+          The White Mountains of New Hampshire—and regular travel through Quebec and New Brunswick—offer sustained exposure
+          to deep cold, prolonged cold soak, snow, repeated icing, mountain grades, rough pavement, and limited rural charging.
+        </p>
+      </div>
+      <div class="detail-grid">
+        <div class="detail"><strong>Cold-soaked battery</strong><span>Range, available power, regeneration, preconditioning, and charging after hours or days below freezing.</span></div>
+        <div class="detail"><strong>Ice management</strong><span>Windshield clearing, wiper performance, washer-fluid delivery, frozen handles, and reliable access after storms.</span></div>
+        <div class="detail"><strong>Winter mechanisms</strong><span>Tailgate or liftgate operation, seals, latches, cameras, sensors, and clearance with packed snow and ice.</span></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <div>
+          <p class="kicker">Property energy</p>
+          <h2>A truck inside a working energy system.</h2>
+        </div>
+        <p>
+          Just Haus properties are a practical environment for observing vehicle charging alongside solar generation,
+          battery storage, inverters, household loads, and off-grid constraints—not as a showroom demonstration, but as day-to-day operation.
+        </p>
+      </div>
+      <div class="detail-grid">
+        <div class="detail"><strong>Solar-aware charging</strong><span>Schedule and measure charging around surplus production, weather, storage state, and upcoming driving needs.</span></div>
+        <div class="detail"><strong>Load management</strong><span>Document the decisions required when vehicle charging shares finite inverter and service capacity with a home.</span></div>
+        <div class="detail"><strong>Power-export potential</strong><span>If TELO offers supported onboard power, V2L, or future bidirectional capability, test defined tool, temporary-load, or backup scenarios. No such capability is assumed here.</span></div>
+      </div>
+    </section>
+
+    <section class="plan" id="field-plan">
+      <p class="kicker">Construction field-use plan</p>
+      <h2>Use it as a truck. Measure what matters.</h2>
+      <div class="plan-grid">
+        <article class="plan-card">
+          <h3>Materials and payload</h3>
+          <p>Repeatable routes and practical loading configurations.</p>
+          <ul>
+            <li>Sheet goods, lumber, insulation, and finish materials</li>
+            <li>Tools, site equipment, and daily carry</li>
+            <li>Loaded versus unloaded energy use</li>
+          </ul>
+        </article>
+        <article class="plan-card">
+          <h3>Towing and access</h3>
+          <p>Work travel across rural and mountain conditions.</p>
+          <ul>
+            <li>Trailer use within verified vehicle ratings</li>
+            <li>Mountain grades and unpaved site access</li>
+            <li>Ground clearance and snow-traction observations</li>
+          </ul>
+        </article>
+        <article class="plan-card">
+          <h3>Site operations</h3>
+          <p>Daily usefulness beyond moving people.</p>
+          <ul>
+            <li>Site visits, estimating, and supplier runs</li>
+            <li>Cold starts and winter workdays</li>
+            <li>Temporary power only where officially supported</li>
+          </ul>
+        </article>
+        <article class="plan-card">
+          <h3>Long-term record</h3>
+          <p>Consistent documentation instead of one-off impressions.</p>
+          <ul>
+            <li>Seasonal efficiency and charging logs</li>
+            <li>Cold-soak, icing, wiper, washer, handle, latch, and tailgate notes</li>
+            <li>Photography and case-study-ready field reports</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="value">
+      <div class="value-grid">
+        <div>
+          <p class="kicker">Field-partner value</p>
+          <h2>Informed feedback, documented over time.</h2>
+        </div>
+        <div class="value-list">
+          <div class="value-item"><strong>Energy data</strong><span>Temperature, load, route, elevation, and charging context.</span></div>
+          <div class="value-item"><strong>Construction utility</strong><span>Payload, cargo geometry, towing, access, and workflow observations.</span></div>
+          <div class="value-item"><strong>Winter behavior</strong><span>Cold-soaked batteries, charging, traction, windshield clearing, frozen access points, and snow-packed mechanisms.</span></div>
+          <div class="value-item"><strong>Technical context</strong><span>Feedback from an engineer, builder, EV-truck owner, and off-grid energy-system user.</span></div>
+          <div class="value-item"><strong>Case-study material</strong><span>Clear photos, operating notes, and candid long-term findings.</span></div>
+          <div class="value-item"><strong>Early customer perspective</strong><span>A genuine commercial use case from an early-stage design-build venture.</span></div>
+        </div>
+      </div>
+    </section>
+
+    <aside class="disclosure">
+      <strong>Independent concept</strong>
+      <p>
+        Just Haus is not affiliated with or endorsed by TELO. TELO and MT1 are referenced only to describe a possible field-use concept.
+        The rendering is illustrative. Vehicle specifications, availability, power-export features, towing, payload, and charging capabilities
+        must be confirmed with TELO; no unannounced feature is implied.
+      </p>
+    </aside>
+
+    <section class="cta">
+      <p class="kicker">A practical first step</p>
+      <h2>Let’s compare the use case with TELO’s commercial and product priorities.</h2>
+      <p>
+        Just Haus is interested in becoming an early commercial customer and exploring whether this environment could support
+        cold-weather field learning, customer advisory work, or a documented case study. The first ask is simply a conversation.
+      </p>
+      <div class="cta-actions">
+        <a class="btn" href="mailto:justhaus.us@gmail.com?subject=TELO%20field-use%20concept">Contact Daniel Zajic</a>
+        <a class="btn btn-dark" href="index.html">About Just Haus</a>
+      </div>
+    </section>
+
+    <footer>
+      <span>© <span id="y"></span> Just Haus</span>
+      <span>•</span>
+      <span>Franconia, New Hampshire</span>
+      <span>•</span>
+      <a href="mailto:justhaus.us@gmail.com">justhaus.us@gmail.com</a>
+    </footer>
+  </main>
+
+  <script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+</body>
+</html>

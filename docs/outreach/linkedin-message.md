@@ -1,0 +1,3 @@
+# LinkedIn message
+
+Hi [Name] — I’m an early MT1 reservation holder and the founder of Just Haus, an early-stage design-build venture in New Hampshire. We could offer a genuine construction and cold-climate use case across winter roads, rural charging, and solar/battery-backed properties. As an engineer and longtime winter Tesla owner, I’m willing to contribute structured field feedback without consulting fees to help make the MT1 as winter-robust as possible. I’m hoping to find the right person for a brief conversation about early commercial use, field learning, or a case study. Would that be you, or could you point me in the right direction?
