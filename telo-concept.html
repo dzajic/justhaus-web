@@ -1,0 +1,339 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TELO × Just Haus — Site Concept</title>
+  <meta
+    name="description"
+    content="An independent concept exploring how a compact TELO MT1 could support northern construction, narrow site access, smaller garages, and lightly placed cabin development."
+  />
+  <meta name="robots" content="noindex, nofollow, noarchive" />
+  <style>
+    :root {
+      --fg: #111;
+      --muted: #666;
+      --bg: #fff;
+      --card: #f5f5f3;
+      --line: #e2e2df;
+      --dark: #171917;
+      --dark-muted: #c8cdc7;
+      --accent: #c9a56a;
+      --shadow: 0 18px 48px rgba(0, 0, 0, 0.08);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      color: var(--fg);
+      background: var(--bg);
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    }
+
+    a { color: inherit; text-underline-offset: 3px; }
+
+    .wrap {
+      max-width: 1080px;
+      margin: 0 auto;
+      padding: 38px 20px 52px;
+    }
+
+    .topbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      margin-bottom: 22px;
+    }
+
+    .brand { font-size: 18px; font-weight: 700; letter-spacing: -0.02em; text-decoration: none; }
+    .location { color: var(--muted); font-size: 13px; }
+
+    .hero {
+      overflow: hidden;
+      color: #fff;
+      background: var(--dark);
+      border: 1px solid #242724;
+      border-radius: 20px;
+      box-shadow: var(--shadow);
+    }
+
+    .hero-copy { padding: 42px 44px 34px; }
+
+    .label {
+      display: inline-flex;
+      align-items: center;
+      gap: 9px;
+      margin: 0 0 20px;
+      color: var(--dark-muted);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+
+    .label::before { width: 24px; height: 2px; content: ""; background: var(--accent); }
+
+    h1, h2, h3 { letter-spacing: -0.025em; }
+    h1 { max-width: 880px; margin: 0; font-size: clamp(42px, 7vw, 74px); line-height: 0.98; }
+    h2 { margin: 0; font-size: clamp(30px, 4.5vw, 48px); line-height: 1.05; }
+    h3 { margin: 0 0 9px; font-size: 18px; }
+
+    .hero-lead {
+      max-width: 760px;
+      margin: 24px 0 0;
+      color: var(--dark-muted);
+      font-size: 19px;
+      line-height: 1.6;
+    }
+
+    .hero figure { margin: 0; }
+    .hero img { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; }
+    .caption { padding: 10px 18px 12px; color: #aeb4ae; font-size: 12px; line-height: 1.45; }
+
+    .case-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 14px;
+      margin-top: 18px;
+    }
+
+    .case {
+      padding: 26px;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: var(--card);
+    }
+
+    .case-index { margin-bottom: 18px; color: var(--muted); font-size: 12px; font-weight: 700; letter-spacing: 0.08em; }
+    .case p { margin: 0; color: #4a4a4a; font-size: 15px; line-height: 1.65; }
+
+    .carbon-visual {
+      overflow: hidden;
+      margin: 26px 0 0;
+      border: 1px solid #3c3f3c;
+      border-radius: 12px;
+      background: #202320;
+    }
+
+    .carbon-visual img { display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; }
+    .carbon-visual .caption { padding: 11px 13px 13px; color: #aeb4ae; font-size: 11px; }
+
+    .carbon {
+      display: grid;
+      grid-template-columns: 0.8fr 1.2fr;
+      gap: 50px;
+      margin-top: 64px;
+      padding: 46px;
+      color: #fff;
+      background: var(--dark);
+      border-radius: 18px;
+    }
+
+    .kicker { margin: 0 0 11px; color: var(--muted); font-size: 12px; font-weight: 700; letter-spacing: 0.09em; text-transform: uppercase; }
+    .carbon .kicker { color: var(--accent); }
+    .carbon-copy { color: var(--dark-muted); font-size: 17px; line-height: 1.7; }
+    .carbon-copy p { margin: 0; }
+    .carbon-copy p + p { margin-top: 17px; }
+    .carbon-copy strong { color: #fff; }
+
+    .scenario-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+      margin: 22px 0;
+    }
+
+    .scenario {
+      padding: 15px;
+      border: 1px solid #3c3f3c;
+      border-radius: 12px;
+      background: #202320;
+    }
+
+    .scenario strong { display: block; margin-bottom: 4px; font-size: 19px; }
+    .scenario span { color: var(--dark-muted); font-size: 12px; line-height: 1.45; }
+
+    .equation {
+      margin-top: 22px;
+      padding-top: 18px;
+      border-top: 1px solid #3c3f3c;
+      color: #fff;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    .sources { margin-top: 14px; color: #9da39d; font-size: 11px; line-height: 1.55; }
+    .sources a { color: #bfc4bf; }
+
+    .close {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 44px;
+      margin-top: 64px;
+      padding: 10px;
+    }
+
+    .close-copy { color: #3f3f3f; font-size: 17px; line-height: 1.7; }
+    .close-copy p { margin: 0; }
+
+    .deliverables {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 0 22px;
+      margin-top: 24px;
+    }
+
+    .deliverable { padding: 13px 0; border-top: 1px solid var(--line); font-size: 14px; line-height: 1.45; }
+
+    .disclosure {
+      margin-top: 52px;
+      padding: 18px 20px;
+      border-left: 3px solid var(--accent);
+      background: #fbfaf7;
+    }
+
+    .disclosure p { margin: 0; color: #555; font-size: 13px; line-height: 1.6; }
+
+    footer {
+      display: flex;
+      gap: 14px;
+      flex-wrap: wrap;
+      margin-top: 30px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    @media (max-width: 760px) {
+      .wrap { padding: 24px 14px 38px; }
+      .hero-copy, .carbon { padding: 28px 22px; }
+      .hero-lead { font-size: 17px; }
+      .case-grid, .carbon, .close { grid-template-columns: 1fr; }
+      .carbon, .close { gap: 24px; margin-top: 48px; }
+      .close { padding: 6px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <nav class="topbar" aria-label="Page navigation">
+      <a class="brand" href="index.html">Just Haus</a>
+      <span class="location">Franconia, New Hampshire</span>
+    </nav>
+
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="label">Independent · unofficial concept</p>
+        <h1>Truck utility, without designing the site around a full-size truck.</h1>
+        <p class="hero-lead">
+          Put a TELO MT1 to work on a solo-led northern build—moving real materials through tight rural sites,
+          navigating deep winter, and testing how compact vehicle packaging can preserve more of the landscape.
+        </p>
+      </div>
+      <figure>
+        <img
+          src="images/telo-just-haus-winter-concept-v4.png"
+          alt="Close illustrative view of a Just Haus-branded TELO MT1 carrying building materials outside a dark modern home in winter"
+        />
+        <figcaption class="caption">
+          Independent AI-generated concept based on TELO’s published MT1 design. Not an official TELO rendering.
+        </figcaption>
+      </figure>
+    </section>
+
+    <section class="case-grid" aria-label="Why this field use matters">
+      <article class="case">
+        <div class="case-index">01 · Real truck work</div>
+        <h3>Right-sized utility</h3>
+        <p>Tools, sheet goods, materials, towing within verified ratings, supplier runs, and daily site work—not a promotional demo.</p>
+      </article>
+      <article class="case">
+        <div class="case-index">02 · Compact access</div>
+        <h3>More site, less driveway</h3>
+        <p>Smaller garages, tighter turning areas, narrower service routes, and access to places where a conventional pickup dictates the site plan.</p>
+      </article>
+      <article class="case">
+        <div class="case-index">03 · Hard winter</div>
+        <h3>Cold-soak validation</h3>
+        <p>Batteries, charging, windshield clearing, wipers, washer sprayers, handles, latches, and tailgate operation after real icing.</p>
+      </article>
+    </section>
+
+    <section class="carbon">
+      <div>
+        <p class="kicker">What compact packaging unlocks</p>
+        <h2>A smaller truck can change the site plan.</h2>
+        <figure class="carbon-visual">
+          <img
+            src="images/telo-just-haus-cabin-development-rear-trail.png"
+            alt="Rear view of a compact Just Haus-branded electric pickup following two narrow wheel tracks through a lightly developed New Hampshire forest"
+          />
+          <figcaption class="caption">
+            Centralized parking with narrow construction and service access to small cabins among retained trees.
+            Independent AI-generated concept; not an official TELO rendering.
+          </figcaption>
+        </figure>
+      </div>
+      <div class="carbon-copy">
+        <p>
+          Full-size vehicles influence road widths, turning areas, garage dimensions, grading, clearing, and hardscape.
+          A compact electric pickup could retain useful work capability while reducing those spatial demands.
+        </p>
+        <div class="scenario-grid" aria-label="Site-planning opportunities enabled by a compact work truck">
+          <div class="scenario"><strong>Smaller garages</strong><span>less enclosed area, material, and cost</span></div>
+          <div class="scenario"><strong>Tighter access</strong><span>less grading, clearing, and hardscape</span></div>
+          <div class="scenario"><strong>Centralized parking</strong><span>small service paths to individual dwellings</span></div>
+          <div class="scenario"><strong>Seasonal sites</strong><span>a natural fit for cabins and campgrounds</span></div>
+        </div>
+        <p>
+          That opens a useful development model: park at the edge, then use small paths to build, service, and reach
+          seasonal cabins or wilderness-oriented dwellings with less disturbance to the land.
+        </p>
+        <div class="equation">
+          Field question: how much garage, roadway, hardscape, clearing, and construction travel can be avoided when real truck capability fits a compact footprint?
+        </div>
+        <p class="sources">
+          There is an operating bonus: a solo-led build consolidates repeated crew travel into one solar-charged EV,
+          reducing fuel cost and construction transport emissions. The detailed carbon scenario remains a supporting calculation, not the lead.
+        </p>
+      </div>
+    </section>
+
+    <section class="close">
+      <div>
+        <p class="kicker">Why Just Haus</p>
+        <h2>Experienced feedback from actual work.</h2>
+      </div>
+      <div class="close-copy">
+        <p>
+          Just Haus offers an early commercial use case informed by engineering, building, EV-truck ownership,
+          off-grid energy systems, and years of winter EV frustrations. It could test both the truck and the site model:
+          construction, tight access, centralized parking, small service paths, solar charging, and winter operation.
+        </p>
+        <div class="deliverables" aria-label="Proposed field feedback">
+          <div class="deliverable">Access and turning observations</div>
+          <div class="deliverable">Garage and parking implications</div>
+          <div class="deliverable">Winter utility and charging data</div>
+          <div class="deliverable">Construction utility observations</div>
+        </div>
+      </div>
+    </section>
+
+    <aside class="disclosure">
+      <p>
+        Just Haus is not affiliated with or endorsed by TELO. Vehicle capabilities must be confirmed with TELO.
+        Site-planning outcomes depend on vehicle dimensions, turning requirements, terrain, snow storage, emergency access, and local codes.
+      </p>
+    </aside>
+
+    <footer>
+      <span>© <span id="y"></span> Just Haus</span>
+      <span>•</span>
+      <span>Independent field-use concept</span>
+    </footer>
+  </main>
+
+  <script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+</body>
+</html>
