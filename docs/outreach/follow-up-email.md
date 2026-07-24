@@ -10,7 +10,7 @@ The concise version: we can put an MT1 into sustained residential construction w
 
 My motivation is practical: years of winter Tesla ownership have shown me how quickly small cold-weather frustrations compound in daily use. I’m willing to contribute testing time and structured feedback without consulting fees to help TELO find those issues early and build the most winter-robust truck possible.
 
-Concept: [FINAL PUBLIC LINK]
+Concept: https://justha.us/telo-concept.html
 
 If this could be useful to TELO’s commercial, product, engineering, or marketing teams, I’d welcome a short conversation. If it is not a current priority, a pointer to the right future contact would still be helpful.
 

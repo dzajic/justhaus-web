@@ -16,6 +16,8 @@ Learn what TELO needs from early commercial customers and determine whether a sc
 ## The use case
 
 - Material and tool transport, sheet goods, supplier runs, site visits, and towing within verified ratings.
+- Smaller garages, tight construction access, and site layouts that require less grading, clearing, and hardscape.
+- A centralized-parking concept for seasonal cabins, campgrounds, or wilderness-oriented developments with small service paths to each dwelling.
 - Deep winter, prolonged cold soak, snow, repeated icing, mountain grades, rural roads, and cross-border travel through Quebec and New Brunswick.
 - Specific usability checks for windshield de-icing, wipers, washer sprayers, frozen handles, seals, latches, sensors, and tailgate or liftgate operation.
 - Charging around solar production, stationary storage, inverter limits, and rural infrastructure.
@@ -31,6 +33,7 @@ Learn what TELO needs from early commercial customers and determine whether a sc
 6. Are there service, winter-tire, roadside-support, or cross-border constraints to plan around?
 7. What would make a field relationship successful after 3, 6, and 12 months?
 8. Which winter failure modes, usability concerns, or validation gaps does TELO most want an experienced EV owner to investigate?
+9. Is TELO interested in documenting how compact vehicle packaging affects garage, access-road, parking, and site-planning decisions?
 
 ## Possible engagement shapes
 
@@ -38,6 +41,7 @@ Learn what TELO needs from early commercial customers and determine whether a sc
 - Cold-climate field-use participant.
 - Customer advisory member.
 - Construction use-case collaborator.
+- Compact-site and seasonal-development case-study collaborator.
 - Documented case study after sufficient real-world use.
 
 ## Boundaries to state clearly

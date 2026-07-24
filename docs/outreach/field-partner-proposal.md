@@ -13,10 +13,12 @@ Just Haus is an early-stage design-build venture in Franconia, New Hampshire, fo
 ### Why this environment is useful
 
 - Real residential construction: tools, lumber, sheet goods, materials, site visits, and towing within verified ratings.
+- Compact-site planning: testing whether useful truck capability can support smaller garages, tighter turning areas, narrower service paths, and less site disturbance.
 - Northern conditions: deep cold, prolonged cold soak, snow, repeated icing, and winter charging.
 - Difficult roads: White Mountain grades, rural access, and rough roads in Quebec and New Brunswick.
 - Integrated energy context: solar generation, stationary batteries, inverters, finite service capacity, and off-grid load management.
 - Long-term use: repeated routes and tasks across seasons, not a short demonstration.
+- Development relevance: a possible centralized-parking model for wilderness-oriented cabins, seasonal dwellings, or campgrounds served by small access paths.
 
 ### Why the operator is useful
 
@@ -32,6 +34,7 @@ Establish an agreed measurement and feedback cadence around:
 - Loaded and unloaded efficiency on repeatable routes.
 - Battery behavior, available power, preconditioning, regeneration, and charging after prolonged cold soak.
 - Cargo, payload, towing, site access, traction, and ground-clearance observations.
+- Turning, maneuvering, garage fit, narrow-path access, and implications for grading, clearing, and hardscape.
 - Windshield clearing, wiper performance, washer-fluid delivery, frozen handles, seals, latches, sensors, and tailgate or liftgate operation after snow and ice accumulation.
 - Tool or temporary-load use only where officially supported by TELO.
 - Solar-aware charging and home-energy load-management scenarios.
@@ -56,4 +59,4 @@ A 20-minute conversation to compare this use case with TELO’s commercial-launc
 Daniel Zajic<br />
 Just Haus · Franconia, New Hampshire<br />
 justhaus.us@gmail.com · 503-332-3412<br />
-[FINAL PUBLIC LINK] · [LINKEDIN URL]
+https://justha.us/telo-concept.html · [LINKEDIN URL]

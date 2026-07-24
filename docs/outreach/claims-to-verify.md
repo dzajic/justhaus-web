@@ -7,6 +7,7 @@ Resolve or remove every unchecked claim. Prefer TELO’s current official materi
 - [ ] Exact model naming and capitalization: “TELO MT1.”
 - [ ] Daniel’s current reservation status, date, reservation identifier, and whether “early reservation holder” is accurate.
 - [ ] Current commercial launch, delivery, and geographic availability language.
+- [ ] Current exterior dimensions, width with mirrors, turning circle, bed configuration, and other published packaging claims used to support compact-site comparisons.
 - [ ] Final or published payload, towing, bed/cargo, ground-clearance, range, charging, and cold-weather specifications for the relevant configuration.
 - [ ] Confirm the production terminology and operation for the MT1 tailgate, liftgate, handles, windshield heating, wipers, washer system, cameras, and exposed sensors before naming specific hardware in outreach.
 - [ ] Whether onboard AC power is offered; verify voltage, power, outlets, operating limits, and availability.
@@ -31,3 +32,8 @@ Resolve or remove every unchecked claim. Prefer TELO’s current official materi
 - [ ] Any data-sharing, confidentiality, photography, trademark, or publication approvals needed from TELO.
 - [ ] Insurance, registration, border, warranty, service, and commercial-use implications have been reviewed.
 - [ ] Define what “without consulting fees” includes and excludes, including vehicle acquisition, charging, travel, equipment, insurance, repairs, data preparation, direct expenses, liability, and any minimum time commitment.
+- [ ] Before quantifying the carbon comparison, define project floor area and LCA scope; actual build miles; avoided crew and subcontractor trips; gasoline baseline MPG; MT1 energy use; charging mix; and whether vehicle manufacturing is inside the comparison boundary.
+- [ ] Calculate the building result from project material quantities and EPDs using a recognized method such as EC3, rather than presenting a generic residential benchmark as the project result.
+- [ ] Treat “avoided vehicle emissions can exceed the building’s embodied carbon” as a scenario to test until the project-specific travel and material inventories support it.
+- [ ] Confirm whether the representative conventional crew is two or three gas pickups, and replace the 15–20 mpg baseline with the actual comparison vehicles where possible.
+- [ ] Treat smaller roads, garages, and disturbed areas as design hypotheses, not automatic outcomes; compare actual vehicle clearances and turning needs and account for fire access, service vehicles, snow storage, terrain, accessibility, and local codes.

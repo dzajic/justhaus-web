@@ -2,7 +2,8 @@
 
 ## Required before outreach
 
-- [ ] Final public URL for the concept page.
+- [x] Final public concept URL: `https://justha.us/telo-concept.html`.
+- [ ] Choose whether the initial outreach should link only to the concise concept page or also include the detailed field plan.
 - [ ] Named TELO contact and correct email address.
 - [ ] Reservation date, reservation number, configuration, and shareable proof if requested.
 - [ ] Final business email, phone number, LinkedIn URL, and preferred signature.
@@ -24,5 +25,5 @@
 
 - [ ] Replace the generic vehicle concept with imagery approved for public TELO use.
 - [ ] Add two or three documentary photos: construction load, energy system, and winter road context.
-- [ ] Add a direct contact or scheduling link after confirming the preferred destination.
+- [x] Keep contact actions in personalized outreach rather than on the TELO pages.
 - [ ] Add official partnership language only if and exactly as approved by TELO.

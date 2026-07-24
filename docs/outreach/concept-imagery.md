@@ -6,6 +6,12 @@
 
 Public caption: “Independent AI-generated concept composite based on TELO’s published MT1 design. Not an official TELO rendering or a representation of a production vehicle or unannounced features.”
 
+## Compact-site concept image
+
+`images/telo-just-haus-cabin-development-rear-trail.png` is the approved companion image for `telo-concept.html`. It shows a rear view of a compact, Just Haus-branded truck on two narrow service tracks among lightly placed cabins in a New Hampshire forest.
+
+It is an AI-generated independent concept based on supplied rear-view TELO imagery, the approved Just Haus vehicle treatment, and the compact-site development idea. It is not official TELO imagery and must retain an appropriate disclosure wherever it is published.
+
 ## Generation brief used
 
 Create a close, eye-level winter architectural photograph with a faithful TELO MT1 dominating the foreground and the dark Just Haus Alpha building behind it. Match the MT1’s compact footprint, low cab-forward wedge, raked windshield, four-door greenhouse, short bed, sculpted lower doors, black cladding, dark aero wheels, minimal nose, and vertical front lighting. Show restrained building materials in the bed. Apply the supplied complete Just Haus house-outline symbol and spaced `JUST HAUS` wordmark once as a large charcoal livery centered across both doors, with the door seam running through the visual center of the mark. Keep the White Mountains winter setting quiet and realistic. No people, TELO wordmark, charging cable, power-export equipment, unannounced accessories, or fantasy styling.

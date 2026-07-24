@@ -11,4 +11,6 @@ This folder supports a first conversation with TELO about Just Haus as an early 
 5. If there is no response, send `follow-up-email.md` after roughly one week.
 6. Prepare for a conversation with `first-call-talking-points.md`.
 
-The unlisted page is `telo.html` in this repository and will resolve as `/telo.html` under the current GitHub Pages setup. It is intentionally not linked from the existing site and includes a `noindex` directive. This reduces casual discovery but is not access control; anyone with the URL can open or share it.
+The concise concept page leads with compact packaging and site-planning benefits. The secondary carbon and cost calculation is documented separately in `carbon-scenario.md` so it can support the case without defining it.
+
+The detailed unlisted page is `telo.html`; the preferred shorter page is `telo-concept.html`. They are published at `https://justha.us/telo.html` and `https://justha.us/telo-concept.html`. Neither is linked from the existing site, and both include a `noindex` directive. This reduces casual discovery but is not access control; anyone with a URL can open or share it.
