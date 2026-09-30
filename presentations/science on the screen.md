@@ -1,230 +1,205 @@
-# What Could Possibly Go Wrong?
+title: What Could Possibly Go Wrong? slideOptions: theme: black transition: fade slideNumber: true
+�
+body { background:#111; } .reveal { color:#f1eee7; font-family:Inter,Helvetica,Arial,sans-serif; } .reveal .slides { text-align:left; } .reveal h1,.reveal h2,.reveal h3 { text-transform:none; letter-spacing:-0.02em; font-weight:700; } .reveal h1 { color:#d66a3a; font-size:2.05em; } .reveal h2 { color:#d8b38a; } .reveal strong { color:#d66a3a; } .reveal em { color:#d8b38a; } .reveal a { color:#d66a3a; } .reveal img { border:0; box-shadow:none; max-height:72vh; border-radius:6px; } .reveal table { font-size:0.65em; } .reveal table th { color:#d66a3a; } .reveal .slide-number { color:#8d8d8d; } 
+�
 
-## Lessons from building a house without knowing how
+What Could Possibly Go Wrong?
+Lessons from building a house without knowing how
+Science on Screen — The Martian
+�
+
+�
+
+A hero’s journey
+But with more foam insulation
+�
 
-<!--
-HackMD / Reveal.js version
-- Use Slide Mode in HackMD
-- Each --- creates a new slide
-- Keep slides visual-first
-- Replace PHOTO/GRAPH/DIAGRAM placeholders as you add material
--->
+�
+
+The Plan
+Build a better house from first principles
+�
 
-<!-- PHOTO: recent/wide house or construction-site hero image -->
-<!-- NOTES: Quick intro. Connect to The Martian. This is a story about science, failure, humor, and keeping going. -->
+�
 
----
+The Reality
+How did those foam panels wind up like that?
+�
 
-# The Plan
+�
 
-<!-- PHOTO: early rendering / clean design sketch / idealized image -->
+Progress is messy
+YouTube usually edits this part out
+�
 
-<!-- NOTES:
-Software engineer.
-Sustainable house.
-First-principles thinking.
-“How hard could it be?”
--->
+�
 
----
+Fail safely
+The only bad failures are catastrophic ones
+�
 
-# The Reality
+�
+
+Experiment 1
+A house should feel like a good winter coat
+�
+
+�
+
+Comfort is science
+North Country problem
+Answer
+Drafts
+Airtight layer
+Cold walls
+Exterior insulation
+Stale air
+ERV ventilation
+Heating bills
+Reduce demand first
+�
 
-## How did those foam panels *wind* up like that?
+�
 
-<!-- PHOTO: foam insulation scattered across site -->
+Fresh air, on purpose
+Not through random holes
+�
 
-<!-- NOTES:
-Not once.
-Not twice.
-Three times.
-Establish humor + real-world messiness.
--->
+�
 
----
+Experiment 2
+I don’t want windows.
+I want glass.
+�
 
-# Science Is Not a Straight Line
+�
 
-<!-- PHOTO: messy jobsite / tools / unfinished wall -->
+Why do windows open?
+Around here, when it’s nice out... I go outside.
+�
 
-<!-- NOTES:
-YouTube skips the ugly middle.
-Real progress is experiments, mistakes, recovery.
-Safety first: fail safely, not catastrophically.
--->
+�
 
----
+Experiment 3
+Why I hate drywall
+�
 
-# A House Should Feel Like a Good Winter Coat
+�
 
-<!-- PHOTO: exterior insulation / building wrap / envelope construction -->
+Wood is magic
+Removable. Repairable. Beautiful.
+�
 
-<!-- NOTES:
-North Country hook: drafts, cold floors, heating bills.
-Exterior insulation = parka.
-Airtightness = zipper and cuffs.
-Ventilation = fresh air on purpose.
--->
+�
 
----
+Separate the layers
+Layer
+Job
+Goal
+Structure
+Hold it up
+Durable
+Envelope
+Control heat/air/water
+Continuous
+Systems
+Power/air/plumbing
+Accessible
+Finish
+What you see/touch
+Replaceable
+�
 
-# Fresh Air, On Purpose
+�
 
-<!-- PHOTO: ERV / ducts / CO₂ graph if useful -->
+Experiment 4
+The sun destroys everything
+Why not put it to work?
+�
 
-<!-- NOTES:
-Tight does not mean stale.
-ERV separates fresh air from drafts, bugs, pollen, heat, and cold.
--->
+�
 
----
+I’m not optimizing a solar panel
+I’m optimizing the whole wall
+�
 
-# I Don’t Want Windows.  
-# I Want Glass.
+�
 
-<!-- PHOTO: fixed glass / window opening / view from house -->
+Rethinking solar
+�
 
-<!-- NOTES:
-What do we want from windows?
-Light, view, fresh air, egress.
-Separate functions.
-Go outside for outdoors.
-ERV for air.
-Fixed glass for view.
--->
+Inefficient can still be useful
+�
 
----
+Eliminating aisles at Home Depot
+Instead of improving...
+What if we avoid it?
+Exterior paint
+Solar glass + durable wood
+Drywall repair
+Removable panels
+Draft fixes
+Airtight envelope
+Window complexity
+Fixed glass + ERV
+�
 
-# Why I Hate Drywall
+�
 
-<!-- PHOTO: old renovation mess / lath and plaster / drywall dust / exposed wall -->
+And then my roof blew off
+�
 
-<!-- NOTES:
-Renovation pain.
-Why destroy a wall to access what’s behind it?
--->
+�
 
----
+Sometimes the worst day
+is the day you got lucky
+�
 
-# Wood Is Magic
+�
 
-<!-- PHOTO: interior wood panels / shiplap / plywood wall mockup -->
+AI has been my Mission Control
+�
 
-<!-- NOTES:
-Removable panels.
-Accessible layers.
-Repairable.
-Beautiful.
-“I want the next person renovating my house not to hate me.”
--->
+�
 
----
+The world’s knowledge is useful
+when you have a problem in front of you
+�
 
-# The Sun Destroys Everything
+�
 
-## Why not put it to work?
+My very successful business
+Customers: 0
+Fun: Immeasurable
+�
 
-<!-- PHOTO: solar facade / panels on wall / mockup -->
+�
 
-<!-- NOTES:
-First principles.
-Sun fades paint, cooks siding, punishes buildings.
-Solar panels are glass, designed for decades outside.
--->
+The game outside the game
+If it stops being fun, change the rules
+�
 
----
+�
 
-# Rethinking Solar
+Still under construction
+�
 
-<!-- GRAPH: ideal roof/tilt production vs vertical east/south/west facade production -->
+�
 
-<!-- NOTES:
-Efficiency is not the only variable.
-Cheap, simple, durable, accessible, multi-function can win as a system.
--->
+The problems are not interruptions
+They are the story
+�
 
----
+�
 
-# Eliminating Aisles at Home Depot
+I love the movie of my life
+And I can’t wait to see what happens next.
+�
 
-<!-- DIAGRAM/TABLE:
-Conventional house:
-siding + exterior paint + drywall + opening windows + roof solar
+�
 
-My experiment:
-solar facade + natural wood + removable panels + fixed glass + ERV
--->
+Questions?
+Also accepting foam-control advice
+�
 
-<!-- NOTES:
-Technology can eliminate whole categories of recurring work.
-Not optimizing paint.
-Avoiding exterior paint.
--->
-
----
-
-# And Then My Roof Blew Off
-
-<!-- PHOTO: roof issue / storm / repair / wet miserable construction photo -->
-
-<!-- NOTES:
-Day before weeks-long trip.
-Freezing rain.
-Miserable and lucky.
-Something going wrong at the right time can be a blessing.
--->
-
----
-
-# AI Has Been My Mission Control
-
-<!-- PHOTO: AI notes / design iteration / screenshots / sketches -->
-
-<!-- NOTES:
-AI helped me learn just-in-time.
-Ask better questions.
-Explore options.
-But AI does not give purpose.
-It helps when curiosity has direction.
--->
-
----
-
-# My Very Successful Business
-
-## Customers: 0  
-## Fun: Immeasurable
-
-<!-- PHOTO: Just Haus logo / merch / website -->
-
-<!-- NOTES:
-Business created clarity, motivation, identity.
-You get to define the game you’re playing.
--->
-
----
-
-# Still Under Construction
-
-<!-- PHOTO: current unfinished house, honest and evocative -->
-
-<!-- NOTES:
-Not polished.
-Not finished.
-That is the point.
-Progress is messy and alive.
--->
-
----
-
-# I Love the Movie of My Life
-
-## And I can’t wait to see what happens next.
-
-<!-- PHOTO: final wide house / sunset / woods / funny foam callback if possible -->
-
-<!-- NOTES:
-Connect to Colonial + The Martian.
-The problems are not interruptions to the story.
-They are the story.
--->
+�
