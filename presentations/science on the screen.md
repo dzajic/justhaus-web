@@ -142,31 +142,6 @@ ERV gives fresh air without drafts, bugs, humidity, heat, or cold.
 
 # Experiment 2
 
-## I don’t want windows.
-## I want glass.
-
-<!-- IMAGE PLACEHOLDER: Fixed glass / beautiful view from inside. -->
-<!-- NOTES:
-What do we want from windows? Light, view, fresh air, egress.
-Separate the functions.
--->
-
----
-
-# Why do windows open?
-
-## Around here, when it’s nice out... I go outside.
-
-<!-- IMAGE PLACEHOLDER: Beautiful property / woods / mountains / doorway outside. -->
-<!-- NOTES:
-For this life, shelter matters more than pretending every room needs to become outdoors.
-ERV for air. Fixed glass for view. Egress where required.
--->
-
----
-
-# Experiment 3
-
 ## Why I hate drywall
 
 <!-- IMAGE PLACEHOLDER: Lath/plaster dust, old renovation mess, exposed wall. -->
@@ -206,7 +181,7 @@ Don’t bury everything forever.
 
 ---
 
-# Experiment 4
+# Experiment 3
 
 ## The sun destroys everything
 
@@ -252,7 +227,6 @@ Audience should understand it in five seconds.
 | Exterior paint | Solar glass + durable wood |
 | Drywall repair | Removable panels |
 | Draft fixes | Airtight envelope |
-| Window complexity | Fixed glass + ERV |
 
 <!-- IMAGE PLACEHOLDER: Optional Home Depot aisle or materials photo. -->
 <!-- NOTES:
@@ -374,5 +348,5 @@ Final line. Stop talking after it.
 
 <!-- IMAGE PLACEHOLDER: Foam photo reprise or simple black slide. -->
 <!-- NOTES:
-Likely questions: solar facade, ERV, fixed windows/egress, AI, removable panels, biggest failure, what’s next.
+Likely questions: solar facade, ERV, AI, removable panels, biggest failure, what’s next.
 -->
