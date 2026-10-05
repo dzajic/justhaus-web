@@ -47,6 +47,7 @@ Daniel Zajic
 
 <!-- NOTES:
 Text-only title slide.
+Opening: “I could easily spend an hour on any one of these topics. Tonight is a quick overview: what I’m building, why I’m doing it, and how it’s going.”
 “Since I was a child, I’ve been taking things apart—sometimes because I broke them—and trying to make them better.”
 A multi-year solo project: an ideal, deliberate constraints, and learning through real problems.
 The Martian connection: use what you have, test ideas, solve the next problem.
