@@ -20,6 +20,8 @@ body { background:#111; }
 .reveal table { font-size:0.65em; }
 .reveal table th { color:#d66a3a; }
 .reveal .slide-number { color:#8d8d8d; }
+.reveal .visual-placeholder { margin:0.8em 0; padding:0.6em 0.8em; border:2px dashed #d8b38a; border-radius:6px; color:#f1eee7; font-size:0.55em; line-height:1.35; }
+.reveal .visual-placeholder strong { display:block; margin-bottom:0.2em; color:#d8b38a; font-size:0.75em; letter-spacing:0.08em; text-transform:uppercase; }
 </style>
 
 <!-- Visual-first deck. Replace every IMAGE/GRAPH PLACEHOLDER with a real visual. Speaker notes are prompts, not a script. -->
@@ -30,7 +32,7 @@ body { background:#111; }
 
 **Science on Screen — The Martian**
 
-<!-- IMAGE PLACEHOLDER: Dramatic wide photo of the unfinished house/build site. Prefer full-bleed. -->
+<div class="visual-placeholder"><strong>Image placeholder</strong>Dramatic wide photo of the unfinished house/build site. Prefer full-bleed.</div>
 <!-- NOTES:
 Open: “I’m a software engineer who decided to build a house. What could possibly go wrong?”
 This is about science, experimentation, failure, humor, and finding joy in the process.
@@ -42,7 +44,7 @@ This is about science, experimentation, failure, humor, and finding joy in the p
 
 ## But with more foam insulation
 
-<!-- IMAGE PLACEHOLDER: Best early rendering / idealized design image. -->
+<div class="visual-placeholder"><strong>Image placeholder</strong>Best early rendering / idealized design image.</div>
 <!-- NOTES:
 Set up dream vs reality.
 The house is the experiment; The Martian is the mirror.
@@ -54,7 +56,7 @@ The house is the experiment; The Martian is the mirror.
 
 ## Build a better house from first principles
 
-<!-- IMAGE PLACEHOLDER: Clean design sketch, rendering, or calm progress photo. -->
+<div class="visual-placeholder"><strong>Image placeholder</strong>Clean design sketch, rendering, or calm progress photo.</div>
 <!-- NOTES:
 Question assumptions. Separate layers. Iterate.
 Not recreating an old house; building honestly for this climate and this life.
@@ -66,7 +68,7 @@ Not recreating an old house; building honestly for this climate and this life.
 
 ## How did those foam panels *wind* up like that?
 
-<!-- IMAGE PLACEHOLDER: Foam scattered across the site. MUST HAVE. -->
+<div class="visual-placeholder"><strong>Image placeholder</strong>Foam scattered across the site. MUST HAVE.</div>
 <!-- NOTES:
 Not once. Not twice. Three times.
 Pause for laugh.
@@ -78,7 +80,7 @@ Pause for laugh.
 
 ## YouTube usually edits this part out
 
-<!-- IMAGE PLACEHOLDER: Chaotic jobsite / tools / mud / half-finished construction. -->
+<div class="visual-placeholder"><strong>Image placeholder</strong>Chaotic jobsite / tools / mud / half-finished construction.</div>
 <!-- NOTES:
 Real work is not the highlight reel.
 The mess is where learning happens.
@@ -90,7 +92,7 @@ The mess is where learning happens.
 
 ## The only bad failures are catastrophic ones
 
-<!-- IMAGE PLACEHOLDER: Safe temporary bracing / PPE / careful setup / reversible experiment. -->
+<div class="visual-placeholder"><strong>Image placeholder</strong>Safe temporary bracing / PPE / careful setup / reversible experiment.</div>
 <!-- NOTES:
 Embracing failure is not recklessness.
 Make mistakes survivable, reversible, affordable.
@@ -103,7 +105,7 @@ Make mistakes survivable, reversible, affordable.
 
 ## A house should feel like a good winter coat
 
-<!-- IMAGE PLACEHOLDER: Exterior insulation / Zip / thick wall assembly. -->
+<div class="visual-placeholder"><strong>Image placeholder</strong>Exterior insulation / Zip / thick wall assembly.</div>
 <!-- NOTES:
 North Country hook: drafts, cold floors, heating bills.
 Insulation = parka. Airtightness = zipper and cuffs.
@@ -120,7 +122,7 @@ Insulation = parka. Airtightness = zipper and cuffs.
 | Stale air | ERV ventilation |
 | Heating bills | Reduce demand first |
 
-<!-- IMAGE PLACEHOLDER: Optional wall assembly photo. -->
+<div class="visual-placeholder"><strong>Image placeholder</strong>Optional wall assembly photo.</div>
 <!-- NOTES:
 Don’t go deep on R-values.
 Everyone here knows what a bad winter house feels like.
@@ -132,7 +134,7 @@ Everyone here knows what a bad winter house feels like.
 
 ## Not through random holes
 
-<!-- IMAGE PLACEHOLDER: ERV / ductwork / simple CO₂ graph. -->
+<div class="visual-placeholder"><strong>Image placeholder</strong>ERV / ductwork / simple CO₂ graph.</div>
 <!-- NOTES:
 Tight does not mean stale.
 ERV gives fresh air without drafts, bugs, humidity, heat, or cold.
@@ -144,7 +146,7 @@ ERV gives fresh air without drafts, bugs, humidity, heat, or cold.
 
 ## Why I hate drywall
 
-<!-- IMAGE PLACEHOLDER: Lath/plaster dust, old renovation mess, exposed wall. -->
+<div class="visual-placeholder"><strong>Image placeholder</strong>Lath/plaster dust, old renovation mess, exposed wall.</div>
 <!-- NOTES:
 Years of old-house renovation.
 Why build something new that must be destroyed to change it?
@@ -156,7 +158,7 @@ Why build something new that must be destroyed to change it?
 
 ## Removable. Repairable. Beautiful.
 
-<!-- IMAGE PLACEHOLDER: Best warm wood interior / panel / shiplap photo. -->
+<div class="visual-placeholder"><strong>Image placeholder</strong>Best warm wood interior / panel / shiplap photo.</div>
 <!-- NOTES:
 Not just hating drywall — loving the alternative.
 “I want the next person renovating my house not to hate me.”
@@ -173,7 +175,7 @@ Not just hating drywall — loving the alternative.
 | Systems | Power/air/plumbing | Accessible |
 | Finish | What you see/touch | Replaceable |
 
-<!-- IMAGE PLACEHOLDER: Exposed systems / removable panel detail. -->
+<div class="visual-placeholder"><strong>Image placeholder</strong>Exposed systems / removable panel detail.</div>
 <!-- NOTES:
 Software-engineering mindset applied to construction.
 Don’t bury everything forever.
@@ -187,7 +189,7 @@ Don’t bury everything forever.
 
 ### Why not put it to work?
 
-<!-- IMAGE PLACEHOLDER: Solar facade / vertical PV / facade mockup. -->
+<div class="visual-placeholder"><strong>Image placeholder</strong>Solar facade / vertical PV / facade mockup.</div>
 <!-- NOTES:
 Sun fades paint, cooks siding, punishes buildings.
 Solar panels are glass and aluminum designed for decades outside.
@@ -199,7 +201,7 @@ Solar panels are glass and aluminum designed for decades outside.
 
 ## I’m optimizing the whole wall
 
-<!-- IMAGE PLACEHOLDER: Panel beside wood cladding / facade grid / closeup. -->
+<div class="visual-placeholder"><strong>Image placeholder</strong>Panel beside wood cladding / facade grid / closeup.</div>
 <!-- NOTES:
 Traditional: maximize watts per panel.
 Systems thinking: panel can also be cladding, weather protection, low-maintenance exterior.
@@ -209,7 +211,7 @@ Systems thinking: panel can also be cladding, weather protection, low-maintenanc
 
 # Rethinking solar
 
-<!-- GRAPH PLACEHOLDER: Simple comparison of ideal tilt/roof production vs vertical east/south/west walls. -->
+<div class="visual-placeholder"><strong>Graph placeholder</strong>Simple comparison of ideal tilt/roof production vs vertical east/south/west walls.</div>
 
 ## Inefficient can still be useful
 
@@ -228,7 +230,7 @@ Audience should understand it in five seconds.
 | Drywall repair | Removable panels |
 | Draft fixes | Airtight envelope |
 
-<!-- IMAGE PLACEHOLDER: Optional Home Depot aisle or materials photo. -->
+<div class="visual-placeholder"><strong>Image placeholder</strong>Optional Home Depot aisle or materials photo.</div>
 <!-- NOTES:
 Technology’s power is sometimes eliminating entire categories of recurring work.
 The best maintenance is maintenance you design out.
@@ -238,7 +240,7 @@ The best maintenance is maintenance you design out.
 
 # And then my roof blew off
 
-<!-- IMAGE PLACEHOLDER: Roof damage / tarp / rainy repair scene / photo from that day. -->
+<div class="visual-placeholder"><strong>Image placeholder</strong>Roof damage / tarp / rainy repair scene / photo from that day.</div>
 <!-- NOTES:
 Day before leaving for weeks.
 Near-freezing rain.
@@ -251,7 +253,7 @@ Miserable and lucky.
 
 ## is the day you got lucky
 
-<!-- IMAGE PLACEHOLDER: Roof secured after repair / calmer aftermath photo. -->
+<div class="visual-placeholder"><strong>Image placeholder</strong>Roof secured after repair / calmer aftermath photo.</div>
 <!-- NOTES:
 If it happened 24 hours later, you’d have been gone.
 When years of work are at risk, you find reserves you didn’t know you had.
@@ -261,7 +263,7 @@ When years of work are at risk, you find reserves you didn’t know you had.
 
 # AI has been my Mission Control
 
-<!-- IMAGE PLACEHOLDER: AI planning / calculations / sketches / screenshot collage with no tiny unreadable text. -->
+<div class="visual-placeholder"><strong>Image placeholder</strong>AI planning / calculations / sketches / screenshot collage with no tiny unreadable text.</div>
 <!-- NOTES:
 AI has been crucial.
 Just-in-time learning, challenging assumptions, exploring options.
@@ -274,7 +276,7 @@ But AI does not choose the mission.
 
 ## when you have a problem in front of you
 
-<!-- IMAGE PLACEHOLDER: Split visual: physical problem + notes/calculations/tools. -->
+<div class="visual-placeholder"><strong>Image placeholder</strong>Split visual: physical problem + notes/calculations/tools.</div>
 <!-- NOTES:
 Don’t drink from the fire hose.
 Purpose directs curiosity.
@@ -288,7 +290,7 @@ That’s when learning becomes fun and sticky.
 ## Customers: 0
 ## Fun: Immeasurable
 
-<!-- IMAGE PLACEHOLDER: Just Haus logo / website / merch. -->
+<div class="visual-placeholder"><strong>Image placeholder</strong>Just Haus logo / website / merch.</div>
 <!-- NOTES:
 It created clarity, motivation, identity, and joy.
 You get to define what game you’re playing.
@@ -300,7 +302,7 @@ You get to define what game you’re playing.
 
 ## If it stops being fun, change the rules
 
-<!-- IMAGE PLACEHOLDER: Funny build photo / equipment / weird experiment / “bigger toys.” -->
+<div class="visual-placeholder"><strong>Image placeholder</strong>Funny build photo / equipment / weird experiment / “bigger toys.”</div>
 <!-- NOTES:
 Growing up with less money taught me to make my own fun.
 A good game is just out of reach but reachable.
@@ -311,7 +313,7 @@ If it feels unreachable, change the rules.
 
 # Still under construction
 
-<!-- IMAGE PLACEHOLDER: Honest current photo showing beauty and incompleteness together. -->
+<div class="visual-placeholder"><strong>Image placeholder</strong>Honest current photo showing beauty and incompleteness together.</div>
 <!-- NOTES:
 Not polished. Not finished.
 Progress is almost invisible while you’re living inside it.
@@ -323,7 +325,7 @@ Progress is almost invisible while you’re living inside it.
 
 ## They are the story
 
-<!-- IMAGE PLACEHOLDER: Most evocative messy-but-beautiful project image. -->
+<div class="visual-placeholder"><strong>Image placeholder</strong>Most evocative messy-but-beautiful project image.</div>
 <!-- NOTES:
 A movie where everything goes right would be boring.
 Connect directly back to The Martian.
@@ -335,7 +337,7 @@ Connect directly back to The Martian.
 
 ## And I can’t wait to see what happens next.
 
-<!-- IMAGE PLACEHOLDER: Final wide shot — house in woods, sunset, snow, or quiet unfinished beauty. Optional tiny foam callback. -->
+<div class="visual-placeholder"><strong>Image placeholder</strong>Final wide shot — house in woods, sunset, snow, or quiet unfinished beauty. Optional tiny foam callback.</div>
 <!-- NOTES:
 Final line. Stop talking after it.
 -->
@@ -346,7 +348,7 @@ Final line. Stop talking after it.
 
 ## Also accepting foam-control advice
 
-<!-- IMAGE PLACEHOLDER: Foam photo reprise or simple black slide. -->
+<div class="visual-placeholder"><strong>Image placeholder</strong>Foam photo reprise or simple black slide.</div>
 <!-- NOTES:
 Likely questions: solar facade, ERV, AI, removable panels, biggest failure, what’s next.
 -->
