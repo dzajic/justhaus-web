@@ -97,12 +97,14 @@ body { background:#111; }
 .reveal .photo-grid {
   display:grid;
   grid-template-columns:1fr 1fr;
-  grid-auto-rows:170px;
   gap:10px;
   align-content:center;
   height:600px;
   width:100%;
   box-sizing:border-box;
+}
+.reveal .photo-grid.hero-grid {
+  grid-template-rows:360px 220px;
 }
 .reveal .tile {
   background-repeat:no-repeat;
@@ -118,6 +120,13 @@ body { background:#111; }
 }
 .reveal .photo-grid .wide {
   grid-column:1 / span 2;
+}
+.reveal .photo-grid.hero-grid .hero {
+  grid-column:1 / span 2;
+  grid-row:1;
+}
+.reveal .photo-grid.hero-grid .small {
+  grid-row:2;
 }
 
 .reveal .stat-panel {
@@ -251,10 +260,10 @@ For each experiment: the question, the choice, and what I have observed or still
 ---
 
 <div class="split">
-<div class="media photo-grid">
-<div class="tile wide" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/codex/science-on-screen-complete/presentations/images/science%20on%20the%20screen/foundation-footings.jpg')"></div>
-<div class="tile wide" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/codex/science-on-screen-complete/presentations/images/science%20on%20the%20screen/foundation-icf-blocks.jpg')"></div>
-<div class="tile wide" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/codex/science-on-screen-complete/presentations/images/science%20on%20the%20screen/canopy-destroyed.jpg')"></div>
+<div class="media photo-grid hero-grid">
+<div class="tile hero" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/codex/science-on-screen-complete/presentations/images/science%20on%20the%20screen/foundation-icf-blocks.jpg')"></div>
+<div class="tile small" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/codex/science-on-screen-complete/presentations/images/science%20on%20the%20screen/foundation-footings.jpg')"></div>
+<div class="tile small" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/codex/science-on-screen-complete/presentations/images/science%20on%20the%20screen/canopy-destroyed.jpg')"></div>
 </div>
 <div class="copy">
 <h1>Why do I need a basement?</h1>
@@ -283,10 +292,10 @@ Reference: https://www.huduser.gov/Publications/PDF/FPSFguide.pdf
 <p>The simple idea: put almost all of the insulation outside the structure.</p>
 <p><em>The harder problem: keeping it on the property.</em></p>
 </div>
-<div class="media photo-grid">
-<div class="tile wide" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/codex/science-on-screen-complete/presentations/images/science%20on%20the%20screen/exterior%20insulation.jpg')"></div>
-<div class="tile wide" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/codex/science-on-screen-complete/presentations/images/science%20on%20the%20screen/foam-wind-1.jpg')"></div>
-<div class="tile wide" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/codex/science-on-screen-complete/presentations/images/science%20on%20the%20screen/foam-wind-3.jpg')"></div>
+<div class="media photo-grid hero-grid">
+<div class="tile hero" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/codex/science-on-screen-complete/presentations/images/science%20on%20the%20screen/exterior%20insulation.jpg')"></div>
+<div class="tile small" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/codex/science-on-screen-complete/presentations/images/science%20on%20the%20screen/foam-wind-1.jpg')"></div>
+<div class="tile small" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/codex/science-on-screen-complete/presentations/images/science%20on%20the%20screen/foam-wind-3.jpg')"></div>
 </div>
 </div>
 
@@ -300,10 +309,10 @@ Wind-cidents #2, #3, and #4: strong gusts lifted the 4-by-8-foot panels and toss
 ---
 
 <div class="split">
-<div class="media photo-grid">
-<div class="tile wide" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/codex/science-on-screen-complete/presentations/images/science%20on%20the%20screen/interior-wood.jpg')"></div>
-<div class="tile wide" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/codex/science-on-screen-complete/presentations/images/science%20on%20the%20screen/exterior-wood-house-today.jpg')"></div>
-<div class="tile wide" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/codex/science-on-screen-complete/presentations/images/science%20on%20the%20screen/wood-fiber-insulation.jpg')"></div>
+<div class="media photo-grid hero-grid">
+<div class="tile hero" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/codex/science-on-screen-complete/presentations/images/science%20on%20the%20screen/interior-wood.jpg')"></div>
+<div class="tile small" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/codex/science-on-screen-complete/presentations/images/science%20on%20the%20screen/exterior-wood-house-today.jpg')"></div>
+<div class="tile small" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/codex/science-on-screen-complete/presentations/images/science%20on%20the%20screen/wood-fiber-insulation.jpg')"></div>
 </div>
 <div class="copy">
 <h1>I love wood. Outside and inside.</h1>
