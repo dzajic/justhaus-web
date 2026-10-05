@@ -24,6 +24,15 @@ body { background:#111; }
 .reveal .slide-number { color:#8d8d8d; }
 .reveal .visual-placeholder { margin:0.8em 0; padding:0.6em 0.8em; border:2px dashed #d8b38a; border-radius:6px; color:#f1eee7; font-size:0.55em; line-height:1.35; }
 .reveal .visual-placeholder strong { display:block; margin-bottom:0.2em; color:#d8b38a; font-size:0.75em; letter-spacing:0.08em; text-transform:uppercase; }
+.reveal .visual-grid { display:flex; justify-content:center; align-items:center; gap:0.5em; }
+.reveal .visual-grid figure { flex:1; min-width:0; margin:0; }
+.reveal .visual-grid img { display:block; width:100%; height:30vh; object-fit:contain; margin:0; }
+.reveal figcaption { font-size:0.4em; line-height:1.2; color:#d8b38a; margin-top:0.3em; }
+.reveal .concept-grid img { height:12vh; }
+.reveal .design-image { display:block; max-width:100%; max-height:32vh; margin:0.5em auto 0; }
+.reveal .insulation-image { display:block; max-width:100%; max-height:25vh; margin:0 auto 0.4em; }
+.reveal .wind-grid img { height:18vh; }
+.reveal .current-image { display:block; max-width:100%; max-height:50vh; margin:0 auto; }
 </style>
 
 <!-- Eleven slides, roughly 1–2 minutes each. Visual placeholders are visible; speaker notes remain hidden. -->
@@ -49,13 +58,20 @@ The Martian connection: use what you have, test ideas, solve the next problem.
 
 ## Four architects. Then me.
 
-<div class="visual-placeholder"><strong>Images placeholder</strong>The four architectural concepts, followed by Daniel’s own design.</div>
+<div class="visual-grid concept-grid">
+<figure><img src="https://raw.githubusercontent.com/dzajic/justhaus-web/codex/science-on-screen-complete/presentations/images/science%20on%20the%20screen/architect-concept-1.png" alt="Architectural concept 1 for the house"><figcaption>Concept 1</figcaption></figure>
+<figure><img src="https://raw.githubusercontent.com/dzajic/justhaus-web/codex/science-on-screen-complete/presentations/images/science%20on%20the%20screen/architect-concept-2.png" alt="Architectural concept 2 for the house"><figcaption>Concept 2</figcaption></figure>
+<figure><img src="https://raw.githubusercontent.com/dzajic/justhaus-web/codex/science-on-screen-complete/presentations/images/science%20on%20the%20screen/architect-concept-3.png" alt="Architectural concept 3 for the house"><figcaption>Concept 3</figcaption></figure>
+<figure><img src="https://raw.githubusercontent.com/dzajic/justhaus-web/codex/science-on-screen-complete/presentations/images/science%20on%20the%20screen/architect-concept-4.png" alt="Architectural concept 4 for the house"><figcaption>Concept 4</figcaption></figure>
+</div>
+
+<img class="design-image" src="https://raw.githubusercontent.com/dzajic/justhaus-web/codex/science-on-screen-complete/presentations/images/science%20on%20the%20screen/my-design.jpg" alt="Daniel’s house design with a separate garage">
 
 <!-- NOTES:
 “I paid four separate architects to develop concepts. Eventually, I realized I had to design it myself—and that turned into doing everything myself.”
 Twenty years of renovations made me want to start from scratch: comfort, accessible infrastructure, and fewer problems handed to the next person.
 The original ambition: a custom house built in six months. “How hard can this be? One person should be able to do this much more quickly if they just keep it simple.”
-Let the renderings show the dream.
+The first designs were more than six years ago. Let the renderings show the dream.
 -->
 
 ---
@@ -98,7 +114,11 @@ For each experiment: the question, the choice, and what I have observed or still
 
 *Protect against frost with insulation.*
 
-<div class="visual-placeholder"><strong>Images placeholder</strong>Shallow foundation and foam insulation, plus the shade canopy destroyed by wind.</div>
+<div class="visual-grid">
+<figure><img src="https://raw.githubusercontent.com/dzajic/justhaus-web/codex/science-on-screen-complete/presentations/images/science%20on%20the%20screen/foundation-footings.jpg" alt="Foundation layout on the prepared gravel site with a shade canopy"><figcaption>The layout</figcaption></figure>
+<figure><img src="https://raw.githubusercontent.com/dzajic/justhaus-web/codex/science-on-screen-complete/presentations/images/science%20on%20the%20screen/foundation-icf-blocks.jpg" alt="Insulating concrete forms around the shallow foundation"><figcaption>The foundation</figcaption></figure>
+<figure><img src="https://raw.githubusercontent.com/dzajic/justhaus-web/codex/science-on-screen-complete/presentations/images/science%20on%20the%20screen/canopy-destroyed.jpg" alt="Shade canopy collapsed after wind damage"><figcaption>Two days later</figcaption></figure>
+</div>
 
 <!-- NOTES:
 Basements are expensive, difficult to keep dry and warm, hard to build alone, and use a lot of concrete with an upfront carbon cost.
@@ -117,7 +137,13 @@ Reference: https://www.huduser.gov/Publications/PDF/FPSFguide.pdf
 
 **6″ EPS + 1″ polyiso · About R-33**
 
-<div class="visual-placeholder"><strong>Images placeholder</strong>Wall insulation detail, then photos of scattered foam from the three gust incidents.</div>
+<img class="insulation-image" src="https://raw.githubusercontent.com/dzajic/justhaus-web/codex/science-on-screen-complete/presentations/images/science%20on%20the%20screen/exterior%20insulation.jpg" alt="Exterior foam insulation being installed on the house">
+
+<div class="visual-grid wind-grid">
+<figure><img src="https://raw.githubusercontent.com/dzajic/justhaus-web/codex/science-on-screen-complete/presentations/images/science%20on%20the%20screen/foam-wind-1.jpg" alt="Foam panels scattered around the site after wind incident 2"><figcaption>Wind-cident #2</figcaption></figure>
+<figure><img src="https://raw.githubusercontent.com/dzajic/justhaus-web/codex/science-on-screen-complete/presentations/images/science%20on%20the%20screen/foam-wind-2.jpg" alt="Foam panels scattered around the site after wind incident 3"><figcaption>Wind-cident #3</figcaption></figure>
+<figure><img src="https://raw.githubusercontent.com/dzajic/justhaus-web/codex/science-on-screen-complete/presentations/images/science%20on%20the%20screen/foam-wind-3.jpg" alt="Foam panels scattered around the site after wind incident 4"><figcaption>Wind-cident #4</figcaption></figure>
+</div>
 
 <!-- NOTES:
 “I was wrapping the whole house in a cooler. But first, I had to keep the insulation on the property.”
@@ -134,7 +160,11 @@ Wind-cidents #2, #3, and #4: strong gusts lifted the 4-by-8-foot panels and toss
 
 **Local pine · Wood fiber insulation from Maine · Domestic lumber**
 
-<div class="visual-placeholder"><strong>Images placeholder</strong>Warm interior wood panels, doors, flooring or ceiling; exterior wood cladding; a detail of the wood fiber insulation under the roof.</div>
+<div class="visual-grid">
+<figure><img src="https://raw.githubusercontent.com/dzajic/justhaus-web/codex/science-on-screen-complete/presentations/images/science%20on%20the%20screen/interior-wood.jpg" alt="Pine panels covering interior walls and ceiling"><figcaption>Inside</figcaption></figure>
+<figure><img src="https://raw.githubusercontent.com/dzajic/justhaus-web/codex/science-on-screen-complete/presentations/images/science%20on%20the%20screen/exterior-wood-house-today.jpg" alt="Wood exterior cladding and solar panels being installed"><figcaption>Outside</figcaption></figure>
+<figure><img src="https://raw.githubusercontent.com/dzajic/justhaus-web/codex/science-on-screen-complete/presentations/images/science%20on%20the%20screen/wood-fiber-insulation.jpg" alt="Wood fiber insulation stored inside the house for use under the roof"><figcaption>Wood fiber insulation</figcaption></figure>
+</div>
 
 <!-- NOTES:
 Wood cladding, interior panels, doors, flooring, ceilings, and wood fiber insulation under the roof.
@@ -151,13 +181,15 @@ One brief renovation memory: plaster embedded in metal lath, wallpaper removal, 
 
 ## Controlled ventilation with an ERV
 
-**Spring–fall: around 55% humidity · 70–75°F indoors**
+**Very stable indoor temperature and humidity.**
 
-<div class="visual-placeholder"><strong>Graph placeholder</strong>Actual indoor temperature and relative humidity sensor history from spring, summer, and fall. Use separate labeled scales or panels; winter data is not available yet.</div>
+*Observed through spring, summer, and fall.*
+
+
 
 <!-- NOTES:
 An ERV exchanges indoor and outdoor air while recovering some heat and moisture from the outgoing air, reducing the conditioning load.
-These readings describe observed indoor conditions; they do not isolate the ERV’s contribution.
+Indoor conditions have been very stable: around 55% relative humidity and 70–75°F during spring, summer, and fall. These observations do not isolate the ERV’s contribution.
 “These are the indoor conditions I’ve tracked so far. Winter is the next test.”
 -->
 
@@ -186,7 +218,7 @@ Producing more energy than the house uses remains a goal until production and co
 
 # Another beginning!
 
-<div class="visual-placeholder"><strong>Image placeholder</strong>Current exterior photo of the house. Use this to show the project as it stands today.</div>
+<img class="current-image" src="https://raw.githubusercontent.com/dzajic/justhaus-web/codex/science-on-screen-complete/presentations/images/science%20on%20the%20screen/exterior-wood-house-today.jpg" alt="Current exterior of the house with wood cladding and solar panels">
 
 <!-- NOTES:
 Show the outside: a prototype still in progress, two-plus years in, with more work ahead.
