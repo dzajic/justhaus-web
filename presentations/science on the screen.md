@@ -453,49 +453,8 @@ BEAM methodology: https://www.buildersforclimateaction.org/beam-estimator.html
 <li>Solar panel walls</li>
 </ol>
 </div>
-<div class="media">
-<div class="systems-graphic">
-  <div class="center-box">
-    <div class="center-title">HOME</div>
-    <div class="center-subtitle">as a system</div>
-  </div>
-
-  <div class="connector top"></div>
-  <div class="connector left"></div>
-  <div class="connector right"></div>
-  <div class="connector bottom-left"></div>
-  <div class="connector bottom-right"></div>
-
-  <div class="system-node node-top">
-    <div class="symbol">☀</div>
-    <div class="label">Solar walls</div>
-    <div class="sub">energy</div>
-  </div>
-
-  <div class="system-node node-left">
-    <div class="symbol">↔</div>
-    <div class="label">Controlled ventilation</div>
-    <div class="sub">air</div>
-  </div>
-
-  <div class="system-node node-right">
-    <div class="symbol">▣</div>
-    <div class="label">No drywall</div>
-    <div class="sub">removable interior</div>
-  </div>
-
-  <div class="system-node node-bottom-left">
-    <div class="symbol">≋</div>
-    <div class="label">Exterior insulation</div>
-    <div class="sub">thermal boundary</div>
-  </div>
-
-  <div class="system-node node-bottom-right">
-    <div class="symbol">▁</div>
-    <div class="label">Foundation</div>
-    <div class="sub">ground / frost protection</div>
-  </div>
-</div>
+<div class="media contain">
+<div class="tile" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/codex/science-on-screen-complete/presentations/images/science%20on%20the%20screen/home-systems-schematic.jpeg')"></div>
 </div>
 </div>
 
