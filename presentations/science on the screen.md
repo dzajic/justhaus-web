@@ -32,6 +32,7 @@ body { background:#111; }
 .reveal .design-image { display:block; max-width:100%; max-height:32vh; margin:0.5em auto 0; }
 .reveal .insulation-image { display:block; max-width:100%; max-height:25vh; margin:0 auto 0.4em; }
 .reveal .wind-grid img { height:18vh; }
+.reveal .solar-chart { display:block; width:100%; max-height:44vh; object-fit:contain; margin:0 auto; }
 .reveal .current-image { display:block; max-width:100%; max-height:50vh; margin:0 auto; }
 </style>
 
@@ -92,6 +93,7 @@ Housing faces cost and labor pressures; this is my attempt to find better answer
 I used BEAM (Building Emissions Accounting for Materials) to estimate initial embodied carbon from the building materials. This is a material-production estimate, not a lifetime carbon assessment.
 Solar generation, all-electric operation, and low energy demand are intended to improve the operational carbon picture over time. That expectation is separate from the BEAM estimate.
 Producing more energy than the house uses remains a goal until production and consumption can be compared.
+The negative BEAM scenario refers to the planned wood-fiber exterior insulation. It was not ready in time for this house; I may use it on the garage. Do not present that scenario as the result for the foam-insulated house as built.
 BEAM methodology: https://www.buildersforclimateaction.org/beam-estimator.html
 -->
 
@@ -201,21 +203,24 @@ Indoor conditions have been very stable: around 55% relative humidity and 70–7
 
 # Solar all year, no repainting
 
-## What do I give up—and what do I gain?
+## Less overall. Spread across the day and seasons.
 
-**Roof: 32 panels · 13.28 kW**
+<img class="solar-chart" src="https://raw.githubusercontent.com/dzajic/justhaus-web/codex/science-on-screen-complete/presentations/images/science%20on%20the%20screen/solar-comparison.png" alt="Modeled roof versus wall solar production: roof 15.5 MWh a year and walls 9.1 MWh; monthly and average June-day curves show lower wall yield and a lower midday peak. Snow and site shading are excluded.">
 
-**Walls: 33 panels · 13.695 kW**
-
-<div class="visual-placeholder"><strong>Graph placeholder — modeled production</strong>Monthly production and annual totals: 32 optimally oriented roof panels versus 33 vertical east/south/west wall panels. Label as modeled. Optional solar-wall design alongside.</div>
+*And it’s also my siding.*
 
 <!-- NOTES:
-Compare what fits on the roof with what fits on the walls.
-Roof: assumed 32 panels, 13.28 kW, ideal south-facing fixed orientation for 45° north.
-Walls: 11 panels per wall, 4.565 kW each; vertical east, south, and west; 33 panels and 13.695 kW total.
-Monthly and annual results still need to be modeled. Use the model’s annual optimum tilt for the roof benchmark and label the results as modeled. Document location, weather data, losses, and shading assumptions with the graph.
-Optimize the whole wall: electricity plus an exterior surface that does not need repainting.
+“I’m optimizing when the electricity arrives, as well as how much I get—and the panels are also my siding.”
+Roof: assumed 32 × 415 W panels, 13.28 kW, south-facing at the modeled optimum fixed tilt of 38° for the agreed 45°N reference.
+Walls: 11 × 415 W panels per vertical east, south and west wall; 33 panels and 13.695 kW total.
+PVGIS estimates about 15.5 MWh/year for the roof and 9.1 MWh/year for the walls, about 41% less. The plot uses a 45°N reference point, not a site-specific forecast.
+The daily view averages June 2015 weather; the annual view uses monthly averages for 2005–2015. Both are modeled, not measured.
+Without snow coverage modeled, seasonal redistribution is modest: December–February accounts for 17.4% of roof output and 18.2% of wall output. The model does not show more absolute wall output in winter. The daily change is more pronounced.
+“A huge summer surplus isn’t useful to me. In winter, roof panels can be covered in snow. And these panels are doing a second job: they’re my siding.” Actual household demand, snow coverage, tree shading and export or storage have not been modeled; the curve does not quantify usable energy or snow benefits.
 Producing more energy than the house uses remains a goal until production and consumption can be compared.
+Model source: https://joint-research-centre.ec.europa.eu/photovoltaic-geographical-information-system-pvgis/using-pvgis-5/api-non-interactive-service_en
+Winter context: https://www.energy.gov/cmei/femp/solar-photovoltaic-hardening-resilience-winter-weather
+Model inputs and editable values: presentations/data/science-on-screen/solar-model.md
 -->
 
 ---
@@ -236,7 +241,6 @@ Pause for the laugh.
 # What I’ve learned
 
 - Take risks—never with safety.
-- Fake it till you make it.
 - If you aren’t failing, you aren’t making progress.
 - Remember why you started: to have fun.
 
