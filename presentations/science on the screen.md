@@ -93,12 +93,13 @@ body { background:#111; }
   height:560px;
 }
 
-/* Multiple images: always visible, fitted inside the half-slide, vertically centered. */
-.reveal .tiles {
+/* Multi-photo half-slide: two columns; landscape images can span both. */
+.reveal .photo-grid {
   display:grid;
-  align-content:center;
-  justify-content:center;
+  grid-template-columns:1fr 1fr;
+  grid-auto-rows:170px;
   gap:10px;
+  align-content:center;
   height:600px;
   width:100%;
   box-sizing:border-box;
@@ -111,29 +112,12 @@ body { background:#111; }
   min-height:0;
   border-radius:6px;
 }
-.reveal .tiles .tile {
+.reveal .photo-grid .tile {
   width:100%;
   height:100%;
 }
-.reveal .tiles-3 {
-  grid-template-columns:1fr 1fr;
-  grid-template-rows:260px 260px;
-}
-.reveal .tiles-3 .tile:first-child {
-  grid-row:1 / span 2;
-}
-.reveal .tiles-4 {
-  grid-template-columns:1fr 1fr;
-  grid-template-rows:260px 260px;
-}
-.reveal .tiles-5 {
-  grid-template-columns:1fr 1fr;
-  grid-template-rows:170px 170px 170px;
-}
-.reveal .tiles-5 .tile:last-child {
+.reveal .photo-grid .wide {
   grid-column:1 / span 2;
-  width:70%;
-  justify-self:center;
 }
 
 .reveal .stat-panel {
@@ -200,12 +184,12 @@ The Martian connection: use what you have, test ideas, solve the next problem.
 <p>After years of renovating old houses, I wanted to start from scratch.</p>
 <p><strong>Comfort. Simplicity. Accessibility. Fewer inherited problems.</strong></p>
 </div>
-<div class="media tiles tiles-5">
+<div class="media photo-grid">
 <div class="tile" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/codex/science-on-screen-complete/presentations/images/science%20on%20the%20screen/architect-concept-1.png')"></div>
 <div class="tile" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/codex/science-on-screen-complete/presentations/images/science%20on%20the%20screen/architect-concept-2.png')"></div>
 <div class="tile" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/codex/science-on-screen-complete/presentations/images/science%20on%20the%20screen/architect-concept-3.png')"></div>
 <div class="tile" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/codex/science-on-screen-complete/presentations/images/science%20on%20the%20screen/architect-concept-4.png')"></div>
-<div class="tile" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/codex/science-on-screen-complete/presentations/images/science%20on%20the%20screen/my-design.jpg')"></div>
+<div class="tile wide" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/codex/science-on-screen-complete/presentations/images/science%20on%20the%20screen/my-design.jpg')"></div>
 </div>
 </div>
 
@@ -267,10 +251,10 @@ For each experiment: the question, the choice, and what I have observed or still
 ---
 
 <div class="split">
-<div class="media tiles tiles-3">
-<div class="tile" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/codex/science-on-screen-complete/presentations/images/science%20on%20the%20screen/foundation-footings.jpg')"></div>
-<div class="tile" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/codex/science-on-screen-complete/presentations/images/science%20on%20the%20screen/foundation-icf-blocks.jpg')"></div>
-<div class="tile" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/codex/science-on-screen-complete/presentations/images/science%20on%20the%20screen/canopy-destroyed.jpg')"></div>
+<div class="media photo-grid">
+<div class="tile wide" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/codex/science-on-screen-complete/presentations/images/science%20on%20the%20screen/foundation-footings.jpg')"></div>
+<div class="tile wide" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/codex/science-on-screen-complete/presentations/images/science%20on%20the%20screen/foundation-icf-blocks.jpg')"></div>
+<div class="tile wide" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/codex/science-on-screen-complete/presentations/images/science%20on%20the%20screen/canopy-destroyed.jpg')"></div>
 </div>
 <div class="copy">
 <h1>Why do I need a basement?</h1>
@@ -299,10 +283,10 @@ Reference: https://www.huduser.gov/Publications/PDF/FPSFguide.pdf
 <p>The simple idea: put almost all of the insulation outside the structure.</p>
 <p><em>The harder problem: keeping it on the property.</em></p>
 </div>
-<div class="media tiles tiles-3">
-<div class="tile" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/codex/science-on-screen-complete/presentations/images/science%20on%20the%20screen/exterior%20insulation.jpg')"></div>
-<div class="tile" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/codex/science-on-screen-complete/presentations/images/science%20on%20the%20screen/foam-wind-1.jpg')"></div>
-<div class="tile" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/codex/science-on-screen-complete/presentations/images/science%20on%20the%20screen/foam-wind-3.jpg')"></div>
+<div class="media photo-grid">
+<div class="tile wide" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/codex/science-on-screen-complete/presentations/images/science%20on%20the%20screen/exterior%20insulation.jpg')"></div>
+<div class="tile wide" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/codex/science-on-screen-complete/presentations/images/science%20on%20the%20screen/foam-wind-1.jpg')"></div>
+<div class="tile wide" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/codex/science-on-screen-complete/presentations/images/science%20on%20the%20screen/foam-wind-3.jpg')"></div>
 </div>
 </div>
 
@@ -316,10 +300,10 @@ Wind-cidents #2, #3, and #4: strong gusts lifted the 4-by-8-foot panels and toss
 ---
 
 <div class="split">
-<div class="media tiles tiles-3">
-<div class="tile" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/codex/science-on-screen-complete/presentations/images/science%20on%20the%20screen/interior-wood.jpg')"></div>
-<div class="tile" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/codex/science-on-screen-complete/presentations/images/science%20on%20the%20screen/exterior-wood-house-today.jpg')"></div>
-<div class="tile" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/codex/science-on-screen-complete/presentations/images/science%20on%20the%20screen/wood-fiber-insulation.jpg')"></div>
+<div class="media photo-grid">
+<div class="tile wide" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/codex/science-on-screen-complete/presentations/images/science%20on%20the%20screen/interior-wood.jpg')"></div>
+<div class="tile wide" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/codex/science-on-screen-complete/presentations/images/science%20on%20the%20screen/exterior-wood-house-today.jpg')"></div>
+<div class="tile wide" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/codex/science-on-screen-complete/presentations/images/science%20on%20the%20screen/wood-fiber-insulation.jpg')"></div>
 </div>
 <div class="copy">
 <h1>I love wood. Outside and inside.</h1>
