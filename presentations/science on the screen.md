@@ -88,7 +88,10 @@ The first designs were more than six years ago. Let the renderings show the drea
 Cost, comfort, sustainability, efficiency, simplicity.
 “One person, very low cost, high performance” were deliberate constraints. They forced me to question the usual choices and ask what was truly necessary.
 Housing faces cost and labor pressures; this is my attempt to find better answers by starting from first principles.
-Carbon negative and producing more energy than the house uses are goals being tested, not measured outcomes yet. The carbon goal includes the whole lifetime of the house.
+I used BEAM (Building Emissions Accounting for Materials) to estimate initial embodied carbon from the building materials. This is a material-production estimate, not a lifetime carbon assessment.
+Solar generation, all-electric operation, and low energy demand are intended to improve the operational carbon picture over time. That expectation is separate from the BEAM estimate.
+Producing more energy than the house uses remains a goal until production and consumption can be compared.
+BEAM methodology: https://www.buildersforclimateaction.org/beam-estimator.html
 -->
 
 ---
