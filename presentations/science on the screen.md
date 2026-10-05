@@ -130,6 +130,125 @@ body { background:#111; }
   grid-row:2;
 }
 
+.reveal .systems-graphic {
+  position:relative;
+  width:100%;
+  height:600px;
+  box-sizing:border-box;
+}
+.reveal .center-box {
+  position:absolute;
+  left:50%;
+  top:50%;
+  transform:translate(-50%,-50%);
+  width:220px;
+  height:220px;
+  border:2px solid #d8b38a;
+  border-radius:14px;
+  background:#151515;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+}
+.reveal .center-title {
+  color:#f1eee7;
+  font-size:34px;
+  font-weight:700;
+  line-height:1.05;
+  letter-spacing:0.02em;
+}
+.reveal .center-subtitle {
+  color:#d8b38a;
+  font-size:20px;
+  margin-top:8px;
+}
+.reveal .system-node {
+  position:absolute;
+  width:180px;
+  text-align:center;
+}
+.reveal .system-node .symbol {
+  color:#d66a3a;
+  font-size:34px;
+  line-height:1;
+  margin-bottom:8px;
+}
+.reveal .system-node .label {
+  color:#f1eee7;
+  font-size:20px;
+  font-weight:600;
+  line-height:1.15;
+}
+.reveal .system-node .sub {
+  color:#d8b38a;
+  font-size:16px;
+  margin-top:4px;
+  line-height:1.2;
+}
+.reveal .node-top {
+  left:50%;
+  top:24px;
+  transform:translateX(-50%);
+}
+.reveal .node-left {
+  left:8px;
+  top:205px;
+}
+.reveal .node-right {
+  right:8px;
+  top:205px;
+}
+.reveal .node-bottom-left {
+  left:40px;
+  bottom:28px;
+}
+.reveal .node-bottom-right {
+  right:40px;
+  bottom:28px;
+}
+.reveal .connector {
+  position:absolute;
+  background:#8f7a66;
+  opacity:0.9;
+}
+.reveal .connector.top {
+  left:50%;
+  top:112px;
+  transform:translateX(-50%);
+  width:2px;
+  height:86px;
+}
+.reveal .connector.left {
+  left:180px;
+  top:300px;
+  width:150px;
+  height:2px;
+}
+.reveal .connector.right {
+  right:180px;
+  top:300px;
+  width:150px;
+  height:2px;
+}
+.reveal .connector.bottom-left {
+  left:250px;
+  bottom:158px;
+  width:110px;
+  height:2px;
+  transform:rotate(28deg);
+  transform-origin:left center;
+}
+.reveal .connector.bottom-right {
+  right:250px;
+  bottom:158px;
+  width:110px;
+  height:2px;
+  transform:rotate(-28deg);
+  transform-origin:right center;
+}
+
 .reveal .stat-panel {
   display:flex;
   flex-direction:column;
@@ -335,7 +454,48 @@ BEAM methodology: https://www.buildersforclimateaction.org/beam-estimator.html
 </ol>
 </div>
 <div class="media">
-<div class="tile" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/codex/science-on-screen-complete/presentations/images/science%20on%20the%20screen/exterior-wood-house-today.jpg')"></div>
+<div class="systems-graphic">
+  <div class="center-box">
+    <div class="center-title">HOME</div>
+    <div class="center-subtitle">as a system</div>
+  </div>
+
+  <div class="connector top"></div>
+  <div class="connector left"></div>
+  <div class="connector right"></div>
+  <div class="connector bottom-left"></div>
+  <div class="connector bottom-right"></div>
+
+  <div class="system-node node-top">
+    <div class="symbol">☀</div>
+    <div class="label">Solar walls</div>
+    <div class="sub">energy</div>
+  </div>
+
+  <div class="system-node node-left">
+    <div class="symbol">↔</div>
+    <div class="label">Controlled ventilation</div>
+    <div class="sub">air</div>
+  </div>
+
+  <div class="system-node node-right">
+    <div class="symbol">▣</div>
+    <div class="label">No drywall</div>
+    <div class="sub">removable interior</div>
+  </div>
+
+  <div class="system-node node-bottom-left">
+    <div class="symbol">≋</div>
+    <div class="label">Exterior insulation</div>
+    <div class="sub">thermal boundary</div>
+  </div>
+
+  <div class="system-node node-bottom-right">
+    <div class="symbol">▁</div>
+    <div class="label">Foundation</div>
+    <div class="sub">ground / frost protection</div>
+  </div>
+</div>
 </div>
 </div>
 
