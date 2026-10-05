@@ -87,6 +87,20 @@
       651.51,
       515.07,
       407.21
+    ],
+    "roof_jan_mar_zero": [
+      0.0,
+      0.0,
+      0.0,
+      1396.52,
+      1686.95,
+      1677.59,
+      1814.42,
+      1573.39,
+      1160.21,
+      731.1,
+      456.33,
+      301.92
     ]
   },
   "annual_kwh": {
@@ -94,7 +108,8 @@
     "east": 2719.81,
     "south": 3717.12,
     "west": 2670.89,
-    "walls": 9107.82
+    "walls": 9107.82,
+    "roof_jan_mar_zero": 10798.43
   },
   "june_average_kw": {
     "roof": [
@@ -1558,5 +1573,13 @@
   },
   "roof_tilt_degrees": 2.5,
   "roof_orientation": "west",
-  "roof_pvgis_aspect_degrees": 90
+  "roof_pvgis_aspect_degrees": 90,
+  "roof_snow_scenario": {
+    "zero_production_months": [
+      1,
+      2,
+      3
+    ],
+    "description": "Assume zero roof generation in January\u2013March due to snow cover; not measured or produced by PVGIS. Wall snow-reflection benefit is not quantified."
+  }
 }

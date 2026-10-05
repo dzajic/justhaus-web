@@ -24,18 +24,21 @@ Saved PVcalc response metadata, inputs, monthly outputs and the hourly request U
 ## Results and interpretation
 
 - Roof: 13,038.72 kWh/year, about 13.0 MWh.
+- Snow-covered roof scenario: set January–March roof output to zero, removing 2,240.30 kWh and leaving 10,798.43 kWh/year, about 10.8 MWh. This is an explicit assumption, not a PVGIS snow estimate or measured roof production.
 - Walls combined: 9,107.82 kWh/year, about 9.1 MWh, 30.1% less than the roof reference.
+- Under the January–March zero-roof assumption, the walls produce 15.7% less energy over the year. The wall model produces 2,106.84 kWh in January–March, when the assumed roof produces zero.
 - South wall: 3,717.12 kWh/year; east: 2,719.81; west: 2,670.89.
 - Winter (December–February) share of annual output: roof 11.0%; walls 18.2%. December–February totals are 1,438.61 kWh for the roof and 1,661.46 kWh for the walls. Walls produce more in November, December and January, even without modeled snow losses.
 - East/west panels redistribute output through the day; the combined wall array has a much lower midday peak in the June average.
-- Daniel reports that the wall panels briefly reached about 110% of rated power during a bright, snowy winter period. That is an observed peak, separate from this model and from seasonal energy yield. Snow reflection and cold operating temperatures could contribute; no attribution has been quantified. He expects that prolonged snow cover could leave the nearly flat roof producing little or nothing for as long as 2–3 months, but roof snow duration and output have not been measured or modeled here.
+- Daniel reports that snow reflection boosts the wall array; during a bright, snowy winter period it briefly reached about 110% of rated power. That is an observed peak, separate from this model and from seasonal energy yield. The seasonal energy boost has not been quantified. The zero-roof scenario represents his concern that prolonged snow cover could stop production for roughly three months.
+- The wall panels also replace some exterior cladding and its painting or maintenance. Placing them on the walls avoids putting this array's weight and mounts on the roof. Those material and construction benefits are not included in the energy comparison.
 - These figures do not establish usable energy or summer surplus; those depend on household consumption, storage and export arrangements. Daniel's stated goal is to avoid concentrating more production in summer than he can use.
 
 [DOE discussion of vertical PV and winter weather](https://www.energy.gov/cmei/femp/solar-photovoltaic-hardening-resilience-winter-weather) supports the separate discussion of low-angle winter sun and snow shedding. Actual snow losses have not been assigned numerical values here.
 
 ## Files and regeneration
 
-- `solar-monthly.csv`: monthly energy, roof and each wall plus the wall total, in kWh.
+- `solar-monthly.csv`: monthly energy, roof baseline and snow scenario, each wall and the wall total, in kWh.
 - `solar-daily-june.csv`: average June 2015 hourly power in kW, local summer clock time.
 - `solar-model.json`: model metadata and saved source results.
 - `../../scripts/render-solar-comparison.py`: optional chart-generation script; requires Matplotlib. It does not add runtime dependencies to the website.

@@ -203,22 +203,22 @@ Indoor conditions have been very stable: around 55% relative humidity and 70–7
 
 # Solar all year, no repainting
 
-## Less annually. More in midwinter.
+## Winter is when I need the power.
 
-<img class="solar-chart" src="https://raw.githubusercontent.com/dzajic/justhaus-web/codex/science-on-screen-complete/presentations/images/science%20on%20the%20screen/solar-comparison.png" alt="Modeled roof versus wall solar production: nearly flat west-tilted roof 13.0 MWh a year and walls 9.1 MWh; monthly and average June-day curves show lower wall yield and a lower midday peak. Snow and site shading are excluded.">
+<img class="solar-chart" src="https://raw.githubusercontent.com/dzajic/justhaus-web/codex/science-on-screen-complete/presentations/images/science%20on%20the%20screen/solar-comparison.png" alt="Solar comparison at a 45-degree-north reference point. A nearly flat roof makes 13.0 MWh annually without snow; assuming zero roof output in January through March reduces it to 10.8 MWh. Vertical east, south, and west walls make 9.1 MWh annually, with 2.1 MWh in January through March and a broader, lower summer daily peak. Snow reflection on the walls is not quantified.">
 
-*Observed: snow-bright winter sun briefly pushed my walls to 110% of rated power.*
+*Snow reflection boosts output: my walls have reached 110% of rated power.*
 
-*And it’s also my siding.*
+*Also siding: less cladding and painting, with no solar weight or mounts on the roof.*
 
 <!-- NOTES:
 “I’m optimizing when the electricity arrives, as well as how much I get—and the panels are also my siding.”
 Roof: assumed 32 × 415 W panels, 13.28 kW, nearly flat, tilted 2.5° toward west, at the agreed 45°N reference.
 Walls: 11 × 415 W panels per vertical east, south and west wall; 33 panels and 13.695 kW total.
-PVGIS estimates about 13.0 MWh/year for the roof and 9.1 MWh/year for the walls, about 30% less. The plot uses a 45°N reference point, not a site-specific forecast.
+PVGIS estimates about 13.0 MWh/year for the roof without snow losses and 9.1 MWh/year for the walls, about 30% less. If the roof produces nothing January–March because of snow, it falls to 10.8 MWh/year and the gap shrinks to about 16%. The walls make 2.1 MWh in those months. Roof zero is an assumed scenario, not an observed or PVGIS result. The plot uses a 45°N reference point, not a site-specific forecast.
 The daily view averages June 2015 weather; the annual view uses monthly averages for 2005–2015. Both are modeled, not measured.
 Without snow coverage modeled, December–February accounts for 11.0% of roof output and 18.2% of wall output. The walls produce about 1.66 MWh over those three months versus 1.44 MWh for the roof, and exceed roof production in November, December and January. The wall array also has a much lower midday peak.
-“A huge summer surplus isn’t useful to me. On a bright winter occasion, I saw the wall panels briefly reach about 110% of their rated power; reflection from snow appears to have helped. That is an instantaneous power observation, not an annual energy yield. A nearly flat roof could produce little or nothing while it remains snow-covered, potentially for 2–3 months at this site. That duration is a concern, not measured roof production or a result of this model. And the wall panels are also my siding.” Actual household demand, snow coverage, tree shading and export or storage have not been modeled; the curve does not quantify usable energy or snow benefits.
+“A huge summer surplus isn’t useful to me. Snow reflection is real: on a bright winter occasion it boosted the wall panels to about 110% of rated power. That is an instantaneous power observation, not an annual energy yield. The modeled 16% annual gap under a snow-covered roof could narrow further with this winter boost, but I don’t yet have seasonal measurements to say by how much. And the wall panels replace cladding and painting while keeping their weight and mounts off the roof.” Actual household demand, tree shading and export or storage have not been modeled; the curve does not quantify annual energy from snow reflection.
 Producing more energy than the house uses remains a goal until production and consumption can be compared.
 Model source: https://joint-research-centre.ec.europa.eu/photovoltaic-geographical-information-system-pvgis/using-pvgis-5/api-non-interactive-service_en
 Winter context: https://www.energy.gov/cmei/femp/solar-photovoltaic-hardening-resilience-winter-weather

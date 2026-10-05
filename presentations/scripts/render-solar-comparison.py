@@ -17,6 +17,7 @@ BG = "#111111"
 TEXT = "#f1eee7"
 MUTED = "#aaaaaa"
 ROOF = "#d66a3a"
+ROOF_BASE = "#ad806c"
 WALLS = "#d8b38a"
 
 
@@ -33,7 +34,9 @@ def format_axis(ax):
 
 def monthly(ax, model):
     x = list(range(1, 13))
-    for name, color in [("roof", ROOF), ("walls", WALLS)]:
+    baseline = [v / 1000 for v in model["monthly_kwh"]["roof"]]
+    ax.plot(x, baseline, color=ROOF_BASE, lw=2, linestyle="--", alpha=0.9)
+    for name, color in [("roof_jan_mar_zero", ROOF), ("walls", WALLS)]:
         y = [v / 1000 for v in model["monthly_kwh"][name]]
         ax.plot(x, y, color=color, lw=3.2, marker="o", markersize=4)
     ax.set_title("Across the year", loc="left", color=TEXT, fontsize=22, pad=20)
@@ -61,15 +64,20 @@ def daily(ax, model):
     format_axis(ax)
 
 
-def legend(fig, model, size=15):
+def legend(fig, model, size=14, include_scenario=True):
     values = model["annual_kwh"]
+    handles = [Line2D([0], [0], color=ROOF_BASE, lw=2, linestyle="--")]
+    labels = [f"Roof, no snow · {values['roof'] / 1000:.1f} MWh"]
+    if include_scenario:
+        handles.append(Line2D([0], [0], color=ROOF, lw=4))
+        labels.append(f"Roof, Jan–Mar zero · {values['roof_jan_mar_zero'] / 1000:.1f} MWh")
+    handles.append(Line2D([0], [0], color=WALLS, lw=4))
+    labels.append(f"Walls · {values['walls'] / 1000:.1f} MWh")
     fig.legend(
-        [Line2D([0], [0], color=ROOF, lw=4), Line2D([0], [0], color=WALLS, lw=4)],
-        [f"Roof · {values['roof'] / 1000:.1f} MWh/year",
-         f"Walls · {values['walls'] / 1000:.1f} MWh/year"],
-        loc="upper center", bbox_to_anchor=(0.51, 0.985), ncol=2,
+        handles, labels,
+        loc="upper center", bbox_to_anchor=(0.51, 0.985), ncol=len(handles),
         frameon=False, labelcolor=TEXT, fontsize=size,
-        handlelength=2, columnspacing=2.5,
+        handlelength=1.7, columnspacing=1.5,
     )
 
 
@@ -81,7 +89,7 @@ def render(model):
     monthly(axes[0], model)
     daily(axes[1], model)
     legend(fig, model)
-    fig.text(0.5, 0.06, "MODELED · 45°N reference · Snow and site shading excluded",
+    fig.text(0.5, 0.06, "45°N model · Jan–Mar roof zero assumed · Wall snow reflection unquantified",
              ha="center", color=MUTED, fontsize=13)
     for ext in ["png", "svg"]:
         path = OUT / f"solar-comparison.{ext}"
@@ -95,8 +103,13 @@ def render(model):
         fig, ax = plt.subplots(figsize=(10, 6), facecolor=BG)
         fig.subplots_adjust(left=0.13, right=0.96, bottom=0.23, top=0.77)
         function(ax, model)
-        legend(fig, model, size=16)
-        fig.text(0.5, 0.045, "MODELED · PVGIS 5.2 · Snow and site shading excluded",
+        legend(fig, model, size=13, include_scenario=(name == "solar-seasonal"))
+        footnote = (
+            "45°N model · Jan–Mar roof zero assumed"
+            if name == "solar-seasonal"
+            else "June day model · Snow reflection and cover not included"
+        )
+        fig.text(0.5, 0.045, footnote,
                  ha="center", color=MUTED, fontsize=13)
         fig.savefig(OUT / f"{name}.png", dpi=180, facecolor=BG)
         plt.close(fig)
