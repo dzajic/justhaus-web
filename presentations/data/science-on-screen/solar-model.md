@@ -5,6 +5,7 @@ These are reference model estimates, not measured house production or a site-spe
 ## Configurations
 
 - Roof: assumed 32 panels × 415 W = 13.28 kW; nearly flat, tilted 2.5° toward west (PVGIS aspect +90°).
+- The API requests specify `angle=2.5`; PVGIS response metadata reports slope as the integer `2`. Treat this as an approximately 2–2.5° roof estimate rather than precision to a tenth of a degree.
 - Walls: 11 panels × 415 W = 4.565 kW on each of the vertical east, south and west walls; 13.695 kW total.
 - Crystalline silicon; ventilated/free-standing thermal model; 14% common system-loss assumption.
 - No terrain horizon, nearby trees, buildings, panel snow coverage, battery, inverter clipping, household demand, curtailment or export-value model. PVGIS PVcalc/seriescalc are simplified production estimates, not a detailed inverter design.
