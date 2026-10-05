@@ -84,7 +84,10 @@ def render(model):
     fig.text(0.5, 0.06, "MODELED · 45°N reference · Snow and site shading excluded",
              ha="center", color=MUTED, fontsize=13)
     for ext in ["png", "svg"]:
-        fig.savefig(OUT / f"solar-comparison.{ext}", dpi=180, facecolor=BG)
+        path = OUT / f"solar-comparison.{ext}"
+        fig.savefig(path, dpi=180, facecolor=BG)
+        if ext == "svg":
+            path.write_text("\n".join(line.rstrip() for line in path.read_text().splitlines()) + "\n")
     plt.close(fig)
 
     # Standalone charts are easier to read when reviewing each idea separately.
