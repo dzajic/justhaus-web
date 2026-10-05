@@ -32,7 +32,7 @@ body { background:#111; }
 .reveal .design-image { display:block; max-width:100%; max-height:32vh; margin:0.5em auto 0; }
 .reveal .insulation-image { display:block; max-width:100%; max-height:25vh; margin:0 auto 0.4em; }
 .reveal .wind-grid img { height:18vh; }
-.reveal .solar-chart { display:block; width:100%; max-height:44vh; object-fit:contain; margin:0 auto; }
+.reveal .solar-chart { display:block; width:100%; max-height:54vh; object-fit:contain; margin:0 auto; }
 .reveal .current-image { display:block; max-width:100%; max-height:50vh; margin:0 auto; }
 </style>
 
@@ -205,7 +205,7 @@ Indoor conditions have been very stable: around 55% relative humidity and 70–7
 
 ## Winter is when I need the power.
 
-<img class="solar-chart" src="https://raw.githubusercontent.com/dzajic/justhaus-web/codex/science-on-screen-complete/presentations/images/science%20on%20the%20screen/solar-comparison.png" alt="Solar comparison at a 45-degree-north reference point. A nearly flat roof makes 13.0 MWh annually without snow; assuming zero roof output in January through March reduces it to 10.8 MWh. Vertical east, south, and west walls make 9.1 MWh annually, with 2.1 MWh in January through March and a broader, lower summer daily peak. Snow reflection on the walls is not quantified.">
+<img class="solar-chart" src="https://raw.githubusercontent.com/dzajic/justhaus-web/codex/science-on-screen-complete/presentations/images/science%20on%20the%20screen/solar-seasonal.png" alt="Annual solar comparison by month at a 45-degree-north reference point. The nearly flat roof makes 13.0 MWh without snow. With roof output assumed to be zero in January through March, it makes 10.8 MWh; the wall panels make 9.1 MWh, including 2.1 MWh in those three months.">
 
 *Snow reflection boosts output: my walls have reached 110% of rated power.*
 
@@ -216,8 +216,8 @@ Indoor conditions have been very stable: around 55% relative humidity and 70–7
 Roof: assumed 32 × 415 W panels, 13.28 kW, nearly flat, tilted 2.5° toward west, at the agreed 45°N reference.
 Walls: 11 × 415 W panels per vertical east, south and west wall; 33 panels and 13.695 kW total.
 PVGIS estimates about 13.0 MWh/year for the roof without snow losses and 9.1 MWh/year for the walls, about 30% less. If the roof produces nothing January–March because of snow, it falls to 10.8 MWh/year and the gap shrinks to about 16%. The walls make 2.1 MWh in those months. Roof zero is an assumed scenario, not an observed or PVGIS result. The plot uses a 45°N reference point, not a site-specific forecast.
-The daily view averages June 2015 weather; the annual view uses monthly averages for 2005–2015. Both are modeled, not measured.
-Without snow coverage modeled, December–February accounts for 11.0% of roof output and 18.2% of wall output. The walls produce about 1.66 MWh over those three months versus 1.44 MWh for the roof, and exceed roof production in November, December and January. The wall array also has a much lower midday peak.
+The annual curve uses monthly averages for 2005–2015 from the 45°N PVGIS reference model; it is modeled, not measured.
+Without snow coverage modeled, December–February accounts for 11.0% of baseline roof output and 18.2% of wall output. The walls produce about 1.66 MWh over those three months versus 1.44 MWh for the baseline roof, and exceed roof production in November, December and January.
 “A huge summer surplus isn’t useful to me. Snow reflection is real: on a bright winter occasion it boosted the wall panels to about 110% of rated power. That is an instantaneous power observation, not an annual energy yield. The modeled 16% annual gap under a snow-covered roof could narrow further with this winter boost, but I don’t yet have seasonal measurements to say by how much. And the wall panels replace cladding and painting while keeping their weight and mounts off the roof.” Actual household demand, tree shading and export or storage have not been modeled; the curve does not quantify annual energy from snow reflection.
 Producing more energy than the house uses remains a goal until production and consumption can be compared.
 Model source: https://joint-research-centre.ec.europa.eu/photovoltaic-geographical-information-system-pvgis/using-pvgis-5/api-non-interactive-service_en
