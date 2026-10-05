@@ -28,6 +28,7 @@ Saved PVcalc response metadata, inputs, monthly outputs and the hourly request U
 - South wall: 3,717.12 kWh/year; east: 2,719.81; west: 2,670.89.
 - Winter (December–February) share of annual output: roof 11.0%; walls 18.2%. December–February totals are 1,438.61 kWh for the roof and 1,661.46 kWh for the walls. Walls produce more in November, December and January, even without modeled snow losses.
 - East/west panels redistribute output through the day; the combined wall array has a much lower midday peak in the June average.
+- Daniel reports that the wall panels briefly reached about 110% of rated power during a bright, snowy winter period. That is an observed peak, separate from this model and from seasonal energy yield. Snow reflection and cold operating temperatures could contribute; no attribution has been quantified. He expects that prolonged snow cover could leave the nearly flat roof producing little or nothing for as long as 2–3 months, but roof snow duration and output have not been measured or modeled here.
 - These figures do not establish usable energy or summer surplus; those depend on household consumption, storage and export arrangements. Daniel's stated goal is to avoid concentrating more production in summer than he can use.
 
 [DOE discussion of vertical PV and winter weather](https://www.energy.gov/cmei/femp/solar-photovoltaic-hardening-resilience-winter-weather) supports the separate discussion of low-angle winter sun and snow shedding. Actual snow losses have not been assigned numerical values here.
