@@ -97,6 +97,7 @@ body { background:#111; }
 .reveal .photo-grid {
   display:grid;
   grid-template-columns:1fr 1fr;
+  grid-auto-rows:175px;
   gap:10px;
   align-content:center;
   height:600px;
@@ -153,6 +154,18 @@ body { background:#111; }
   margin-top:10px;
 }
 
+.reveal .title-split {
+  display:grid;
+  grid-template-columns:0.9fr 1.35fr;
+  gap:24px;
+  width:100%;
+  height:600px;
+  align-items:stretch;
+}
+.reveal .title-split > .title-copy,
+.reveal .title-split > .title-photo-grid {
+  min-width:0;
+}
 .reveal .title-photo-grid {
   display:grid;
   grid-template-columns:1fr;
@@ -165,6 +178,8 @@ body { background:#111; }
 .reveal .title-photo-grid .tile {
   width:100%;
   height:100%;
+  background-size:cover;
+  background-position:center center;
 }
 .reveal .title-copy {
   display:flex;
@@ -172,7 +187,7 @@ body { background:#111; }
   justify-content:center;
   height:600px;
   box-sizing:border-box;
-  padding:0 18px;
+  padding:0 8px 0 18px;
 }
 .reveal .title-copy h1 {
   font-size:58px;
@@ -201,7 +216,7 @@ body { background:#111; }
 .reveal .closing li { font-size:24px; margin-bottom:14px; }
 </style>
 
-<div class="split">
+<div class="title-split">
 <div class="title-copy">
 <h1>What Could Possibly Go Wrong?</h1>
 <h2>Building a dream, one experiment at a time.</h2>
