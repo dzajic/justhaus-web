@@ -12,7 +12,9 @@ body { background:#111; }
 .reveal .slides { text-align:left; }
 .reveal h1,.reveal h2,.reveal h3 { text-transform:none; letter-spacing:-0.02em; font-weight:700; }
 .reveal h1 { color:#d66a3a; font-size:2.05em; }
-.reveal h2 { color:#d8b38a; }
+.reveal h2 { color:#d8b38a; font-size:1.25em; }
+.reveal p,.reveal li { font-size:0.75em; }
+.reveal li { margin-bottom:0.25em; }
 .reveal strong { color:#d66a3a; }
 .reveal em { color:#d8b38a; }
 .reveal a { color:#d66a3a; }
@@ -24,348 +26,188 @@ body { background:#111; }
 .reveal .visual-placeholder strong { display:block; margin-bottom:0.2em; color:#d8b38a; font-size:0.75em; letter-spacing:0.08em; text-transform:uppercase; }
 </style>
 
-<!-- Visual-first deck. Replace every IMAGE/GRAPH PLACEHOLDER with a real visual. Speaker notes are prompts, not a script. -->
+<!-- Eleven slides, roughly 1–2 minutes each. Visual placeholders are visible; speaker notes remain hidden. -->
 
 # What Could Possibly Go Wrong?
 
-## A dream I couldn’t let go of - and the risks and rewards of chasing it
+## Building a dream, one experiment at a time.
 
-<div class="visual-placeholder"><strong>Image placeholder</strong>Photos of ripping apart houses.</div>
+**Science on Screen — The Martian**
+
+Daniel Zajic
+
 <!-- NOTES:
-Since I was a child, I've been taking things apart (ok, sometimes because I broke them) and tried to make them better.
-This is about science, experimentation, and learning from failure.
+Text-only title slide.
+“Since I was a child, I’ve been taking things apart—sometimes because I broke them—and trying to make them better.”
+A multi-year solo project: an ideal, deliberate constraints, and learning through real problems.
+The Martian connection: use what you have, test ideas, solve the next problem.
 -->
 
 ---
 
-# The Dream - A Custom House
-## (to be built in 6 months)
+# The Dream
 
-<!-- TODO: the finished property - "the dream" -->
-<div class="visual-placeholder"><strong>Image placeholder</strong>Architectural plan of finished house.</div>
+## Four architects. Then me.
+
+<div class="visual-placeholder"><strong>Images placeholder</strong>The four architectural concepts, followed by Daniel’s own design.</div>
+
 <!-- NOTES:
-"How hard can this be? One person should be able to do this much more quickly if they just keep it simple."
+“I paid four separate architects to develop concepts. Eventually, I realized I had to design it myself—and that turned into doing everything myself.”
+Twenty years of renovations made me want to start from scratch: comfort, accessible infrastructure, and fewer problems handed to the next person.
+The original ambition: a custom house built in six months. “How hard can this be? One person should be able to do this much more quickly if they just keep it simple.”
+Let the renderings show the dream.
 -->
 
 ---
 
-<!-- Should this come near the end? -->
-# The Reality - A Prototype In Progress 
+# The Challenge
 
-## (2+ years in)
+## Could one person build a high-performance house at very low cost?
 
-<!-- TODO: the finished property - "the dream" -->
-<div class="visual-placeholder"><strong>Image placeholder</strong>Photos of current status.</div>
+**One builder · Low cost · High performance**
+
+*Goal: a carbon-negative home that produces more energy than it uses.*
+
 <!-- NOTES:
-"I'm not going to finish this for years."
+Cost, comfort, sustainability, efficiency, simplicity.
+“One person, very low cost, high performance” were deliberate constraints. They forced me to question the usual choices and ask what was truly necessary.
+Housing faces cost and labor pressures; this is my attempt to find better answers by starting from first principles.
+Carbon negative and producing more energy than the house uses are goals being tested, not measured outcomes yet. The carbon goal includes the whole lifetime of the house.
 -->
 
 ---
 
-<!-- TODO: Not sure we need this slide -->
-# A hero’s journey
+# Five experiments
 
-## But with more foam insulation
+1. Foundation
+2. Exterior insulation
+3. No drywall
+4. Controlled ventilation
+5. Solar panel walls
 
-<div class="visual-placeholder"><strong>Image placeholder</strong>Best early rendering / idealized design image.</div>
 <!-- NOTES:
-Set up dream vs reality.
-The house is the experiment; The Martian is the mirror.
+A quick roadmap so the audience knows what is coming.
+For each experiment: the question, the choice, and what I have observed or still need to test.
 -->
 
 ---
 
-# The How
+# Why do I need a basement?
 
-## Build a better house from first principles
+## Frost-protected shallow foundation
 
-<div class="visual-placeholder"><strong>Image placeholder</strong>Perfect wall concept</div>
+*Protect against frost with insulation.*
+
+<div class="visual-placeholder"><strong>Images placeholder</strong>Shallow foundation and foam insulation, plus the shade canopy destroyed by wind.</div>
+
 <!-- NOTES:
-Question assumptions. Separate layers. Iterate.
-Not recreating an old house; building honestly for this climate and this life.
+Basements are expensive, difficult to keep dry and warm, hard to build alone, and use a lot of concrete with an upfront carbon cost.
+“A basement made all four of my goals harder. So I questioned whether I needed one at all.”
+Strategically placed insulation keeps the supporting soil from freezing, allowing a shallower foundation.
+Wind-cident #1: my shade canopy was destroyed in about two days.
+“A bad omen. It gets worse…”
+Reference: https://www.huduser.gov/Publications/PDF/FPSFguide.pdf
 -->
 
 ---
 
-# Do I Need A Basement?
+# I built a Yeti cooler
 
-<!-- TODO: Show and tell - Frost protected foundations. Why do I need a basement? -->
+## 7 inches of exterior foam
 
----
+**6″ EPS + 1″ polyiso · About R-33**
 
-# The Reality
+<div class="visual-placeholder"><strong>Images placeholder</strong>Wall insulation detail, then photos of scattered foam from the three gust incidents.</div>
 
-## How did those foam panels *wind* up like that?
-
-<div class="visual-placeholder"><strong>Image placeholder</strong>Foam scattered across the site. MUST HAVE.</div>
 <!-- NOTES:
-Not once. Not twice. Three times.
-Pause for laugh.
+“I was wrapping the whole house in a cooler. But first, I had to keep the insulation on the property.”
+Six inches at R-4.5 per inch plus one inch at R-6 gives about R-33 for the foam layers, rather than a whole-wall rating.
+Wind-cidents #2, #3, and #4: strong gusts lifted the 4-by-8-foot panels and tossed them around the site.
+“It got worse.” Pause. “Then the roof panels blew off.” Wind-cident #5. No roof photos; deliver that reveal aloud.
 -->
 
 ---
 
-# Safety Comes First
+# I love wood. Outside and inside.
 
-## The only bad failures are catastrophic ones
+## Removable. Repairable. Useful.
 
-<div class="visual-placeholder"><strong>Image placeholder</strong>Safe temporary bracing / PPE / careful setup / reversible experiment.</div>
+**Local pine · Wood fiber insulation from Maine · Domestic lumber**
+
+<div class="visual-placeholder"><strong>Images placeholder</strong>Warm interior wood panels, doors, flooring or ceiling; exterior wood cladding; a detail of the wood fiber insulation under the roof.</div>
+
 <!-- NOTES:
-Embracing failure is not recklessness.
-Make mistakes survivable, reversible, affordable.
-“You can’t make it to prototype 5,127 if prototype 12 kills you.”
+Wood cladding, interior panels, doors, flooring, ceilings, and wood fiber insulation under the roof.
+Wood stores carbon while it remains in the building. Local sourcing, durability, repair, and reuse matter to the lifetime impact.
+All the pine is local, the insulation is from Maine, and the lumber is domestic. Birch plywood is imported; its origin is unconfirmed.
+One brief renovation memory: plaster embedded in metal lath, wallpaper removal, or dust that never stays contained.
+“Why build something new that must be destroyed to change it?” Removable panels give access to infrastructure and reduce future demolition.
+“I don’t want to make the next person’s job harder. The next person could be me.”
 -->
 
 ---
 
-# Experiment 1
+# Fresh air without wasting heat
 
-## A house should feel like a good winter coat
+## Controlled ventilation with an ERV
 
-<div class="visual-placeholder"><strong>Image placeholder</strong>Exterior insulation / Zip / thick wall assembly.</div>
+**Spring–fall: around 55% humidity · 70–75°F indoors**
+
+<div class="visual-placeholder"><strong>Graph placeholder</strong>Actual indoor temperature and relative humidity sensor history from spring, summer, and fall. Use separate labeled scales or panels; winter data is not available yet.</div>
+
 <!-- NOTES:
-North Country hook: drafts, cold floors, heating bills.
-Insulation = parka. Airtightness = zipper and cuffs.
+An ERV exchanges indoor and outdoor air while recovering some heat and moisture from the outgoing air, reducing the conditioning load.
+These readings describe observed indoor conditions; they do not isolate the ERV’s contribution.
+“These are the indoor conditions I’ve tracked so far. Winter is the next test.”
 -->
 
 ---
 
-# Comfort is science
+# Solar all year, no repainting
 
-| North Country problem | Answer |
-|---|---|
-| Drafts | Airtight layer |
-| Cold walls | Exterior insulation |
-| Stale air | ERV ventilation |
-| Heating bills | Reduce demand first |
+## What do I give up—and what do I gain?
 
-<div class="visual-placeholder"><strong>Image placeholder</strong>Optional wall assembly photo.</div>
+**Roof: 32 panels · 13.28 kW**
+
+**Walls: 33 panels · 13.695 kW**
+
+<div class="visual-placeholder"><strong>Graph placeholder — modeled production</strong>Monthly production and annual totals: 32 optimally oriented roof panels versus 33 vertical east/south/west wall panels. Label as modeled. Optional solar-wall design alongside.</div>
+
 <!-- NOTES:
-Don’t go deep on R-values.
-Everyone here knows what a bad winter house feels like.
+Compare what fits on the roof with what fits on the walls.
+Roof: assumed 32 panels, 13.28 kW, ideal south-facing fixed orientation for 45° north.
+Walls: 11 panels per wall, 4.565 kW each; vertical east, south, and west; 33 panels and 13.695 kW total.
+Monthly and annual results still need to be modeled. Use the model’s annual optimum tilt for the roof benchmark and label the results as modeled. Document location, weather data, losses, and shading assumptions with the graph.
+Optimize the whole wall: electricity plus an exterior surface that does not need repainting.
+Producing more energy than the house uses remains a goal until production and consumption can be compared.
 -->
 
 ---
 
-# Fresh air, on purpose
+# Another beginning!
 
-## Not through random holes
+<div class="visual-placeholder"><strong>Image placeholder</strong>Current exterior photo of the house. Use this to show the project as it stands today.</div>
 
-<div class="visual-placeholder"><strong>Image placeholder</strong>ERV / ductwork / simple CO₂ graph.</div>
 <!-- NOTES:
-Tight does not mean stale.
-ERV gives fresh air without drafts, bugs, humidity, heat, or cold.
+Show the outside: a prototype still in progress, two-plus years in, with more work ahead.
+Talk about the decision to build a separate garage.
+“Then I decided to build a separate garage. That’s what I’m working on now. Another beginning!”
+Pause for the laugh.
 -->
 
 ---
 
-# Experiment 2
+# What I’ve learned
 
-## Why I hate drywall
-
-<div class="visual-placeholder"><strong>Image placeholder</strong>Lath/plaster dust, old renovation mess, exposed wall.</div>
-<!-- NOTES:
-Years of old-house renovation.
-Why build something new that must be destroyed to change it?
--->
-
----
-
-# Wood is magic
-
-## Removable. Repairable. Beautiful.
-
-<div class="visual-placeholder"><strong>Image placeholder</strong>Best warm wood interior / panel / shiplap photo.</div>
-<!-- NOTES:
-Not just hating drywall — loving the alternative.
-“I want the next person renovating my house not to hate me.”
--->
-
----
-
-# Separate the layers
-
-| Layer | Job | Goal |
-|---|---|---|
-| Structure | Hold it up | Durable |
-| Envelope | Control heat/air/water | Continuous |
-| Systems | Power/air/plumbing | Accessible |
-| Finish | What you see/touch | Replaceable |
-
-<div class="visual-placeholder"><strong>Image placeholder</strong>Exposed systems / removable panel detail.</div>
-<!-- NOTES:
-Software-engineering mindset applied to construction.
-Don’t bury everything forever.
--->
-
----
-
-# Experiment 3
-
-## The sun destroys everything
-
-### Why not put it to work?
-
-<div class="visual-placeholder"><strong>Image placeholder</strong>Solar facade / vertical PV / facade mockup.</div>
-<!-- NOTES:
-Sun fades paint, cooks siding, punishes buildings.
-Solar panels are glass and aluminum designed for decades outside.
--->
-
----
-
-# I’m not optimizing a solar panel
-
-## I’m optimizing the whole wall
-
-<div class="visual-placeholder"><strong>Image placeholder</strong>Panel beside wood cladding / facade grid / closeup.</div>
-<!-- NOTES:
-Traditional: maximize watts per panel.
-Systems thinking: panel can also be cladding, weather protection, low-maintenance exterior.
--->
-
----
-
-# Rethinking solar
-
-<div class="visual-placeholder"><strong>Graph placeholder</strong>Simple comparison of ideal tilt/roof production vs vertical east/south/west walls.</div>
-
-## Inefficient can still be useful
+- Take risks—never with safety.
+- Fake it till you make it.
+- If you aren’t failing, you aren’t making progress.
+- Remember why you started: to have fun.
 
 <!-- NOTES:
-One of the few technical graphs worth keeping.
-Audience should understand it in five seconds.
--->
-
----
-
-# Eliminating aisles at Home Depot
-
-| Instead of improving... | What if we avoid it? |
-|---|---|
-| Exterior paint | Solar glass + durable wood |
-| Drywall repair | Removable panels |
-| Draft fixes | Airtight envelope |
-
-<div class="visual-placeholder"><strong>Image placeholder</strong>Optional Home Depot aisle or materials photo.</div>
-<!-- NOTES:
-Technology’s power is sometimes eliminating entire categories of recurring work.
-The best maintenance is maintenance you design out.
--->
-
----
-
-# And then my roof blew off
-
-<div class="visual-placeholder"><strong>Image placeholder</strong>Roof damage / tarp / rainy repair scene / photo from that day.</div>
-<!-- NOTES:
-Day before leaving for weeks.
-Near-freezing rain.
-Miserable and lucky.
--->
-
----
-
-# Sometimes the worst day
-
-## is the day you got lucky
-
-<div class="visual-placeholder"><strong>Image placeholder</strong>Roof secured after repair / calmer aftermath photo.</div>
-<!-- NOTES:
-If it happened 24 hours later, you’d have been gone.
-When years of work are at risk, you find reserves you didn’t know you had.
--->
-
----
-
-# AI has been my Mission Control
-
-<div class="visual-placeholder"><strong>Image placeholder</strong>AI planning / calculations / sketches / screenshot collage with no tiny unreadable text.</div>
-<!-- NOTES:
-AI has been crucial.
-Just-in-time learning, challenging assumptions, exploring options.
-But AI does not choose the mission.
--->
-
----
-
-# The world’s knowledge is useful
-
-## when you have a problem in front of you
-
-<div class="visual-placeholder"><strong>Image placeholder</strong>Split visual: physical problem + notes/calculations/tools.</div>
-<!-- NOTES:
-Don’t drink from the fire hose.
-Purpose directs curiosity.
-That’s when learning becomes fun and sticky.
--->
-
----
-
-# My very successful business
-
-## Customers: 0
-## Fun: Immeasurable
-
-<div class="visual-placeholder"><strong>Image placeholder</strong>Just Haus logo / website / merch.</div>
-<!-- NOTES:
-It created clarity, motivation, identity, and joy.
-You get to define what game you’re playing.
--->
-
----
-
-# The game outside the game
-
-## If it stops being fun, change the rules
-
-<div class="visual-placeholder"><strong>Image placeholder</strong>Funny build photo / equipment / weird experiment / “bigger toys.”</div>
-<!-- NOTES:
-Growing up with less money taught me to make my own fun.
-A good game is just out of reach but reachable.
-If it feels unreachable, change the rules.
--->
-
----
-
-# Still under construction
-
-<div class="visual-placeholder"><strong>Image placeholder</strong>Honest current photo showing beauty and incompleteness together.</div>
-<!-- NOTES:
-Not polished. Not finished.
-Progress is almost invisible while you’re living inside it.
--->
-
----
-
-# The problems are not interruptions
-
-## They are the story
-
-<div class="visual-placeholder"><strong>Image placeholder</strong>Most evocative messy-but-beautiful project image.</div>
-<!-- NOTES:
-A movie where everything goes right would be boring.
-Connect directly back to The Martian.
--->
-
----
-
-# I love the movie of my life
-
-## And I can’t wait to see what happens next.
-
-<div class="visual-placeholder"><strong>Image placeholder</strong>Final wide shot — house in woods, sunset, snow, or quiet unfinished beauty. Optional tiny foam callback.</div>
-<!-- NOTES:
-Final line. Stop talking after it.
--->
-
----
-
-# Questions?
-
-## Also accepting foam-control advice
-
-<div class="visual-placeholder"><strong>Image placeholder</strong>Foam photo reprise or simple black slide.</div>
-<!-- NOTES:
-Likely questions: solar facade, ERV, AI, removable panels, biggest failure, what’s next.
+Return to the promise of the talk: “What if a home could give back more than it takes? And if that’s within reach, why aren’t we already building this way?”
+“I’m still testing how close I can get. But questioning the usual way of building has already opened up possibilities.”
+Take risks, but never with safety. Be willing to begin before feeling like an expert and learn by doing. Let recoverable failures teach you.
+Remember the dream and the fun that got this started.
+Close: “What could possibly go wrong?” Then take questions.
 -->
