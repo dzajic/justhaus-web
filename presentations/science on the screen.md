@@ -155,30 +155,60 @@ body { background:#111; }
 }
 
 .reveal .title-split {
-  display:grid;
-  grid-template-columns:0.9fr 1.35fr;
-  gap:24px;
+  display:flex;
   width:100%;
   height:600px;
+  gap:24px;
   align-items:stretch;
 }
-.reveal .title-split > .title-copy,
-.reveal .title-split > .title-photo-grid {
-  min-width:0;
+.reveal .title-split .title-copy {
+  flex:0 0 42%;
 }
-.reveal .title-photo-grid {
-  display:grid;
-  grid-template-columns:1fr;
-  grid-template-rows:1fr 1fr;
-  gap:12px;
+.reveal .title-split .title-photo-stack {
+  flex:1 1 auto;
+}
+.reveal .title-photo-stack {
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  gap:10px;
+  height:600px;
+  box-sizing:border-box;
+}
+.reveal .title-photo-stack .tile {
+  width:100%;
+  height:295px;
+  flex:0 0 295px;
+  background-size:cover;
+  background-position:center center;
+}
+
+.reveal .architect-stack {
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  gap:10px;
   height:600px;
   width:100%;
   box-sizing:border-box;
 }
-.reveal .title-photo-grid .tile {
+.reveal .architect-row {
+  display:flex;
+  gap:10px;
   width:100%;
-  height:100%;
-  background-size:cover;
+  height:185px;
+}
+.reveal .architect-row .tile {
+  flex:1 1 0;
+  height:185px;
+  background-size:contain;
+  background-position:center center;
+}
+.reveal .architect-stack .design-wide {
+  width:100%;
+  height:185px;
+  flex:0 0 185px;
+  background-size:contain;
   background-position:center center;
 }
 .reveal .title-copy {
@@ -223,7 +253,7 @@ body { background:#111; }
 <p><strong>Science on Screen — The Martian</strong></p>
 <p>Daniel Zajic</p>
 </div>
-<div class="media title-photo-grid">
+<div class="title-photo-stack">
 <div class="tile" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/codex/science-on-screen-complete/presentations/images/science%20on%20the%20screen/foam-animal-damage.jpg')"></div>
 <div class="tile" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/codex/science-on-screen-complete/presentations/images/science%20on%20the%20screen/foam-blown-around.jpg')"></div>
 </div>
@@ -246,12 +276,16 @@ The Martian connection: use what you have, test ideas, solve the next problem.
 <p>After years of renovating old houses, I wanted to start from scratch.</p>
 <p><strong>Comfort. Simplicity. Accessibility. Fewer inherited problems.</strong></p>
 </div>
-<div class="media photo-grid">
+<div class="media architect-stack">
+<div class="architect-row">
 <div class="tile" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/codex/science-on-screen-complete/presentations/images/science%20on%20the%20screen/architect-concept-1.jpeg')"></div>
 <div class="tile" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/codex/science-on-screen-complete/presentations/images/science%20on%20the%20screen/architect-concept-2.jpeg')"></div>
+</div>
+<div class="architect-row">
 <div class="tile" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/codex/science-on-screen-complete/presentations/images/science%20on%20the%20screen/architect-concept-3.jpeg')"></div>
 <div class="tile" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/codex/science-on-screen-complete/presentations/images/science%20on%20the%20screen/architect-concept-4.jpeg')"></div>
-<div class="tile wide" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/codex/science-on-screen-complete/presentations/images/science%20on%20the%20screen/my-design.jpg')"></div>
+</div>
+<div class="tile design-wide" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/codex/science-on-screen-complete/presentations/images/science%20on%20the%20screen/my-design.jpg')"></div>
 </div>
 </div>
 
