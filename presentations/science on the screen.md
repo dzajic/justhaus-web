@@ -78,61 +78,69 @@ body { background:#111; }
 
 .reveal .media {
   height:600px;
+  box-sizing:border-box;
   overflow:hidden;
   border-radius:10px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
 }
 .reveal .media > img {
   display:block;
-  width:100%;
-  height:600px;
-  max-width:none;
-  max-height:none;
-  object-fit:cover;
+  max-width:100%;
+  max-height:600px;
+  width:auto;
+  height:auto;
+  object-fit:contain;
+  margin:0;
+  pointer-events:none;
 }
 .reveal .media.contain > img {
-  object-fit:contain;
-  background:#111;
+  max-width:100%;
+  max-height:560px;
 }
 
-/* Photo collages stay entirely inside the visual half. */
-.reveal .media-grid {
+/* Multiple images: always visible, fitted inside the half-slide, vertically centered. */
+.reveal .tiles {
   display:grid;
-  grid-template-columns:1fr 1fr;
-  grid-template-rows:1fr 1fr;
-  gap:8px;
-  width:100%;
+  align-content:center;
+  justify-content:center;
+  gap:10px;
   height:600px;
+  width:100%;
+  box-sizing:border-box;
 }
-.reveal .media-grid img {
+.reveal .tiles img {
   display:block;
   width:100%;
   height:100%;
-  max-width:none;
-  max-height:none;
-  object-fit:cover;
-  border-radius:7px;
+  max-width:100%;
+  max-height:100%;
+  object-fit:contain;
+  margin:0;
+  pointer-events:none;
+  border-radius:6px;
 }
-.reveal .media-stack {
-  display:grid;
-  grid-template-rows:365px 227px;
-  gap:8px;
-  width:100%;
-  height:600px;
+.reveal .tiles-3 {
+  grid-template-columns:1fr 1fr;
+  grid-template-rows:260px 260px;
 }
-.reveal .media-stack > img {
-  display:block;
-  width:100%;
-  height:227px;
-  max-width:none;
-  max-height:none;
-  object-fit:cover;
-  border-radius:7px;
-}
-.reveal .media-stack > .media-grid {
-  height:365px;
-}
-.reveal .three-grid img:first-child {
+.reveal .tiles-3 img:first-child {
   grid-row:1 / span 2;
+}
+.reveal .tiles-4 {
+  grid-template-columns:1fr 1fr;
+  grid-template-rows:260px 260px;
+}
+.reveal .tiles-5 {
+  grid-template-columns:1fr 1fr;
+  grid-template-rows:170px 170px 170px;
+}
+.reveal .tiles-5 img:last-child {
+  grid-column:1 / span 2;
+  justify-self:center;
+  width:auto;
+  max-width:100%;
 }
 
 .reveal .stat-panel {
@@ -199,13 +207,11 @@ The Martian connection: use what you have, test ideas, solve the next problem.
 <p>After years of renovating old houses, I wanted to start from scratch.</p>
 <p><strong>Comfort. Simplicity. Accessibility. Fewer inherited problems.</strong></p>
 </div>
-<div class="media media-stack">
-<div class="media-grid">
+<div class="media tiles tiles-5">
 <img src="https://raw.githubusercontent.com/dzajic/justhaus-web/codex/science-on-screen-complete/presentations/images/science%20on%20the%20screen/architect-concept-1.png" alt="Architectural concept 1">
 <img src="https://raw.githubusercontent.com/dzajic/justhaus-web/codex/science-on-screen-complete/presentations/images/science%20on%20the%20screen/architect-concept-2.png" alt="Architectural concept 2">
 <img src="https://raw.githubusercontent.com/dzajic/justhaus-web/codex/science-on-screen-complete/presentations/images/science%20on%20the%20screen/architect-concept-3.png" alt="Architectural concept 3">
 <img src="https://raw.githubusercontent.com/dzajic/justhaus-web/codex/science-on-screen-complete/presentations/images/science%20on%20the%20screen/architect-concept-4.png" alt="Architectural concept 4">
-</div>
 <img src="https://raw.githubusercontent.com/dzajic/justhaus-web/codex/science-on-screen-complete/presentations/images/science%20on%20the%20screen/my-design.jpg" alt="Daniel’s house design">
 </div>
 </div>
@@ -268,12 +274,10 @@ For each experiment: the question, the choice, and what I have observed or still
 ---
 
 <div class="split">
-<div class="media">
-<div class="media-grid three-grid">
+<div class="media tiles tiles-3">
 <img src="https://raw.githubusercontent.com/dzajic/justhaus-web/codex/science-on-screen-complete/presentations/images/science%20on%20the%20screen/foundation-footings.jpg" alt="Foundation layout">
 <img src="https://raw.githubusercontent.com/dzajic/justhaus-web/codex/science-on-screen-complete/presentations/images/science%20on%20the%20screen/foundation-icf-blocks.jpg" alt="ICF foundation">
 <img src="https://raw.githubusercontent.com/dzajic/justhaus-web/codex/science-on-screen-complete/presentations/images/science%20on%20the%20screen/canopy-destroyed.jpg" alt="Collapsed shade canopy">
-</div>
 </div>
 <div class="copy">
 <h1>Why do I need a basement?</h1>
@@ -302,12 +306,10 @@ Reference: https://www.huduser.gov/Publications/PDF/FPSFguide.pdf
 <p>The simple idea: put almost all of the insulation outside the structure.</p>
 <p><em>The harder problem: keeping it on the property.</em></p>
 </div>
-<div class="media">
-<div class="media-grid three-grid">
+<div class="media tiles tiles-3">
 <img src="https://raw.githubusercontent.com/dzajic/justhaus-web/codex/science-on-screen-complete/presentations/images/science%20on%20the%20screen/exterior%20insulation.jpg" alt="Exterior foam insulation">
 <img src="https://raw.githubusercontent.com/dzajic/justhaus-web/codex/science-on-screen-complete/presentations/images/science%20on%20the%20screen/foam-wind-1.jpg" alt="Foam scattered by wind">
 <img src="https://raw.githubusercontent.com/dzajic/justhaus-web/codex/science-on-screen-complete/presentations/images/science%20on%20the%20screen/foam-wind-3.jpg" alt="Foam scattered by wind">
-</div>
 </div>
 </div>
 
@@ -321,12 +323,10 @@ Wind-cidents #2, #3, and #4: strong gusts lifted the 4-by-8-foot panels and toss
 ---
 
 <div class="split">
-<div class="media">
-<div class="media-grid three-grid">
+<div class="media tiles tiles-3">
 <img src="https://raw.githubusercontent.com/dzajic/justhaus-web/codex/science-on-screen-complete/presentations/images/science%20on%20the%20screen/interior-wood.jpg" alt="Wood interior">
 <img src="https://raw.githubusercontent.com/dzajic/justhaus-web/codex/science-on-screen-complete/presentations/images/science%20on%20the%20screen/exterior-wood-house-today.jpg" alt="Wood exterior">
 <img src="https://raw.githubusercontent.com/dzajic/justhaus-web/codex/science-on-screen-complete/presentations/images/science%20on%20the%20screen/wood-fiber-insulation.jpg" alt="Wood fiber insulation">
-</div>
 </div>
 <div class="copy">
 <h1>I love wood. Outside and inside.</h1>
