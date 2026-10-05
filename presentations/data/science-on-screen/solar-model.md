@@ -4,7 +4,7 @@ These are reference model estimates, not measured house production or a site-spe
 
 ## Configurations
 
-- Roof: assumed 32 panels × 415 W = 13.28 kW; south-facing; PVGIS annual-optimum fixed tilt of 38°.
+- Roof: assumed 32 panels × 415 W = 13.28 kW; nearly flat, tilted 2.5° toward west (PVGIS aspect +90°).
 - Walls: 11 panels × 415 W = 4.565 kW on each of the vertical east, south and west walls; 13.695 kW total.
 - Crystalline silicon; ventilated/free-standing thermal model; 14% common system-loss assumption.
 - No terrain horizon, nearby trees, buildings, panel snow coverage, battery, inverter clipping, household demand, curtailment or export-value model. PVGIS PVcalc/seriescalc are simplified production estimates, not a detailed inverter design.
@@ -22,10 +22,10 @@ Saved PVcalc response metadata, inputs, monthly outputs and the hourly request U
 
 ## Results and interpretation
 
-- Roof: 15,528.96 kWh/year, about 15.5 MWh.
-- Walls combined: 9,107.82 kWh/year, about 9.1 MWh, 41.3% less than the roof reference.
+- Roof: 13,038.72 kWh/year, about 13.0 MWh.
+- Walls combined: 9,107.82 kWh/year, about 9.1 MWh, 30.1% less than the roof reference.
 - South wall: 3,717.12 kWh/year; east: 2,719.81; west: 2,670.89.
-- Winter (December–February) share of annual output: roof 17.4%; walls 18.2%. Without modeled snow losses, this is a modest seasonal redistribution, not a dramatic increase in winter production. Wall production is lower in every month in this reference case.
+- Winter (December–February) share of annual output: roof 11.0%; walls 18.2%. December–February totals are 1,438.61 kWh for the roof and 1,661.46 kWh for the walls. Walls produce more in November, December and January, even without modeled snow losses.
 - East/west panels redistribute output through the day; the combined wall array has a much lower midday peak in the June average.
 - These figures do not establish usable energy or summer surplus; those depend on household consumption, storage and export arrangements. Daniel's stated goal is to avoid concentrating more production in summer than he can use.
 

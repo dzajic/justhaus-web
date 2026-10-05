@@ -205,17 +205,17 @@ Indoor conditions have been very stable: around 55% relative humidity and 70–7
 
 ## Less overall. Spread across the day and seasons.
 
-<img class="solar-chart" src="https://raw.githubusercontent.com/dzajic/justhaus-web/codex/science-on-screen-complete/presentations/images/science%20on%20the%20screen/solar-comparison.png" alt="Modeled roof versus wall solar production: roof 15.5 MWh a year and walls 9.1 MWh; monthly and average June-day curves show lower wall yield and a lower midday peak. Snow and site shading are excluded.">
+<img class="solar-chart" src="https://raw.githubusercontent.com/dzajic/justhaus-web/codex/science-on-screen-complete/presentations/images/science%20on%20the%20screen/solar-comparison.png" alt="Modeled roof versus wall solar production: nearly flat west-tilted roof 13.0 MWh a year and walls 9.1 MWh; monthly and average June-day curves show lower wall yield and a lower midday peak. Snow and site shading are excluded.">
 
 *And it’s also my siding.*
 
 <!-- NOTES:
 “I’m optimizing when the electricity arrives, as well as how much I get—and the panels are also my siding.”
-Roof: assumed 32 × 415 W panels, 13.28 kW, south-facing at the modeled optimum fixed tilt of 38° for the agreed 45°N reference.
+Roof: assumed 32 × 415 W panels, 13.28 kW, nearly flat, tilted 2.5° toward west, at the agreed 45°N reference.
 Walls: 11 × 415 W panels per vertical east, south and west wall; 33 panels and 13.695 kW total.
-PVGIS estimates about 15.5 MWh/year for the roof and 9.1 MWh/year for the walls, about 41% less. The plot uses a 45°N reference point, not a site-specific forecast.
+PVGIS estimates about 13.0 MWh/year for the roof and 9.1 MWh/year for the walls, about 30% less. The plot uses a 45°N reference point, not a site-specific forecast.
 The daily view averages June 2015 weather; the annual view uses monthly averages for 2005–2015. Both are modeled, not measured.
-Without snow coverage modeled, seasonal redistribution is modest: December–February accounts for 17.4% of roof output and 18.2% of wall output. The model does not show more absolute wall output in winter. The daily change is more pronounced.
+Without snow coverage modeled, December–February accounts for 11.0% of roof output and 18.2% of wall output. The walls produce about 1.66 MWh over those three months versus 1.44 MWh for the roof, and exceed roof production in November, December and January. The wall array also has a much lower midday peak.
 “A huge summer surplus isn’t useful to me. In winter, roof panels can be covered in snow. And these panels are doing a second job: they’re my siding.” Actual household demand, snow coverage, tree shading and export or storage have not been modeled; the curve does not quantify usable energy or snow benefits.
 Producing more energy than the house uses remains a goal until production and consumption can be compared.
 Model source: https://joint-research-centre.ec.europa.eu/photovoltaic-geographical-information-system-pvgis/using-pvgis-5/api-non-interactive-service_en

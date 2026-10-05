@@ -10,7 +10,6 @@
   "daily_clock": "America/New_York (EDT, UTC-4 in June)",
   "latitude": 45,
   "longitude": -71.75,
-  "roof_optimal_tilt_degrees": 38,
   "system_loss_percent": 14,
   "mounting": "free-standing / ventilated",
   "site_shading_modeled": false,
@@ -20,18 +19,18 @@
   "wall_panels_per_orientation": 11,
   "monthly_kwh": {
     "roof": [
-      966.72,
-      1081.88,
-      1433.49,
-      1521.3,
-      1634.78,
-      1546.22,
-      1711.23,
-      1626.43,
-      1410.12,
-      1079.68,
-      859.16,
-      657.95
+      466.03,
+      670.66,
+      1103.61,
+      1396.52,
+      1686.95,
+      1677.59,
+      1814.42,
+      1573.39,
+      1160.21,
+      731.1,
+      456.33,
+      301.92
     ],
     "east": [
       122.48,
@@ -91,7 +90,7 @@
     ]
   },
   "annual_kwh": {
-    "roof": 15528.96,
+    "roof": 13038.72,
     "east": 2719.81,
     "south": 3717.12,
     "west": 2670.89,
@@ -105,21 +104,21 @@
       0.0,
       0.0,
       0.0,
-      0.17612366666666668,
-      0.6338946666666666,
-      2.095669,
-      3.5891366666666666,
-      4.772562333333334,
-      6.207661,
-      6.168647666666667,
-      7.121484,
-      6.709683666666666,
-      5.883384666666667,
-      5.290588,
-      3.252348,
-      1.61978,
-      0.40215,
-      0.09244233333333333,
+      0.3022086666666667,
+      1.2819136666666666,
+      2.596443333333333,
+      3.8544893333333334,
+      4.848422,
+      6.149220000000001,
+      6.134195666666667,
+      7.024522,
+      6.715155666666667,
+      6.059407333333334,
+      5.757672333333334,
+      3.9317433333333334,
+      2.6169656666666667,
+      1.273942,
+      0.18353,
       0.0,
       0.0,
       0.0
@@ -248,11 +247,11 @@
         "mounting_system": {
           "fixed": {
             "slope": {
-              "value": 38,
-              "optimal": true
+              "value": 2,
+              "optimal": false
             },
             "azimuth": {
-              "value": 0,
+              "value": 90,
               "optimal": false
             },
             "type": "free-standing"
@@ -274,116 +273,116 @@
           "fixed": [
             {
               "month": 1,
-              "E_d": 31.18,
-              "E_m": 966.72,
-              "H(i)_d": 2.62,
-              "H(i)_m": 81.18,
-              "SD_m": 174.7
+              "E_d": 15.03,
+              "E_m": 466.03,
+              "H(i)_d": 1.39,
+              "H(i)_m": 43.23,
+              "SD_m": 68.06
             },
             {
               "month": 2,
-              "E_d": 38.64,
-              "E_m": 1081.88,
-              "H(i)_d": 3.28,
-              "H(i)_m": 91.95,
-              "SD_m": 212.05
+              "E_d": 23.95,
+              "E_m": 670.66,
+              "H(i)_d": 2.12,
+              "H(i)_m": 59.47,
+              "SD_m": 109.8
             },
             {
               "month": 3,
-              "E_d": 46.24,
-              "E_m": 1433.49,
-              "H(i)_d": 4.09,
-              "H(i)_m": 126.81,
-              "SD_m": 187.3
+              "E_d": 35.6,
+              "E_m": 1103.61,
+              "H(i)_d": 3.17,
+              "H(i)_m": 98.35,
+              "SD_m": 115.1
             },
             {
               "month": 4,
-              "E_d": 50.71,
-              "E_m": 1521.3,
-              "H(i)_d": 4.69,
-              "H(i)_m": 140.72,
-              "SD_m": 161.07
+              "E_d": 46.55,
+              "E_m": 1396.52,
+              "H(i)_d": 4.28,
+              "H(i)_m": 128.51,
+              "SD_m": 134.05
             },
             {
               "month": 5,
-              "E_d": 52.73,
-              "E_m": 1634.78,
-              "H(i)_d": 5.05,
-              "H(i)_m": 156.57,
-              "SD_m": 161.04
+              "E_d": 54.42,
+              "E_m": 1686.95,
+              "H(i)_d": 5.17,
+              "H(i)_m": 160.29,
+              "SD_m": 152.81
             },
             {
               "month": 6,
-              "E_d": 51.54,
-              "E_m": 1546.22,
-              "H(i)_d": 5.05,
-              "H(i)_m": 151.48,
-              "SD_m": 138.54
+              "E_d": 55.92,
+              "E_m": 1677.59,
+              "H(i)_d": 5.43,
+              "H(i)_m": 163.04,
+              "SD_m": 144.53
             },
             {
               "month": 7,
-              "E_d": 55.2,
-              "E_m": 1711.23,
-              "H(i)_d": 5.46,
-              "H(i)_m": 169.38,
-              "SD_m": 174.33
+              "E_d": 58.53,
+              "E_m": 1814.42,
+              "H(i)_d": 5.75,
+              "H(i)_m": 178.15,
+              "SD_m": 182.65
             },
             {
               "month": 8,
-              "E_d": 52.47,
-              "E_m": 1626.43,
-              "H(i)_d": 5.16,
-              "H(i)_m": 159.89,
-              "SD_m": 75.13
+              "E_d": 50.75,
+              "E_m": 1573.39,
+              "H(i)_d": 4.96,
+              "H(i)_m": 153.78,
+              "SD_m": 63.7
             },
             {
               "month": 9,
-              "E_d": 47.0,
-              "E_m": 1410.12,
-              "H(i)_d": 4.55,
-              "H(i)_m": 136.6,
-              "SD_m": 218.13
+              "E_d": 38.67,
+              "E_m": 1160.21,
+              "H(i)_d": 3.74,
+              "H(i)_m": 112.27,
+              "SD_m": 160.64
             },
             {
               "month": 10,
-              "E_d": 34.83,
-              "E_m": 1079.68,
-              "H(i)_d": 3.25,
-              "H(i)_m": 100.78,
-              "SD_m": 134.32
+              "E_d": 23.58,
+              "E_m": 731.1,
+              "H(i)_d": 2.27,
+              "H(i)_m": 70.31,
+              "SD_m": 72.16
             },
             {
               "month": 11,
-              "E_d": 28.64,
-              "E_m": 859.16,
-              "H(i)_d": 2.57,
-              "H(i)_m": 77.25,
-              "SD_m": 168.94
+              "E_d": 15.21,
+              "E_m": 456.33,
+              "H(i)_d": 1.48,
+              "H(i)_m": 44.34,
+              "SD_m": 62.65
             },
             {
               "month": 12,
-              "E_d": 21.22,
-              "E_m": 657.95,
-              "H(i)_d": 1.84,
-              "H(i)_m": 57.12,
-              "SD_m": 85.75
+              "E_d": 9.74,
+              "E_m": 301.92,
+              "H(i)_d": 0.97,
+              "H(i)_m": 29.94,
+              "SD_m": 27.28
             }
           ]
         },
         "totals": {
           "fixed": {
-            "E_d": 42.55,
-            "E_m": 1294.08,
-            "E_y": 15528.96,
-            "H(i)_d": 3.97,
-            "H(i)_m": 120.81,
-            "H(i)_y": 1449.73,
-            "SD_m": 69.66,
-            "SD_y": 835.96,
-            "l_aoi": -2.95,
+            "E_d": 35.72,
+            "E_m": 1086.56,
+            "E_y": 13038.72,
+            "H(i)_d": 3.4,
+            "H(i)_m": 103.47,
+            "H(i)_y": 1241.67,
+            "SD_m": 44.58,
+            "SD_y": 534.9,
+            "l_aoi": -4.4,
             "l_spec": "?(0)",
-            "l_tg": -3.36,
-            "l_total": -19.34
+            "l_tg": -3.83,
+            "l_total": -20.93
           }
         }
       },
@@ -1552,9 +1551,12 @@
     }
   },
   "daily_source_urls": {
-    "roof": "https://re.jrc.ec.europa.eu/api/v5_2/seriescalc?lat=45&lon=-71.75&loss=14&raddatabase=PVGIS-NSRDB&usehorizon=0&mountingplace=free&pvtechchoice=crystSi&pvcalculation=1&startyear=2015&endyear=2015&outputformat=json&peakpower=13.28&angle=38&aspect=0",
+    "roof": "https://re.jrc.ec.europa.eu/api/v5_2/seriescalc?lat=45&lon=-71.75&peakpower=13.28&loss=14&raddatabase=PVGIS-NSRDB&usehorizon=0&mountingplace=free&pvtechchoice=crystSi&angle=2.5&aspect=90&outputformat=json&pvcalculation=1&startyear=2015&endyear=2015",
     "east": "https://re.jrc.ec.europa.eu/api/v5_2/seriescalc?lat=45&lon=-71.75&loss=14&raddatabase=PVGIS-NSRDB&usehorizon=0&mountingplace=free&pvtechchoice=crystSi&pvcalculation=1&startyear=2015&endyear=2015&outputformat=json&peakpower=4.565&angle=90&aspect=-90",
     "south": "https://re.jrc.ec.europa.eu/api/v5_2/seriescalc?lat=45&lon=-71.75&loss=14&raddatabase=PVGIS-NSRDB&usehorizon=0&mountingplace=free&pvtechchoice=crystSi&pvcalculation=1&startyear=2015&endyear=2015&outputformat=json&peakpower=4.565&angle=90&aspect=0",
     "west": "https://re.jrc.ec.europa.eu/api/v5_2/seriescalc?lat=45&lon=-71.75&loss=14&raddatabase=PVGIS-NSRDB&usehorizon=0&mountingplace=free&pvtechchoice=crystSi&pvcalculation=1&startyear=2015&endyear=2015&outputformat=json&peakpower=4.565&angle=90&aspect=90"
-  }
+  },
+  "roof_tilt_degrees": 2.5,
+  "roof_orientation": "west",
+  "roof_pvgis_aspect_degrees": 90
 }
