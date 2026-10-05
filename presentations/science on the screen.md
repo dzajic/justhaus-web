@@ -28,18 +28,41 @@ body { background:#111; }
 
 # What Could Possibly Go Wrong?
 
-## Lessons from building a house without knowing how
+## A dream I couldn’t let go of - and the risks and rewards of chasing it
 
-**Science on Screen — The Martian**
-
-<div class="visual-placeholder"><strong>Image placeholder</strong>Dramatic wide photo of the unfinished house/build site. Prefer full-bleed.</div>
+<div class="visual-placeholder"><strong>Image placeholder</strong>Photos of ripping apart houses.</div>
 <!-- NOTES:
-Open: “I’m a software engineer who decided to build a house. What could possibly go wrong?”
-This is about science, experimentation, failure, humor, and finding joy in the process.
+Since I was a child, I've been taking things apart (ok, sometimes because I broke them) and tried to make them better.
+This is about science, experimentation, and learning from failure.
 -->
 
 ---
 
+# The Dream - A Custom House
+## (to be built in 6 months)
+
+<!-- TODO: the finished property - "the dream" -->
+<div class="visual-placeholder"><strong>Image placeholder</strong>Architectural plan of finished house.</div>
+<!-- NOTES:
+"How hard can this be? One person should be able to do this much more quickly if they just keep it simple."
+-->
+
+---
+
+<!-- Should this come near the end? -->
+# The Reality - A Prototype In Progress 
+
+## (2+ years in)
+
+<!-- TODO: the finished property - "the dream" -->
+<div class="visual-placeholder"><strong>Image placeholder</strong>Photos of current status.</div>
+<!-- NOTES:
+"I'm not going to finish this for years."
+-->
+
+---
+
+<!-- TODO: Not sure we need this slide -->
 # A hero’s journey
 
 ## But with more foam insulation
@@ -52,15 +75,21 @@ The house is the experiment; The Martian is the mirror.
 
 ---
 
-# The Plan
+# The How
 
 ## Build a better house from first principles
 
-<div class="visual-placeholder"><strong>Image placeholder</strong>Clean design sketch, rendering, or calm progress photo.</div>
+<div class="visual-placeholder"><strong>Image placeholder</strong>Perfect wall concept</div>
 <!-- NOTES:
 Question assumptions. Separate layers. Iterate.
 Not recreating an old house; building honestly for this climate and this life.
 -->
+
+---
+
+# Do I Need A Basement?
+
+<!-- TODO: Show and tell - Frost protected foundations. Why do I need a basement? -->
 
 ---
 
@@ -76,19 +105,7 @@ Pause for laugh.
 
 ---
 
-# Progress is messy
-
-## YouTube usually edits this part out
-
-<div class="visual-placeholder"><strong>Image placeholder</strong>Chaotic jobsite / tools / mud / half-finished construction.</div>
-<!-- NOTES:
-Real work is not the highlight reel.
-The mess is where learning happens.
--->
-
----
-
-# Fail safely
+# Safety Comes First
 
 ## The only bad failures are catastrophic ones
 
