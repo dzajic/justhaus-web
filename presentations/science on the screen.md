@@ -541,9 +541,9 @@ One brief renovation memory: plaster embedded in metal lath, wallpaper removal, 
 
 <div class="split">
 <div class="copy">
-<h1>Fresh air without wasting heat</h1>
-<h2>Controlled ventilation with an ERV</h2>
-<p>Fresh air becomes a building system instead of an accident.</p>
+<h1>24/7 fresh air with no downsides</h1>
+<h2>Energy Recovery Ventilators (ERV)</h2>
+<p>A super tight envelope allows for better control, efficiency.</p>
 <p><strong>Stable indoor conditions so far.</strong></p>
 </div>
 <div class="stat-panel">
