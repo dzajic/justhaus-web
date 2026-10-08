@@ -607,9 +607,9 @@ Pause for the laugh.
 <div class="closing">
 <h1>What I’ve learned</h1>
 <ul>
-<li>Take risks—never with safety.</li>
-<li>If you aren’t failing, you aren’t making progress.</li>
-<li>Remember why you started: to have fun.</li>
+<li>Doing anything different is hard, very hard.</li>
+<li>Mistakes are frustrating but essential for progress.</li>
+<li>Have fun and keep going. That's what really matters.</li>
 </ul>
 </div>
 
