@@ -522,9 +522,9 @@ Wind-cidents #2, #3, and #4: strong gusts lifted the 4-by-8-foot panels and toss
 </div>
 <div class="copy">
 <h1>I love wood. Outside and inside.</h1>
-<h2>Removable. Repairable. Useful.</h2>
+<h2>Removable. Repairable. Beautiful. </h2>
 <p><strong>Local pine · Wood fiber insulation from Maine · Domestic lumber</strong></p>
-<p>Why build a wall that has to be destroyed just to change what is inside it?</p>
+<p>Why build a wall that has to be destroyed just to see what is behind it?</p>
 </div>
 </div>
 
