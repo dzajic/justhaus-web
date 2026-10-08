@@ -567,9 +567,9 @@ Indoor conditions have been very stable: around 55% relative humidity and 70–7
 <div class="tile" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/codex/science-on-screen-complete/presentations/images/science%20on%20the%20screen/solar-seasonal.png')"></div>
 </div>
 <div class="copy">
-<h1>Solar all year, no repainting</h1>
-<h2>Winter is when I need the power.</h2>
-<p><strong>The walls make less energy annually — but much more when a snowy roof makes none.</strong></p>
+<h1>Solar panels - but vertical</h1>
+<h2>Optimize for winter production, dual purpose</h2>
+<p><strong>Makes less energy annually — but a snow covered roof makes none.</strong></p>
 <p>They are siding too.</p>
 <p><em>My vertical panels have briefly reached 110% of rated output from snow reflection.</em></p>
 </div>
