@@ -1,5 +1,5 @@
 ---
-title: What Could Possibly Go Wrong?
+title: Science the House Out of It
 slideOptions:
   theme: black
   transition: fade
@@ -367,7 +367,7 @@ body { background:#111; }
 
 <div class="title-split">
 <div class="title-copy">
-<h1>What Could Possibly Go Wrong?</h1>
+<h1>Science the House Out of It</h1>
 <h2>Building a dream, one experiment at a time.</h2>
 <p><strong>Science on Screen — The Martian</strong></p>
 <p>Daniel Zajic</p>
@@ -378,13 +378,13 @@ body { background:#111; }
 </div>
 </div>
 
-<!-- NOTES:
+<aside class="notes">
 Text-only title slide.
 Opening: “I could easily spend an hour on any one of these topics. Tonight is a quick overview: what I’m building, why I’m doing it, and how it’s going.”
 “Since I was a child, I’ve been taking things apart—sometimes because I broke them—and trying to make them better.”
 A multi-year solo project: an ideal, deliberate constraints, and learning through real problems.
 The Martian connection: use what you have, test ideas, solve the next problem.
--->
+</aside>
 
 ---
 
@@ -408,12 +408,12 @@ The Martian connection: use what you have, test ideas, solve the next problem.
 </div>
 </div>
 
-<!-- NOTES:
+<aside class="notes">
 “I paid four separate architects to develop concepts. Eventually, I realized I had to design it myself—and that turned into doing everything myself.”
 Twenty years of renovations made me want to start from scratch: comfort, accessible infrastructure, and fewer problems handed to the next person.
 The original ambition: a custom house built in six months. “How hard can this be? One person should be able to do this much more quickly if they just keep it simple.”
 The first designs were more than six years ago. Let the renderings show the dream.
--->
+</aside>
 
 ---
 
@@ -429,7 +429,7 @@ The first designs were more than six years ago. Let the renderings show the drea
 </div>
 </div>
 
-<!-- NOTES:
+<aside class="notes">
 Cost, comfort, sustainability, efficiency, simplicity.
 “One person, very low cost, high performance” were deliberate constraints. They forced me to question the usual choices and ask what was truly necessary.
 Housing faces cost and labor pressures; this is my attempt to find better answers by starting from first principles.
@@ -438,7 +438,7 @@ Solar generation, all-electric operation, and low energy demand are intended to 
 Producing more energy than the house uses remains a goal until production and consumption can be compared.
 The negative BEAM scenario refers to the planned wood-fiber exterior insulation. It was not ready in time for this house; I may use it on the garage. Do not present that scenario as the result for the foam-insulated house as built.
 BEAM methodology: https://www.buildersforclimateaction.org/beam-estimator.html
--->
+</aside>
 
 ---
 
@@ -458,10 +458,10 @@ BEAM methodology: https://www.buildersforclimateaction.org/beam-estimator.html
 </div>
 </div>
 
-<!-- NOTES:
+<aside class="notes">
 A quick roadmap so the audience knows what is coming.
 For each experiment: the question, the choice, and what I have observed or still need to test.
--->
+</aside>
 
 ---
 
@@ -479,14 +479,14 @@ For each experiment: the question, the choice, and what I have observed or still
 </div>
 </div>
 
-<!-- NOTES:
+<aside class="notes">
 Basements are expensive, difficult to keep dry and warm, hard to build alone, and use a lot of concrete with an upfront carbon cost.
 “A basement made all four of my goals harder. So I questioned whether I needed one at all.”
 Strategically placed insulation keeps the supporting soil from freezing, allowing a shallower foundation.
 Wind-cident #1: my shade canopy was destroyed in about two days.
 “A bad omen. It gets worse…”
 Reference: https://www.huduser.gov/Publications/PDF/FPSFguide.pdf
--->
+</aside>
 
 ---
 
@@ -505,12 +505,12 @@ Reference: https://www.huduser.gov/Publications/PDF/FPSFguide.pdf
 </div>
 </div>
 
-<!-- NOTES:
+<aside class="notes">
 “I was wrapping the whole house in a cooler. But first, I had to keep the insulation on the property.”
 Six inches at R-4.5 per inch plus one inch at R-6 gives about R-33 for the foam layers, rather than a whole-wall rating.
 Wind-cidents #2, #3, and #4: strong gusts lifted the 4-by-8-foot panels and tossed them around the site.
 “It got worse.” Pause. “Then the roof panels blew off.” Wind-cident #5. No roof photos; deliver that reveal aloud.
--->
+</aside>
 
 ---
 
@@ -528,14 +528,14 @@ Wind-cidents #2, #3, and #4: strong gusts lifted the 4-by-8-foot panels and toss
 </div>
 </div>
 
-<!-- NOTES:
+<aside class="notes">
 Wood cladding, interior panels, doors, flooring, ceilings, and wood fiber insulation under the roof.
 Wood stores carbon while it remains in the building. Local sourcing, durability, repair, and reuse matter to the lifetime impact.
 All the pine is local, the insulation is from Maine, and the lumber is domestic. Birch plywood is imported; its origin is unconfirmed.
 One brief renovation memory: plaster embedded in metal lath, wallpaper removal, or dust that never stays contained.
 “Why build something new that must be destroyed to change it?” Removable panels give access to infrastructure and reduce future demolition.
 “I don’t want to make the next person’s job harder. The next person could be me.”
--->
+</aside>
 
 ---
 
@@ -554,11 +554,11 @@ One brief renovation memory: plaster embedded in metal lath, wallpaper removal, 
 </div>
 </div>
 
-<!-- NOTES:
+<aside class="notes">
 An ERV exchanges indoor and outdoor air while recovering some heat and moisture from the outgoing air, reducing the conditioning load.
 Indoor conditions have been very stable: around 55% relative humidity and 70–75°F during spring, summer, and fall. These observations do not isolate the ERV’s contribution.
 “These are the indoor conditions I’ve tracked so far. Winter is the next test.”
--->
+</aside>
 
 ---
 
@@ -575,9 +575,9 @@ Indoor conditions have been very stable: around 55% relative humidity and 70–7
 </div>
 </div>
 
-<!-- NOTES:
+<aside class="notes">
 PVGIS estimates 13 MWh/year for the roof and 9.1 for the walls. If snow leaves the roof at zero January–March, the roof estimate drops to 10.8; the walls produce 2.1 in those months. Snow reflection has briefly pushed the wall array to 110% of rated power, though that peak doesn’t tell us the seasonal energy gain. Under the snow scenario, the annual gap is about 16%, before counting that boost. The panels are siding too: less cladding and painting, with their weight and mounts off the roof. I want power when I need it.
--->
+</aside>
 
 ---
 
@@ -595,12 +595,12 @@ PVGIS estimates 13 MWh/year for the roof and 9.1 for the walls. If snow leaves t
 </div>
 </div>
 
-<!-- NOTES:
+<aside class="notes">
 Show the outside: a prototype still in progress, two-plus years in, with more work ahead.
 Talk about the decision to build a separate garage.
 “Then I decided to build a separate garage. That’s what I’m working on now. Another beginning!”
 Pause for the laugh.
--->
+</aside>
 
 ---
 
@@ -613,10 +613,10 @@ Pause for the laugh.
 </ul>
 </div>
 
-<!-- NOTES:
+<aside class="notes">
 Return to the promise of the talk: “What if a home could give back more than it takes? And if that’s within reach, why aren’t we already building this way?”
 “I’m still testing how close I can get. But questioning the usual way of building has already opened up possibilities.”
 Take risks, but never with safety. Be willing to begin before feeling like an expert and learn by doing. Let recoverable failures teach you.
 Remember the dream and the fun that got this started.
 Close: “What could possibly go wrong?” Then take questions.
--->
+</aside>
