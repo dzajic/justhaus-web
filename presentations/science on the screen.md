@@ -368,7 +368,7 @@ body { background:#111; }
 <div class="title-split">
 <div class="title-copy">
 <h1>Science the House Out of It</h1>
-<h2>Building a dream, one experiment at a time.</h2>
+<h2>Building a dream, twelve experiments at a time.</h2>
 <p><strong>Science on Screen — The Martian</strong></p>
 <p>Daniel Zajic</p>
 </div>
