@@ -379,11 +379,10 @@ body { background:#111; }
 </div>
 
 <aside class="notes">
-Text-only title slide.
-Opening: “I could easily spend an hour on any one of these topics. Tonight is a quick overview: what I’m building, why I’m doing it, and how it’s going.”
-“Since I was a child, I’ve been taking things apart—sometimes because I broke them—and trying to make them better.”
-A multi-year solo project: an ideal, deliberate constraints, and learning through real problems.
-The Martian connection: use what you have, test ideas, solve the next problem.
+- Quick overview: what I’m building, why, how it’s going
+- Lifelong habit: take things apart, make them better
+- Solo project + deliberate constraints
+- Martian connection: use what you have, solve the next problem
 </aside>
 
 ---
@@ -409,10 +408,11 @@ The Martian connection: use what you have, test ideas, solve the next problem.
 </div>
 
 <aside class="notes">
-“I paid four separate architects to develop concepts. Eventually, I realized I had to design it myself—and that turned into doing everything myself.”
-Twenty years of renovations made me want to start from scratch: comfort, accessible infrastructure, and fewer problems handed to the next person.
-The original ambition: a custom house built in six months. “How hard can this be? One person should be able to do this much more quickly if they just keep it simple.”
-The first designs were more than six years ago. Let the renderings show the dream.
+- Paid 4 architects → eventually designed it myself
+- Renovations made me want to start from scratch
+- Goal: comfort, access, fewer future problems
+- Original fantasy: custom house in 6 months
+- “How hard can this be?”
 </aside>
 
 ---
@@ -430,14 +430,12 @@ The first designs were more than six years ago. Let the renderings show the drea
 </div>
 
 <aside class="notes">
-Cost, comfort, sustainability, efficiency, simplicity.
-“One person, very low cost, high performance” were deliberate constraints. They forced me to question the usual choices and ask what was truly necessary.
-Housing faces cost and labor pressures; this is my attempt to find better answers by starting from first principles.
-I used BEAM (Building Emissions Accounting for Materials) to estimate initial embodied carbon from the building materials. This is a material-production estimate, not a lifetime carbon assessment.
-Solar generation, all-electric operation, and low energy demand are intended to improve the operational carbon picture over time. That expectation is separate from the BEAM estimate.
-Producing more energy than the house uses remains a goal until production and consumption can be compared.
-The negative BEAM scenario refers to the planned wood-fiber exterior insulation. It was not ready in time for this house; I may use it on the garage. Do not present that scenario as the result for the foam-insulated house as built.
-BEAM methodology: https://www.buildersforclimateaction.org/beam-estimator.html
+- Constraints: low cost, one builder, high performance
+- Start from first principles
+- BEAM = initial embodied carbon estimate only
+- Solar + all-electric + low demand = operational goal
+- Net-positive energy still a goal, not yet proven
+- Wood-fiber negative-carbon scenario ≠ this foam-built house
 </aside>
 
 ---
@@ -459,8 +457,8 @@ BEAM methodology: https://www.buildersforclimateaction.org/beam-estimator.html
 </div>
 
 <aside class="notes">
-A quick roadmap so the audience knows what is coming.
-For each experiment: the question, the choice, and what I have observed or still need to test.
+- Roadmap: five experiments
+- For each: question → choice → result / still testing
 </aside>
 
 ---
@@ -480,12 +478,11 @@ For each experiment: the question, the choice, and what I have observed or still
 </div>
 
 <aside class="notes">
-Basements are expensive, difficult to keep dry and warm, hard to build alone, and use a lot of concrete with an upfront carbon cost.
-“A basement made all four of my goals harder. So I questioned whether I needed one at all.”
-Strategically placed insulation keeps the supporting soil from freezing, allowing a shallower foundation.
-Wind-cident #1: my shade canopy was destroyed in about two days.
-“A bad omen. It gets worse…”
-Reference: https://www.huduser.gov/Publications/PDF/FPSFguide.pdf
+- Basement fought every goal: cost, labor, concrete, moisture
+- Ask: do I need one?
+- Frost-protected shallow foundation = insulation protects soil
+- Wind-cident #1: canopy destroyed in 2 days
+- “A bad omen. It gets worse…”
 </aside>
 
 ---
@@ -506,10 +503,11 @@ Reference: https://www.huduser.gov/Publications/PDF/FPSFguide.pdf
 </div>
 
 <aside class="notes">
-“I was wrapping the whole house in a cooler. But first, I had to keep the insulation on the property.”
-Six inches at R-4.5 per inch plus one inch at R-6 gives about R-33 for the foam layers, rather than a whole-wall rating.
-Wind-cidents #2, #3, and #4: strong gusts lifted the 4-by-8-foot panels and tossed them around the site.
-“It got worse.” Pause. “Then the roof panels blew off.” Wind-cident #5. No roof photos; deliver that reveal aloud.
+- House = giant Yeti cooler
+- 6″ EPS + 1″ polyiso ≈ R-33 foam layers
+- Problem: keep the foam on the property
+- Wind-cidents #2–4: 4×8 sheets flying
+- Reveal: then the roof panels blew off
 </aside>
 
 ---
@@ -529,12 +527,11 @@ Wind-cidents #2, #3, and #4: strong gusts lifted the 4-by-8-foot panels and toss
 </div>
 
 <aside class="notes">
-Wood cladding, interior panels, doors, flooring, ceilings, and wood fiber insulation under the roof.
-Wood stores carbon while it remains in the building. Local sourcing, durability, repair, and reuse matter to the lifetime impact.
-All the pine is local, the insulation is from Maine, and the lumber is domestic. Birch plywood is imported; its origin is unconfirmed.
-One brief renovation memory: plaster embedded in metal lath, wallpaper removal, or dust that never stays contained.
-“Why build something new that must be destroyed to change it?” Removable panels give access to infrastructure and reduce future demolition.
-“I don’t want to make the next person’s job harder. The next person could be me.”
+- Wood everywhere: cladding, panels, doors, floors, ceiling
+- Local pine, Maine insulation, domestic lumber
+- Repairable + removable beats disposable
+- Renovation memory: plaster, lath, dust, destruction
+- “The next person could be me.”
 </aside>
 
 ---
@@ -555,9 +552,10 @@ One brief renovation memory: plaster embedded in metal lath, wallpaper removal, 
 </div>
 
 <aside class="notes">
-An ERV exchanges indoor and outdoor air while recovering some heat and moisture from the outgoing air, reducing the conditioning load.
-Indoor conditions have been very stable: around 55% relative humidity and 70–75°F during spring, summer, and fall. These observations do not isolate the ERV’s contribution.
-“These are the indoor conditions I’ve tracked so far. Winter is the next test.”
+- ERV = fresh air + heat/moisture recovery
+- Tight house, controlled ventilation
+- So far: ~55% RH, 70–75°F spring/summer/fall
+- Winter is the next real test
 </aside>
 
 ---
@@ -576,7 +574,12 @@ Indoor conditions have been very stable: around 55% relative humidity and 70–7
 </div>
 
 <aside class="notes">
-PVGIS estimates 13 MWh/year for the roof and 9.1 for the walls. If snow leaves the roof at zero January–March, the roof estimate drops to 10.8; the walls produce 2.1 in those months. Snow reflection has briefly pushed the wall array to 110% of rated power, though that peak doesn’t tell us the seasonal energy gain. Under the snow scenario, the annual gap is about 16%, before counting that boost. The panels are siding too: less cladding and painting, with their weight and mounts off the roof. I want power when I need it.
+- Roof estimate: 13 MWh/yr
+- Vertical walls: 9.1 MWh/yr
+- Snowy roof scenario narrows gap to ~16%
+- Wall array briefly hit 110% from snow reflection
+- Panels are siding too
+- Optimize for when I need power, not annual peak
 </aside>
 
 ---
@@ -596,10 +599,11 @@ PVGIS estimates 13 MWh/year for the roof and 9.1 for the walls. If snow leaves t
 </div>
 
 <aside class="notes">
-Show the outside: a prototype still in progress, two-plus years in, with more work ahead.
-Talk about the decision to build a separate garage.
-“Then I decided to build a separate garage. That’s what I’m working on now. Another beginning!”
-Pause for the laugh.
+- House is finally becoming the thing I imagined
+- Still unfinished, still evolving
+- Separate garage is already underway
+- “So naturally, I started another building.”
+- Pause for laugh
 </aside>
 
 ---
@@ -614,9 +618,9 @@ Pause for the laugh.
 </div>
 
 <aside class="notes">
-Return to the promise of the talk: “What if a home could give back more than it takes? And if that’s within reach, why aren’t we already building this way?”
-“I’m still testing how close I can get. But questioning the usual way of building has already opened up possibilities.”
-Take risks, but never with safety. Be willing to begin before feeling like an expert and learn by doing. Let recoverable failures teach you.
-Remember the dream and the fun that got this started.
-Close: “What could possibly go wrong?” Then take questions.
+- Question the usual way of building
+- Take risks — never with safety
+- Learn by doing; let recoverable failures teach you
+- Remember the dream and the fun
+- Close: “What could possibly go wrong?”
 </aside>
