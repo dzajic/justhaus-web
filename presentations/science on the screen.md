@@ -419,7 +419,7 @@ The first designs were more than six years ago. Let the renderings show the drea
 
 <div class="split">
 <div class="media">
-<div class="tile" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/codex/science-on-screen-complete/presentations/images/science%20on%20the%20screen/my-design.jpg')"></div>
+<div class="tile" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/codex/science-on-screen-complete/presentations/images/science%20on%20the%20screen/construction-progress.jpg')"></div>
 </div>
 <div class="copy">
 <h1>The Challenge</h1>
