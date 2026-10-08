@@ -379,10 +379,12 @@ body { background:#111; }
 </div>
 
 <aside class="notes">
-- Quick overview: what I’m building, why, how it’s going
-- Lifelong habit: take things apart, make them better
-- Solo project + deliberate constraints
-- Martian connection: use what you have, solve the next problem
+<ul>
+<li>Quick overview: what I’m building, why, how it’s going</li>
+<li>Lifelong habit: take things apart, make them better</li>
+<li>Solo project + deliberate constraints</li>
+<li>Martian connection: use what you have, solve the next problem</li>
+</ul>
 </aside>
 
 ---
@@ -408,11 +410,13 @@ body { background:#111; }
 </div>
 
 <aside class="notes">
-- Paid 4 architects → eventually designed it myself
-- Renovations made me want to start from scratch
-- Goal: comfort, access, fewer future problems
-- Original fantasy: custom house in 6 months
-- “How hard can this be?”
+<ul>
+<li>Paid 4 architects → eventually designed it myself</li>
+<li>Renovations made me want to start from scratch</li>
+<li>Goal: comfort, access, fewer future problems</li>
+<li>Original fantasy: custom house in 6 months</li>
+<li>“How hard can this be?”</li>
+</ul>
 </aside>
 
 ---
@@ -430,12 +434,14 @@ body { background:#111; }
 </div>
 
 <aside class="notes">
-- Constraints: low cost, one builder, high performance
-- Start from first principles
-- BEAM = initial embodied carbon estimate only
-- Solar + all-electric + low demand = operational goal
-- Net-positive energy still a goal, not yet proven
-- Wood-fiber negative-carbon scenario ≠ this foam-built house
+<ul>
+<li>Constraints: low cost, one builder, high performance</li>
+<li>Start from first principles</li>
+<li>BEAM = initial embodied carbon estimate only</li>
+<li>Solar + all-electric + low demand = operational goal</li>
+<li>Net-positive energy still a goal, not yet proven</li>
+<li>Wood-fiber negative-carbon scenario ≠ this foam-built house</li>
+</ul>
 </aside>
 
 ---
@@ -457,8 +463,10 @@ body { background:#111; }
 </div>
 
 <aside class="notes">
-- Roadmap: five experiments
-- For each: question → choice → result / still testing
+<ul>
+<li>Roadmap: five experiments</li>
+<li>For each: question → choice → result / still testing</li>
+</ul>
 </aside>
 
 ---
@@ -478,11 +486,13 @@ body { background:#111; }
 </div>
 
 <aside class="notes">
-- Basement fought every goal: cost, labor, concrete, moisture
-- Ask: do I need one?
-- Frost-protected shallow foundation = insulation protects soil
-- Wind-cident #1: canopy destroyed in 2 days
-- “A bad omen. It gets worse…”
+<ul>
+<li>Basement fought every goal: cost, labor, concrete, moisture</li>
+<li>Ask: do I need one?</li>
+<li>Frost-protected shallow foundation = insulation protects soil</li>
+<li>Wind-cident #1: canopy destroyed in 2 days</li>
+<li>“A bad omen. It gets worse…”</li>
+</ul>
 </aside>
 
 ---
@@ -503,11 +513,13 @@ body { background:#111; }
 </div>
 
 <aside class="notes">
-- House = giant Yeti cooler
-- 6″ EPS + 1″ polyiso ≈ R-33 foam layers
-- Problem: keep the foam on the property
-- Wind-cidents #2–4: 4×8 sheets flying
-- Reveal: then the roof panels blew off
+<ul>
+<li>House = giant Yeti cooler</li>
+<li>6″ EPS + 1″ polyiso ≈ R-33 foam layers</li>
+<li>Problem: keep the foam on the property</li>
+<li>Wind-cidents #2–4: 4×8 sheets flying</li>
+<li>Reveal: then the roof panels blew off</li>
+</ul>
 </aside>
 
 ---
@@ -527,11 +539,13 @@ body { background:#111; }
 </div>
 
 <aside class="notes">
-- Wood everywhere: cladding, panels, doors, floors, ceiling
-- Local pine, Maine insulation, domestic lumber
-- Repairable + removable beats disposable
-- Renovation memory: plaster, lath, dust, destruction
-- “The next person could be me.”
+<ul>
+<li>Wood everywhere: cladding, panels, doors, floors, ceiling</li>
+<li>Local pine, Maine insulation, domestic lumber</li>
+<li>Repairable + removable beats disposable</li>
+<li>Renovation memory: plaster, lath, dust, destruction</li>
+<li>“The next person could be me.”</li>
+</ul>
 </aside>
 
 ---
@@ -552,10 +566,12 @@ body { background:#111; }
 </div>
 
 <aside class="notes">
-- ERV = fresh air + heat/moisture recovery
-- Tight house, controlled ventilation
-- So far: ~55% RH, 70–75°F spring/summer/fall
-- Winter is the next real test
+<ul>
+<li>ERV = fresh air + heat/moisture recovery</li>
+<li>Tight house, controlled ventilation</li>
+<li>So far: ~55% RH, 70–75°F spring/summer/fall</li>
+<li>Winter is the next real test</li>
+</ul>
 </aside>
 
 ---
@@ -574,12 +590,14 @@ body { background:#111; }
 </div>
 
 <aside class="notes">
-- Roof estimate: 13 MWh/yr
-- Vertical walls: 9.1 MWh/yr
-- Snowy roof scenario narrows gap to ~16%
-- Wall array briefly hit 110% from snow reflection
-- Panels are siding too
-- Optimize for when I need power, not annual peak
+<ul>
+<li>Roof estimate: 13 MWh/yr</li>
+<li>Vertical walls: 9.1 MWh/yr</li>
+<li>Snowy roof scenario narrows gap to ~16%</li>
+<li>Wall array briefly hit 110% from snow reflection</li>
+<li>Panels are siding too</li>
+<li>Optimize for when I need power, not annual peak</li>
+</ul>
 </aside>
 
 ---
@@ -599,11 +617,13 @@ body { background:#111; }
 </div>
 
 <aside class="notes">
-- House is finally becoming the thing I imagined
-- Still unfinished, still evolving
-- Separate garage is already underway
-- “So naturally, I started another building.”
-- Pause for laugh
+<ul>
+<li>House is finally becoming the thing I imagined</li>
+<li>Still unfinished, still evolving</li>
+<li>Separate garage is already underway</li>
+<li>“So naturally, I started another building.”</li>
+<li>Pause for laugh</li>
+</ul>
 </aside>
 
 ---
@@ -618,9 +638,11 @@ body { background:#111; }
 </div>
 
 <aside class="notes">
-- Question the usual way of building
-- Take risks — never with safety
-- Learn by doing; let recoverable failures teach you
-- Remember the dream and the fun
-- Close: “What could possibly go wrong?”
+<ul>
+<li>Question the usual way of building</li>
+<li>Take risks — never with safety</li>
+<li>Learn by doing; let recoverable failures teach you</li>
+<li>Remember the dream and the fun</li>
+<li>Close: “What could possibly go wrong?”</li>
+</ul>
 </aside>
