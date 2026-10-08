@@ -588,8 +588,10 @@ PVGIS estimates 13 MWh/year for the roof and 9.1 for the walls. If snow leaves t
 <p>The house is finally becoming the thing I imagined.</p>
 <p><strong>So naturally, I started another building.</strong></p>
 </div>
-<div class="media">
-<div class="tile" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/codex/science-on-screen-complete/presentations/images/science%20on%20the%20screen/exterior-wood-house-today.jpg')"></div>
+<div class="media photo-grid" style="grid-template-columns:1fr 1fr; grid-template-rows:220px 330px; gap:10px;">
+<div class="tile" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/presentation-final-tweaks/presentations/images/science%20on%20the%20screen/house-progress-october.jpg'); background-size:cover; background-position:center;"></div>
+<div class="tile" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/presentation-final-tweaks/presentations/images/science%20on%20the%20screen/garage-foundation-october.jpg'); background-size:cover; background-position:center;"></div>
+<div class="tile wide" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/presentation-final-tweaks/presentations/images/science%20on%20the%20screen/future-vision.png'); background-size:cover; background-position:center;"></div>
 </div>
 </div>
 
@@ -605,9 +607,9 @@ Pause for the laugh.
 <div class="closing">
 <h1>What I’ve learned</h1>
 <ul>
-<li>Take risks—never with safety.</li>
-<li>If you aren’t failing, you aren’t making progress.</li>
-<li>Remember why you started: to have fun.</li>
+<li>Doing anything different is hard, very hard.</li>
+<li>Mistakes are frustrating but essential for progress.</li>
+<li>Have fun and keep going. That's what really matters.</li>
 </ul>
 </div>
 
