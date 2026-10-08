@@ -588,8 +588,19 @@ PVGIS estimates 13 MWh/year for the roof and 9.1 for the walls. If snow leaves t
 <p>The house is finally becoming the thing I imagined.</p>
 <p><strong>So naturally, I started another building.</strong></p>
 </div>
-<div class="media">
-<div class="tile" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/codex/science-on-screen-complete/presentations/images/science%20on%20the%20screen/exterior-wood-house-today.jpg')"></div>
+<div class="media" style="flex-direction:column; gap:8px; justify-content:center;">
+<div style="height:186px; width:100%; display:flex; flex-direction:column; align-items:center;">
+<div class="tile" style="height:160px; width:100%; background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/presentation-final-tweaks/presentations/images/science%20on%20the%20screen/house-progress-october.jpg'); background-size:contain; background-position:center;"></div>
+<div style="color:#d8b38a; font-size:16px; text-align:center; line-height:20px;">House today</div>
+</div>
+<div style="height:186px; width:100%; display:flex; flex-direction:column; align-items:center;">
+<div class="tile" style="height:160px; width:100%; background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/presentation-final-tweaks/presentations/images/science%20on%20the%20screen/garage-foundation-october.jpg'); background-size:contain; background-position:center;"></div>
+<div style="color:#d8b38a; font-size:16px; text-align:center; line-height:20px;">New garage</div>
+</div>
+<div style="height:186px; width:100%; display:flex; flex-direction:column; align-items:center;">
+<div class="tile" style="height:160px; width:100%; background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/presentation-final-tweaks/presentations/images/science%20on%20the%20screen/future-vision.png'); background-size:contain; background-position:center;"></div>
+<div style="color:#d8b38a; font-size:16px; text-align:center; line-height:20px;">Future vision</div>
+</div>
 </div>
 </div>
 
