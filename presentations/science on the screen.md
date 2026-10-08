@@ -583,7 +583,7 @@ PVGIS estimates 13 MWh/year for the roof and 9.1 for the walls. If snow leaves t
 
 <div class="split">
 <div class="copy">
-<h1>Another beginning!</h1>
+<h1>What's next?</h1>
 <h2>Two years in, still experimenting.</h2>
 <p>The house is finally becoming the thing I imagined.</p>
 <p><strong>So naturally, I started another building.</strong></p>
