@@ -1,0 +1,12 @@
+:root {
+  --jh-charcoal: #191A18;
+  --jh-ivory: #F3EFE6;
+  --jh-taupe: #B7A58E;
+  --jh-ink: #242421;
+  --jh-muted: #746F67;
+  --jh-line: #C9BFB0;
+  --jh-font: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+  --jh-radius: 2px;
+  --jh-tracking-wordmark: .21em;
+  --jh-content-width: 1160px;
+}
