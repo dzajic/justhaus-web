@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 136" role="img" aria-label="Just Haus cabin outline with centered door and vertical cladding">
+  <g fill="none" stroke="currentColor" stroke-width="5" stroke-linejoin="miter" stroke-linecap="square">
+    <path d="M18 58 L80 10 L142 58 V124 H97 V91 H63 V124 H18 Z"/>
+  </g>
+  <g stroke="currentColor" stroke-width="2.4" opacity=".65">
+    <path d="M112 35 V124 M125 45 V124 M138 55 V124"/>
+  </g>
+</svg>
