@@ -373,8 +373,8 @@ body { background:#111; }
 <p>Daniel Zajic</p>
 </div>
 <div class="title-photo-stack">
-<div class="tile" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/main/presentations/images/science%20on%20the%20screen/optimized/foam-animal-damage.jpg')"></div>
-<div class="tile" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/main/presentations/images/science%20on%20the%20screen/optimized/foam-blown-around.jpg')"></div>
+<div class="tile" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/main/presentations/images/science%20on%20the%20screen/small/foam-animal-damage.jpg')"></div>
+<div class="tile" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/main/presentations/images/science%20on%20the%20screen/small/foam-blown-around.jpg')"></div>
 </div>
 </div>
 
@@ -398,14 +398,14 @@ body { background:#111; }
 </div>
 <div class="media architect-stack">
 <div class="architect-row">
-<div class="tile" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/main/presentations/images/science%20on%20the%20screen/optimized/architect-concept-1.jpeg')"></div>
-<div class="tile" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/main/presentations/images/science%20on%20the%20screen/optimized/architect-concept-2.jpeg')"></div>
+<div class="tile" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/main/presentations/images/science%20on%20the%20screen/small/architect-concept-1.jpeg')"></div>
+<div class="tile" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/main/presentations/images/science%20on%20the%20screen/small/architect-concept-2.jpeg')"></div>
 </div>
 <div class="architect-row">
-<div class="tile" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/main/presentations/images/science%20on%20the%20screen/optimized/architect-concept-3.jpeg')"></div>
-<div class="tile" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/main/presentations/images/science%20on%20the%20screen/optimized/architect-concept-4.jpeg')"></div>
+<div class="tile" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/main/presentations/images/science%20on%20the%20screen/small/architect-concept-3.jpeg')"></div>
+<div class="tile" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/main/presentations/images/science%20on%20the%20screen/small/architect-concept-4.jpeg')"></div>
 </div>
-<div class="tile design-wide" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/main/presentations/images/science%20on%20the%20screen/optimized/my-design.jpg')"></div>
+<div class="tile design-wide" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/main/presentations/images/science%20on%20the%20screen/small/my-design.jpg')"></div>
 </div>
 </div>
 
@@ -423,7 +423,7 @@ body { background:#111; }
 
 <div class="split">
 <div class="media">
-<div class="tile" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/main/presentations/images/science%20on%20the%20screen/optimized/construction-progress.jpg')"></div>
+<div class="tile" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/main/presentations/images/science%20on%20the%20screen/small/construction-progress.jpg')"></div>
 </div>
 <div class="copy">
 <h1>The Challenge</h1>
@@ -458,7 +458,7 @@ body { background:#111; }
 </ol>
 </div>
 <div class="media contain">
-<div class="tile" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/main/presentations/images/science%20on%20the%20screen/optimized/home-systems-schematic.jpeg')"></div>
+<div class="tile" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/main/presentations/images/science%20on%20the%20screen/small/home-systems-schematic.jpeg')"></div>
 </div>
 </div>
 
@@ -473,9 +473,9 @@ body { background:#111; }
 
 <div class="split">
 <div class="media photo-grid hero-grid">
-<div class="tile hero" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/main/presentations/images/science%20on%20the%20screen/optimized/foundation-icf-blocks.jpg')"></div>
-<div class="tile small" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/main/presentations/images/science%20on%20the%20screen/optimized/foundation-footings.jpg')"></div>
-<div class="tile small" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/main/presentations/images/science%20on%20the%20screen/optimized/canopy-destroyed.jpg')"></div>
+<div class="tile hero" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/main/presentations/images/science%20on%20the%20screen/small/foundation-icf-blocks.jpg')"></div>
+<div class="tile small" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/main/presentations/images/science%20on%20the%20screen/small/foundation-footings.jpg')"></div>
+<div class="tile small" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/main/presentations/images/science%20on%20the%20screen/small/canopy-destroyed.jpg')"></div>
 </div>
 <div class="copy">
 <h1>Why do I need a basement?</h1>
@@ -506,9 +506,9 @@ body { background:#111; }
 <p><em>The harder problem: keeping it on the property.</em></p>
 </div>
 <div class="media photo-grid hero-grid">
-<div class="tile hero" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/main/presentations/images/science%20on%20the%20screen/optimized/exterior%20insulation.jpg')"></div>
-<div class="tile small" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/main/presentations/images/science%20on%20the%20screen/optimized/foam-wind-1.jpg')"></div>
-<div class="tile small" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/main/presentations/images/science%20on%20the%20screen/optimized/foam-wind-3.jpg')"></div>
+<div class="tile hero" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/main/presentations/images/science%20on%20the%20screen/small/exterior%20insulation.jpg')"></div>
+<div class="tile small" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/main/presentations/images/science%20on%20the%20screen/small/foam-wind-1.jpg')"></div>
+<div class="tile small" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/main/presentations/images/science%20on%20the%20screen/small/foam-wind-3.jpg')"></div>
 </div>
 </div>
 
@@ -526,9 +526,9 @@ body { background:#111; }
 
 <div class="split">
 <div class="media photo-grid hero-grid">
-<div class="tile hero" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/main/presentations/images/science%20on%20the%20screen/optimized/interior-wood.jpg')"></div>
-<div class="tile small" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/main/presentations/images/science%20on%20the%20screen/optimized/exterior-wood-house-today.jpg')"></div>
-<div class="tile small" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/main/presentations/images/science%20on%20the%20screen/optimized/wood-fiber-insulation.jpg')"></div>
+<div class="tile hero" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/main/presentations/images/science%20on%20the%20screen/small/interior-wood.jpg')"></div>
+<div class="tile small" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/main/presentations/images/science%20on%20the%20screen/small/exterior-wood-house-today.jpg')"></div>
+<div class="tile small" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/main/presentations/images/science%20on%20the%20screen/small/wood-fiber-insulation.jpg')"></div>
 </div>
 <div class="copy">
 <h1>I love wood. Outside and inside.</h1>
@@ -578,7 +578,7 @@ body { background:#111; }
 
 <div class="split">
 <div class="media contain">
-<div class="tile" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/main/presentations/images/science%20on%20the%20screen/optimized/solar-seasonal.png')"></div>
+<div class="tile" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/main/presentations/images/science%20on%20the%20screen/small/solar-seasonal.png')"></div>
 </div>
 <div class="copy">
 <h1>Solar panels - but vertical</h1>
@@ -610,9 +610,9 @@ body { background:#111; }
 <p><strong>So naturally, I started another building.</strong></p>
 </div>
 <div class="media photo-grid" style="grid-template-columns:1fr 1fr; grid-template-rows:220px 330px; gap:10px;">
-<div class="tile" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/main/presentations/images/science%20on%20the%20screen/optimized/house-progress-october.jpg'); background-size:cover; background-position:center;"></div>
-<div class="tile" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/main/presentations/images/science%20on%20the%20screen/optimized/garage-foundation-october.jpg'); background-size:cover; background-position:center;"></div>
-<div class="tile wide" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/main/presentations/images/science%20on%20the%20screen/optimized/future-vision.jpg'); background-size:cover; background-position:center;"></div>
+<div class="tile" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/main/presentations/images/science%20on%20the%20screen/small/house-progress-october.jpg'); background-size:cover; background-position:center;"></div>
+<div class="tile" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/main/presentations/images/science%20on%20the%20screen/small/garage-foundation-october.jpg'); background-size:cover; background-position:center;"></div>
+<div class="tile wide" style="background-image:url('https://raw.githubusercontent.com/dzajic/justhaus-web/main/presentations/images/science%20on%20the%20screen/small/future-vision.jpg'); background-size:cover; background-position:center;"></div>
 </div>
 </div>
 
