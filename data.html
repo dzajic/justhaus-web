@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Data — Just Haus</title>
+  <meta
+    name="description"
+    content="Indoor conditions recorded so far at Just Haus Alpha, and a solar model comparing vertical wall panels with a roof reference. The model is not measured production."
+  />
+  <link rel="icon" href="brand/favicon.ico" sizes="any" />
+  <link rel="icon" type="image/png" sizes="32x32" href="brand/favicon-32.png" />
+  <link rel="apple-touch-icon" href="brand/apple-touch-icon.png" />
+  <link rel="stylesheet" href="brand/tokens.css" />
+  <link rel="stylesheet" href="css/site.css" />
+</head>
+<body>
+  <a class="skip" href="#content">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="index.html">
+      <img class="mark" src="brand/logo-mark.png" alt="" width="320" height="339" />
+      <img class="word" src="brand/logo-wordmark.png" alt="Just Haus" width="800" height="84" />
+    </a>
+    <nav aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="journal.html">Journal</a>
+      <a href="approach.html">Approach</a>
+      <a href="data.html" aria-current="page">Data</a>
+      <a href="about.html">About</a>
+    </nav>
+  </header>
+
+  <main class="page" id="content">
+    <p class="kicker">Data</p>
+    <h1>What the numbers are, and are not</h1>
+    <p class="lede">
+      Two kinds of figures belong here. One is a short record of indoor conditions. The other is a solar model used to compare wall panels with a roof. They are not the same kind of evidence.
+    </p>
+
+    <section class="section" id="indoor">
+      <h2>Indoor humidity and temperature</h2>
+      <div class="prose">
+        <p>
+          With the energy-recovery ventilator running, spring, summer, and fall so far have held near 55 percent relative humidity and about 70–75°F. That is the summary from the build record. It is not a full year, and winter is the season still ahead.
+        </p>
+        <p>
+          There is no time series of humidity or temperature on this site yet. When a longer record exists, it can sit here beside this note.
+        </p>
+      </div>
+    </section>
+
+    <section class="section" id="solar">
+      <h2>A solar model, not the meter</h2>
+      <div class="prose">
+        <p>
+          The charts compare two configurations at a reference location of 45° N, 71.75° W. That point follows the latitude assumption used for the talk. It is north of Franconia, and it is not a survey of this roof or these trees.
+        </p>
+        <p>
+          The roof line is a comparison case: 32 panels at 415 watts, nearly flat, tilted about 2 to 2.5 degrees toward the west. It is not a description of panels built on this house. The wall line is the arrangement under study: 11 panels at 415 watts on each of the vertical east, south, and west walls. The model is PVGIS 5.2, with a 14 percent system-loss assumption. It does not include the tree line, snow cover, batteries, inverter limits, or what the house actually uses.
+        </p>
+        <p>
+          In that model the roof reference is about 13.0 MWh a year. The three walls together are about 9.1 MWh, roughly 30 percent less. The south wall is about 3.7 MWh; the east and west walls are about 2.7 MWh each. In November, December, and January the walls produce more than the roof reference, even before any snow loss is imagined. Winter, December through February, is about 11 percent of the roof year and about 18 percent of the wall year.
+        </p>
+        <p>
+          A separate snow scenario sets the roof to zero for January through March. That is an assumption, not a PVGIS snow estimate and not a measurement. Under it, the roof year falls to about 10.8 MWh, and the walls finish about 16 percent lower than that reduced roof, while still producing through the months the roof is assumed to be covered.
+        </p>
+        <p>
+          Snow reflection is a different observation. Daniel reports that during a bright, snowy stretch the wall array briefly reached about 110 percent of rated power. The seasonal energy from that effect has not been quantified, and it is not in the charts.
+        </p>
+      </div>
+
+      <figure class="frame">
+        <img
+          src="presentations/images/science%20on%20the%20screen/small/solar-seasonal.png"
+          width="1800"
+          height="1080"
+          alt="Modeled monthly energy, in kilowatt-hours, for a roof reference and for vertical east, south, and west wall arrays. The walls are lower in summer and relatively stronger in winter."
+        />
+        <figcaption>Monthly energy from the reference model. Not measured production at the house.</figcaption>
+      </figure>
+
+      <figure class="frame">
+        <img
+          src="presentations/images/science%20on%20the%20screen/solar-daily.png"
+          width="1800"
+          height="1080"
+          alt="Modeled average power through a June day for the roof reference and the vertical wall arrays. The roof peaks near midday; the walls are lower and more spread out."
+        />
+        <figcaption>Average June day in the same model, clock time for America/New_York. One summer month of weather in the source year, not a chosen sunny day and not a meter at the house.</figcaption>
+      </figure>
+
+      <h3>Monthly model output</h3>
+      <div class="table-wrap">
+        <table>
+          <caption>Kilowatt-hours, rounded from the model file. Roof is the comparison case. Walls are the vertical arrays added together.</caption>
+          <thead>
+            <tr>
+              <th scope="col">Month</th>
+              <th scope="col">Roof</th>
+              <th scope="col">Walls</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><th scope="row">January</th><td>466</td><td>598</td></tr>
+            <tr><th scope="row">February</th><td>671</td><td>656</td></tr>
+            <tr><th scope="row">March</th><td>1,104</td><td>853</td></tr>
+            <tr><th scope="row">April</th><td>1,397</td><td>872</td></tr>
+            <tr><th scope="row">May</th><td>1,687</td><td>926</td></tr>
+            <tr><th scope="row">June</th><td>1,678</td><td>878</td></tr>
+            <tr><th scope="row">July</th><td>1,814</td><td>976</td></tr>
+            <tr><th scope="row">August</th><td>1,573</td><td>949</td></tr>
+            <tr><th scope="row">September</th><td>1,160</td><td>825</td></tr>
+            <tr><th scope="row">October</th><td>731</td><td>652</td></tr>
+            <tr><th scope="row">November</th><td>456</td><td>515</td></tr>
+            <tr><th scope="row">December</th><td>302</td><td>407</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="prose">Before the monthly rows are rounded, the model totals are 13,038.72 kWh for the roof reference and 9,107.82 kWh for the walls. Adding the rounded rows will not always match those totals.</p>
+    </section>
+
+    <section class="section" id="later">
+      <h2>Not on this page yet</h2>
+      <div class="prose">
+        <p>
+          A winter of indoor humidity and temperature. Measured production from the wall panels. Household use, so the model can be set next to what the house actually draws. Those can be added when the records exist.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="y"></span> Just Haus · Franconia, New Hampshire</p>
+    <p><a href="about.html">About Daniel</a></p>
+  </footer>
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

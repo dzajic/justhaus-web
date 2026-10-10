@@ -3,289 +3,89 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Just Haus</title>
+  <title>Just Haus Alpha — Just Haus</title>
   <meta
     name="description"
-    content="Just Haus — thoughtful design and building in Franconia, New Hampshire."
+    content="Just Haus Alpha is a house Daniel Zajic is building in Franconia, New Hampshire. This site records the work, the choices, and the numbers so far."
   />
-  <style>
-    :root {
-      --fg: #111;
-      --muted: #666;
-      --bg: #fff;
-      --card: #f6f6f6;
-      --line: #e8e8e8;
-      --shadow: 0 18px 48px rgba(0, 0, 0, 0.08);
-    }
-
-    * {
-      box-sizing: border-box;
-    }
-
-    body {
-      margin: 0;
-      font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
-      color: var(--fg);
-      background: var(--bg);
-    }
-
-    .wrap {
-      max-width: 920px;
-      margin: 0 auto;
-      padding: 56px 20px;
-    }
-
-    header {
-      display: flex;
-      align-items: baseline;
-      justify-content: space-between;
-      gap: 16px;
-      flex-wrap: wrap;
-    }
-
-    h1 {
-      margin: 0;
-      font-size: 36px;
-      letter-spacing: -0.02em;
-    }
-
-    .tag {
-      color: var(--muted);
-      font-size: 14px;
-    }
-
-    .hero {
-      margin-top: 28px;
-      padding: 28px;
-      background: var(--card);
-      border-radius: 18px;
-      border: 1px solid var(--line);
-      box-shadow: var(--shadow);
-    }
-
-    .hero-grid {
-      display: grid;
-      grid-template-columns: minmax(0, 1.05fr) minmax(280px, 0.95fr);
-      gap: 24px;
-      align-items: center;
-    }
-
-    .hero p {
-      margin: 0;
-      line-height: 1.65;
-    }
-
-    .hero-lead {
-      font-size: 28px;
-      line-height: 1.35;
-      letter-spacing: -0.02em;
-    }
-
-    .hero-block {
-      margin-top: 22px;
-      max-width: 42rem;
-      font-size: 17px;
-      color: #333;
-    }
-
-    .hero-emphasis {
-      margin-top: 18px;
-      font-size: 18px;
-      color: #222;
-    }
-
-    .hero-media {
-      margin: 0;
-    }
-
-    .hero-image-frame {
-      aspect-ratio: 16 / 9;
-      overflow: hidden;
-      border-radius: 16px;
-      border: 1px solid #d9d9d9;
-      background: #ededed;
-    }
-
-    .hero-image {
-      display: block;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      filter: grayscale(100%);
-    }
-
-    .hero-caption {
-      margin-top: 10px;
-      color: var(--muted);
-      font-size: 13px;
-      line-height: 1.5;
-    }
-
-    .actions {
-      margin-top: 26px;
-      display: flex;
-      gap: 10px;
-      flex-wrap: wrap;
-    }
-
-    .btn {
-      display: inline-block;
-      padding: 11px 14px;
-      border-radius: 12px;
-      border: 1px solid #e2e2e2;
-      background: #fff;
-      text-decoration: none;
-      color: inherit;
-      box-shadow: none;
-      transition: transform 180ms ease, box-shadow 180ms ease, background 180ms ease;
-    }
-
-    .btn:hover {
-      background: #fcfcfc;
-      transform: translateY(-1px);
-      box-shadow: 0 6px 14px rgba(0, 0, 0, 0.05);
-    }
-
-    .contact {
-      margin-top: 30px;
-      padding-top: 22px;
-      border-top: 1px solid var(--line);
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 14px;
-    }
-
-    .contact h2 {
-      margin: 0 0 10px;
-      font-size: 16px;
-    }
-
-    .contact p {
-      margin: 0;
-      color: var(--muted);
-      line-height: 1.6;
-      font-size: 15px;
-    }
-
-    a {
-      color: inherit;
-      text-underline-offset: 3px;
-    }
-
-    footer {
-      margin-top: 36px;
-      display: flex;
-      gap: 14px;
-      flex-wrap: wrap;
-      color: var(--muted);
-      font-size: 14px;
-    }
-
-    @media (max-width: 640px) {
-      .wrap {
-        padding: 36px 16px;
-      }
-
-      .hero {
-        padding: 22px;
-      }
-
-      .hero-grid {
-        grid-template-columns: 1fr;
-      }
-
-      .hero-lead {
-        font-size: 24px;
-      }
-
-      .hero-block,
-      .hero-emphasis {
-        font-size: 16px;
-      }
-
-      .hero-media {
-        order: -1;
-      }
-    }
-  </style>
+  <link rel="icon" href="brand/favicon.ico" sizes="any" />
+  <link rel="icon" type="image/png" sizes="32x32" href="brand/favicon-32.png" />
+  <link rel="apple-touch-icon" href="brand/apple-touch-icon.png" />
+  <link rel="stylesheet" href="brand/tokens.css" />
+  <link rel="stylesheet" href="css/site.css" />
 </head>
 <body>
-  <main class="wrap">
-    <header>
-      <h1>Just Haus</h1>
-      <div class="tag">Franconia, New Hampshire</div>
-    </header>
+  <a class="skip" href="#content">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="index.html">
+      <img class="mark" src="brand/logo-mark.png" alt="" width="320" height="339" />
+      <img class="word" src="brand/logo-wordmark.png" alt="Just Haus" width="800" height="84" />
+    </a>
+    <nav aria-label="Primary">
+      <a href="index.html" aria-current="page">Home</a>
+      <a href="journal.html">Journal</a>
+      <a href="approach.html">Approach</a>
+      <a href="data.html">Data</a>
+      <a href="about.html">About</a>
+    </nav>
+  </header>
 
-    <section class="hero">
-      <div class="hero-grid">
-        <div>
-          <p class="hero-lead">
-            <strong>Building a home is a journey</strong> with many twists and turns.
-            Let me be your <strong>guide</strong>, to make it <strong>effortless</strong> and <strong>fun</strong>.
-          </p>
+  <main class="page" id="content">
+    <p class="kicker">Franconia, New Hampshire</p>
+    <h1>Just Haus Alpha</h1>
+    <p class="lede">
+      Just Haus Alpha is a house Daniel Zajic is building in Franconia. This site is the record of that work: what the house is, why it is put together this way, and what has been measured or modeled so far.
+    </p>
 
-          <p class="hero-block">
-            What do you truly <em>need</em>? What brings you <em>joy</em>?
-          </p>
+    <figure class="hero">
+      <img
+        src="presentations/images/science%20on%20the%20screen/small/exterior-wood-house-today.jpg"
+        width="1600"
+        height="1201"
+        alt="Just Haus Alpha from the yard: wood cladding on the walls, a low roof, and scaffolding at the near corner."
+      />
+      <figcaption>Just Haus Alpha, with wood cladding underway.</figcaption>
+    </figure>
 
-          <p class="hero-block">
-            <em>Question</em> what is assumed.
-            <em>Discover</em> possibilities you hadn’t imagined.
-          </p>
+    <div class="prose">
+      <p>
+        It comes out of renovations. After years of working on older houses, he wanted to start without the problems those buildings had already collected: a house shaped around comfort, simplicity, and access. He hired four architects, then drew this plan himself.
+      </p>
+      <p>
+        The question he is testing is whether one person can build a high-performance house. A low cost, and a house that produces more energy than it uses, are goals. They are not results this site is ready to call finished. Two years in, the building is still an experiment, and a separate garage is underway.
+      </p>
+    </div>
 
-          <p class="hero-emphasis">
-            A home is a place where <em>life unfolds</em> —
-            <strong>always becoming more.</strong>
-          </p>
+    <nav class="paths" aria-label="Sections">
+      <a class="path" href="journal.html">
+        <strong>Build journal</strong>
+        <span>What has happened on the site, including the parts that went wrong.</span>
+      </a>
+      <a class="path" href="approach.html">
+        <strong>Approach</strong>
+        <span>Why the foundation, insulation, wood, air, and solar are the way they are.</span>
+      </a>
+      <a class="path" href="data.html">
+        <strong>Data</strong>
+        <span>Indoor conditions so far, and a solar model with its limits written down.</span>
+      </a>
+    </nav>
 
-          <div class="actions">
-            <a class="btn" href="alpha.html">About Alpha</a>
-            <a class="btn" href="https://photos.app.goo.gl/9Ff6oVJRnxn4yU3u5">Project updates</a>
-            <a class="btn" href="mailto:justhaus.us@gmail.com">Start a conversation</a>
-          </div>
-        </div>
-
-        <figure class="hero-media">
-          <a href="alpha.html" aria-label="View the Just Haus Alpha project page">
-            <div class="hero-image-frame">
-              <img
-                class="hero-image"
-                src="images/just-haus-alpha-master-plan.jpg"
-                alt="Aerial rendering of the Just Haus Alpha home in a forest clearing"
-              />
-            </div>
-          </a>
-          <figcaption class="hero-caption">
-            <a href="alpha.html">Just Haus Alpha master plan rendering.</a>
-          </figcaption>
-        </figure>
-      </div>
-
-      <section class="contact">
-        <div>
-          <h2>Contact</h2>
-          <p>
-            Daniel Zajic<br />
-            Franconia, NH
-          </p>
-        </div>
-        <div>
-          <h2>Reach out</h2>
-          <p>
-            <a href="mailto:justhaus.us@gmail.com">justhaus.us@gmail.com</a><br />
-            <a href="tel:15033323412">503-332-3412</a>
-          </p>
-        </div>
-      </section>
-    </section>
-
-    <footer>
-      <span>© <span id="y"></span> Just Haus</span>
-      <span>•</span>
-      <a href="mailto:justhaus.us@gmail.com">justhaus.us@gmail.com</a>
-    </footer>
+    <figure class="frame">
+      <img
+        src="images/just-haus-alpha-master-plan.jpg"
+        width="1024"
+        height="585"
+        alt="Aerial rendering of the Just Haus Alpha house and outbuildings in a forest clearing."
+      />
+      <figcaption>Master-plan rendering of the clearing, the house, and the outbuildings. A drawing of the intent, not a photograph of the site today.</figcaption>
+    </figure>
   </main>
 
+  <footer class="site-footer">
+    <p>© <span id="y"></span> Just Haus · Franconia, New Hampshire</p>
+    <p><a href="about.html">About Daniel</a></p>
+  </footer>
   <script>
     document.getElementById("y").textContent = new Date().getFullYear();
   </script>
