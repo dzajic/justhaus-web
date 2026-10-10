@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About — Just Haus</title>
+  <meta
+    name="description"
+    content="Daniel Zajic is building Just Haus Alpha in Franconia, New Hampshire. Write if you want to follow the work."
+  />
+  <link rel="icon" href="brand/favicon.ico" sizes="any" />
+  <link rel="icon" type="image/png" sizes="32x32" href="brand/favicon-32.png" />
+  <link rel="apple-touch-icon" href="brand/apple-touch-icon.png" />
+  <link rel="stylesheet" href="brand/tokens.css" />
+  <link rel="stylesheet" href="css/site.css" />
+</head>
+<body>
+  <a class="skip" href="#content">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="index.html">
+      <img class="mark" src="brand/logo-mark.png" alt="" width="320" height="339" />
+      <img class="word" src="brand/logo-wordmark.png" alt="Just Haus" width="800" height="84" />
+    </a>
+    <nav aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="journal.html">Journal</a>
+      <a href="approach.html">Approach</a>
+      <a href="data.html">Data</a>
+      <a href="about.html" aria-current="page">About</a>
+    </nav>
+  </header>
+
+  <main class="page" id="content">
+    <p class="kicker">About</p>
+    <h1>Daniel Zajic</h1>
+    <p class="lede">
+      Just Haus is Daniel Zajic, building Just Haus Alpha in Franconia, New Hampshire.
+    </p>
+    <div class="prose">
+      <p>
+        The project comes from a habit of taking buildings apart and wanting the next one to be simpler. Years of renovating older houses led to this one: designed after four architects had drawn their versions, and built by him. The house is still an experiment. The notes on how it is going are in the <a href="journal.html">journal</a>.
+      </p>
+      <p>
+        To follow the work, write. There is no newsletter on this site.
+      </p>
+      <p>
+        <a href="mailto:justhaus.us@gmail.com">justhaus.us@gmail.com</a><br />
+        <a href="tel:+15033323412">503-332-3412</a>
+      </p>
+      <p>
+        <a href="https://photos.app.goo.gl/9Ff6oVJRnxn4yU3u5">Photographs of the build</a>
+      </p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="y"></span> Just Haus · Franconia, New Hampshire</p>
+    <p><a href="mailto:justhaus.us@gmail.com">justhaus.us@gmail.com</a></p>
+  </footer>
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
