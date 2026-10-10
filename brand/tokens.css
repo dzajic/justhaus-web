@@ -1,0 +1,15 @@
+:root {
+  --jh-charcoal: #191a18;
+  --jh-ivory: #f3efe6;
+  --jh-taupe: #b7a58e;
+  --jh-ink: #242421;
+  /* The brand draft specified #746f67. On ivory that is about 4.3:1, short of
+     WCAG AA for body text, so supporting text uses #756959 (about 4.7:1).
+     Taupe stays decorative and is not used for small type. */
+  --jh-muted: #756959;
+  --jh-line: #c9bfb0;
+  --jh-font: Inter, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --jh-radius: 2px;
+  --jh-tracking-wordmark: 0.21em;
+  --jh-content: 1080px;
+}
