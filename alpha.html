@@ -13,15 +13,19 @@
   <link rel="apple-touch-icon" href="brand/apple-touch-icon.png" />
   <link rel="stylesheet" href="brand/tokens.css" />
   <link rel="stylesheet" href="css/site.css" />
+  <noscript><style>@media (max-width: 47.99em) { #site-nav { display: flex; flex-direction: column; } }</style></noscript>
 </head>
 <body>
   <a class="skip" href="#content">Skip to content</a>
   <header class="site-header">
-    <a class="brand" href="index.html">
-      <img class="mark" src="brand/logo-mark.png" alt="" width="320" height="339" />
-      <span class="domain">JUSTHA.US</span>
-    </a>
-    <nav aria-label="Primary">
+    <div class="bar">
+      <a class="brand" href="index.html">
+        <img class="mark" src="brand/logo-mark-light.png" alt="" width="320" height="339" />
+        <span class="domain">JUSTHA.US</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    </div>
+    <nav id="site-nav" class="site-nav" aria-label="Primary">
       <a href="index.html">Home</a>
       <a href="approach.html">Approach</a>
       <a href="projects.html">Projects</a>
@@ -39,10 +43,14 @@
 
     <figure class="frame">
       <img
-        src="presentations/images/science%20on%20the%20screen/small/exterior-wood-house-today.jpg"
+        src="images/alpha-today-800.jpg"
+        srcset="images/alpha-today-800.jpg 800w, images/alpha-today-1600.jpg 1600w"
+        sizes="(min-width: 48em) 36em, calc(100vw - 40px)"
         width="1600"
         height="1201"
         alt="Just Haus Alpha under construction, a wood-clad house with scaffolding at one corner, seen across a lawn."
+        decoding="async"
+        loading="lazy"
       />
       <figcaption>Just Haus Alpha, under construction in the White Mountains.</figcaption>
     </figure>
@@ -64,8 +72,8 @@
   </main>
 
   <footer class="site-footer">
-    <p>Just Haus · White Mountains, New Hampshire</p>
-    <p><a href="about.html#contact">hello@justha.us</a></p>
+    <p>© Just Haus LLC · <a href="mailto:hello@justha.us">hello@justha.us</a></p>
   </footer>
+  <script src="js/site.js"></script>
 </body>
 </html>

@@ -13,15 +13,19 @@
   <link rel="apple-touch-icon" href="brand/apple-touch-icon.png" />
   <link rel="stylesheet" href="brand/tokens.css" />
   <link rel="stylesheet" href="css/site.css" />
+  <noscript><style>@media (max-width: 47.99em) { #site-nav { display: flex; flex-direction: column; } }</style></noscript>
 </head>
 <body>
   <a class="skip" href="#content">Skip to content</a>
   <header class="site-header">
-    <a class="brand" href="index.html">
-      <img class="mark" src="brand/logo-mark.png" alt="" width="320" height="339" />
-      <span class="domain">JUSTHA.US</span>
-    </a>
-    <nav aria-label="Primary">
+    <div class="bar">
+      <a class="brand" href="index.html">
+        <img class="mark" src="brand/logo-mark-light.png" alt="" width="320" height="339" />
+        <span class="domain">JUSTHA.US</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    </div>
+    <nav id="site-nav" class="site-nav" aria-label="Primary">
       <a href="index.html" aria-current="page">Home</a>
       <a href="approach.html">Approach</a>
       <a href="projects.html">Projects</a>
@@ -30,44 +34,72 @@
     </nav>
   </header>
 
-  <main class="page" id="content">
-    <div class="hero-lockup">
-      <img class="mark" src="brand/logo-mark.png" alt="" width="320" height="339" />
-      <p class="domain-xl">JUSTHA.US</p>
-      <img class="hero-word" src="brand/logo-wordmark.png" alt="Just Haus" width="800" height="84" />
-    </div>
+  <main id="content">
+    <section class="hero">
+      <img
+        class="hero-photo"
+        src="images/hero-alpha-800.jpg"
+        srcset="images/hero-alpha-800.jpg 800w, images/hero-alpha-1448.jpg 1448w"
+        sizes="100vw"
+        width="1448"
+        height="1086"
+        alt="Just Haus Alpha under construction, with vertical solar panels set into the wood walls."
+        decoding="async"
+        fetchpriority="high"
+      />
+      <div class="slats" aria-hidden="true"></div>
+      <div class="hero-copy">
+        <img class="hero-mark" src="brand/logo-mark-light.png" alt="" width="320" height="339" />
+        <h1>A system for discovering better ways to build houses.</h1>
+        <p class="lede">Nature sets the forces. Just Haus applies leverage.</p>
+        <p class="hero-note">Just Haus Alpha, under construction.</p>
+      </div>
+    </section>
 
-    <h1>A system for discovering better ways to build houses.</h1>
-    <p class="lede">Nature sets the forces. Just Haus applies leverage.</p>
-    <div class="prose">
-      <p>
-        Just Haus is defined by what is removed, not by what is added. Fewer parts to buy, haul, fit, maintain, and replace. Extreme minimalism is the idea. It is a way of working, not a look and not one fixed plan.
-      </p>
-      <p>
-        The company is a New Hampshire design and build practice, still small, tied to real buildings in the White Mountains. Each one is a home and a test. The lesson is supposed to change the next one.
-      </p>
-      <p>Always becoming more.</p>
-    </div>
+    <div class="page">
+      <div class="prose">
+        <p>
+          Just Haus is defined by what is removed, not by what is added. Fewer parts to buy, haul, fit, maintain, and replace. Extreme minimalism is the idea. It is a way of working, not a look and not one fixed plan.
+        </p>
+        <p>
+          The company is a New Hampshire design and build practice, still small, tied to real buildings in the White Mountains. Each one is a home and a test. The lesson is supposed to change the next one.
+        </p>
+      </div>
 
-    <nav class="paths" aria-label="Sections">
-      <a class="path" href="approach.html">
-        <strong>Approach</strong>
-        <span>Subtraction, experiments, and buildings that can be improved.</span>
-      </a>
-      <a class="path" href="projects.html">
-        <strong>Projects</strong>
-        <span>Alpha is underway. Later work is still a plan.</span>
-      </a>
-      <a class="path" href="journal.html">
-        <strong>Experiments</strong>
-        <span>What is being tested, including the parts that fail.</span>
-      </a>
-    </nav>
+      <figure class="frame">
+        <img
+          src="images/alpha-today-800.jpg"
+          srcset="images/alpha-today-800.jpg 800w, images/alpha-today-1600.jpg 1600w"
+          sizes="(min-width: 48em) 34rem, calc(100vw - 40px)"
+          width="1600"
+          height="1201"
+          alt="Light wood cladding on Just Haus Alpha, with scaffolding at one corner."
+          decoding="async"
+          loading="lazy"
+        />
+        <figcaption>Wood cladding on Just Haus Alpha, under construction.</figcaption>
+      </figure>
+
+      <nav class="paths" aria-label="Sections">
+        <a class="path" href="approach.html">
+          <strong>Approach</strong>
+          <span>Subtraction, experiments, and buildings that can be improved.</span>
+        </a>
+        <a class="path" href="projects.html">
+          <strong>Projects</strong>
+          <span>Alpha is underway. Later work is still a plan.</span>
+        </a>
+        <a class="path" href="journal.html">
+          <strong>Experiments</strong>
+          <span>What is being tested, including the parts that fail.</span>
+        </a>
+      </nav>
+    </div>
   </main>
 
   <footer class="site-footer">
-    <p>Just Haus · White Mountains, New Hampshire</p>
-    <p><a href="about.html#contact">hello@justha.us</a></p>
+    <p>© Just Haus LLC · <a href="mailto:hello@justha.us">hello@justha.us</a></p>
   </footer>
+  <script src="js/site.js"></script>
 </body>
 </html>
