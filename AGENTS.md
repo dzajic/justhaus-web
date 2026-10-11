@@ -1,7 +1,10 @@
 # Just Haus agent guidance
 
 Read this file before changing the repository. Then read `README.md` and, for
-active work, `docs/handoff.md`.
+active work, `docs/handoff.md`. For branding, copy, imagery, page structure or
+company positioning, also read `BRAND.md`, `docs/brand/just-haus-brief.md`,
+and `docs/brand/decisions.md`. These distinguish the founder's words from
+approved suggestions, historical plans and unresolved questions.
 
 ## Project
 
@@ -23,6 +26,15 @@ architecture unless the user explicitly approves a broader migration.
 The TELO pages must remain absent from public navigation and retain
 `noindex, nofollow, noarchive` unless the user explicitly changes the
 publication strategy. Direct-link-only is not access control.
+
+## Brand memory
+
+- `BRAND.md` is the concise working identity and messaging guide.
+- `docs/brand/just-haus-brief.md` is historical/strategic context, not a list of settled claims.
+- `docs/brand/decisions.md` tracks brand decisions and unanswered questions.
+- Preserve quotes, certainty labels and the distinction between built, in progress, and proposed.
+- Do not publish private family, financial, location or security information from historical context.
+- The existing `docs/decisions.md` still governs site/technical decisions.
 
 ## Product and editorial rules
 
