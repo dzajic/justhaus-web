@@ -1,13 +1,16 @@
 :root {
-  /* Oct 2026 palette. Charcoal is #111111, as specified for this pass.
-     The earlier brand draft used #191A18. Taupe is for rules, not small type:
-     on ivory it is about 2:1. */
-  --jh-charcoal: #111111;
-  --jh-ivory: #f3efe6;
-  --jh-taupe: #b7a58e;
-  --jh-ink: #111111;
-  --jh-line: #b7a58e;
+  /* Warm char, like charred wood, not a cold screen black.
+     Birch is the type. Honey is for hairlines and light, not paragraphs.
+     Birch #f3eee4 on char #161210 is about 16:1. */
+  --jh-charcoal: #161210;
+  --jh-ivory: #f3eee4;
+  --jh-taupe: #c6a56e;
+  --jh-ink: #f3eee4;
+  --jh-bg: #161210;
+  --jh-line: rgba(198, 165, 110, 0.38);
   --jh-font: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  --jh-tracking: 0.22em;
-  --jh-content: 880px;
+  --jh-tracking: 0.18em;
+  --jh-content: 40rem;
+  --jh-edge: 20px;
+  color-scheme: dark;
 }
