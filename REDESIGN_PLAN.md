@@ -13,7 +13,7 @@ The first pass treated the site as a record of Alpha and organized Journal, Appr
 - Drops performance figures, costs, specifications, and credentials.
 - Uses the real house mark, keeps the JUST HAUS wordmark, and sets JUSTHA.US beside it.
 - Uses charcoal `#111111`, ivory `#F3EFE6`, and taupe `#B7A58E`.
-- Leaves the phone off. Contact is the email already on the current site.
+- Leaves the phone off. Contact is `hello@justha.us`, which forwards to Daniel.
 
 ## Review of PR #3
 
@@ -76,7 +76,7 @@ Greek letters after Alpha are described as unsettled. The page says the site is 
 
 **Experiments.** Six questions, each marked “Being tested”: foundation, insulation (including the foam that left), interiors that come apart, air, energy for a snowy season, and sequence. No results and no numbers.
 
-**About and contact.** Daniel Zajic, Just Haus LLC, the White Mountains. He also works in software. No job title, no employer, no years, no phone. Email: `justhaus.us@gmail.com`. No form.
+**About and contact.** Daniel Zajic, Just Haus LLC, the White Mountains. He also works in software. No job title, no employer, no years, no phone. Email: `hello@justha.us`, which forwards to Daniel. No form.
 
 **Data.** The old figures were removed. The URL remains so the file is not deleted. It is `noindex` and absent from the nav.
 
@@ -98,7 +98,7 @@ Do not delete these until Daniel says so.
 
 ## Left to do
 
-- Decide the public email and whether a phone number is printed.
+- Decide whether a phone number is printed. The contact email is `hello@justha.us`.
 - Decide how `JUSTHA.US` and `JUST HAUS` share the lockup, and whether slats are ever added without losing the original geometry.
 - Confirm Greek-letter names before they become a system.
 - Decide where the photo album lives, and whether experiments grow into a real journal.
@@ -109,11 +109,10 @@ Do not delete these until Daniel says so.
 
 ## Open questions
 
-1. Is `justhaus.us@gmail.com` the public address, or the address on the October card?
-2. The phone number is off the site. Should it stay off?
-3. Is the JUSTHA.US plus JUST HAUS pairing on the home page the right relationship?
-4. Are later Greek letters a convention to keep showing, even as unsettled?
-5. Is one construction photo enough, and is the photo album link wanted on Alpha?
-6. Should `data.html` be deleted once this structure is accepted?
-7. How much of the failure record belongs on Experiments, beyond the one foam line?
-8. Colors are the ones specified for this pass. The briefing still marks them as proposed. Lock them?
+1. The phone number is off the site. Should it stay off?
+2. Is the JUSTHA.US plus JUST HAUS pairing on the home page the right relationship?
+3. Are later Greek letters a convention to keep showing, even as unsettled?
+4. Is one construction photo enough, and is the photo album link wanted on Alpha?
+5. Should `data.html` be deleted once this structure is accepted?
+6. How much of the failure record belongs on Experiments, beyond the one foam line?
+7. Colors are the ones specified for this pass. The briefing still marks them as proposed. Lock them?
