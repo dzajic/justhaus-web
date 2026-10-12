@@ -2,57 +2,30 @@
 
 ## Mission
 
-Just Haus explores a small, disciplined design-build model for compact,
-high-performance homes in the White Mountains. The work combines architectural
-clarity, durable materials, efficient construction, solar generation, battery
-storage, resilience, and practical off-grid experience.
+Just Haus is a system for discovering better ways to build houses. The practice
+is small, in the White Mountains, and tied to real buildings. Just Haus Alpha
+is the first project. Each building is a home and a test. The lesson is meant
+to change the next one.
 
 Compactness is a means to reduce material, land disturbance, energy use,
 construction complexity, and cost while preserving comfort and utility.
 
-## Audiences
+## What the site is for
 
-- Prospective clients and collaborators who value compact, efficient buildings.
-- Building, energy, and product partners interested in credible field use.
-- TELO stakeholders evaluating a northern construction and compact-site use
-  case for the MT1.
+The public site documents the company, the philosophy, and the work. It does
+not offer services, quotes, or a sales call to action.
 
 ## Voice
 
-- Quiet, direct, and technically credible.
+- Quiet, direct, and specific.
 - Architectural but understandable to a nontechnical reader.
-- Optimistic without hype.
-- Specific about what is known, conditional about what is proposed, and candid
-  about limitations.
+- Candid about what is still being tested.
 
-Avoid generic sustainability language, inflated business claims, and luxury
-branding. Let concrete design and field-use details carry the story.
+Avoid hype, luxury language, generic sustainability claims, costs,
+specifications, and performance figures.
 
 ## Visual direction
 
-- Restrained black, white, gray, and warm natural accents.
-- Strong typography, generous spacing, simple grids, and rounded panels.
-- Real materials, northern landscapes, and credible working conditions.
-- Premium through care and precision rather than ornament.
-
-## TELO positioning
-
-The primary idea is packaging efficiency: pickup utility in a compact exterior
-footprint can change both the building and the site around it.
-
-Potential benefits to investigate include:
-
-- Smaller garages and parking areas.
-- Tighter turning and construction access.
-- Less grading, clearing, paving, and hardscape.
-- Centralized parking with narrow service paths to cabins or seasonal
-  dwellings.
-- A useful vehicle for a solo-led build in deep northern winter.
-
-Solar charging, consolidated crew travel, and lower operating emissions are
-secondary benefits. They should support the use case without displacing the
-packaging story.
-
-The proposed relationship is an independent field-use collaboration, not an
-official TELO endorsement. Vehicle capabilities and quantified outcomes require
-current verification.
+Warm char ground, birch type, and a soft honey used only for hairlines and
+light. Phone first. Real construction photographs. Generous space, fine
+rules, and a quiet linen grain.

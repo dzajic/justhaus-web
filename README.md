@@ -1,20 +1,20 @@
 # Just Haus website
 
-Static website for [Just Haus](https://justha.us), an early-stage design-build
-venture in Franconia, New Hampshire.
+Static website for [Just Haus](https://justha.us), a design and build practice
+in the White Mountains of New Hampshire.
 
 ## Structure
 
-| File | Purpose | Visibility |
-| --- | --- | --- |
-| `index.html` | Main Just Haus landing page | Public and navigable |
-| `alpha.html` | Just Haus Alpha project | Public and navigable |
-| `telo.html` | Detailed TELO field-partner proposal | Direct link only; `noindex` |
-| `telo-concept.html` | Concise TELO compact-site concept | Direct link only; `noindex` |
-| `docs/outreach/` | TELO outreach copy, research, and verification notes | Repository documentation |
+| File | Purpose |
+| --- | --- |
+| `index.html` | Home. The idea. |
+| `approach.html` | Philosophy. |
+| `projects.html` | Alpha, the garage, and later intentions. |
+| `journal.html` | Experiments. |
+| `alpha.html` | Just Haus Alpha, under construction. |
+| `about.html` | Daniel, and `hello@justha.us`. |
 
-The site intentionally uses standalone HTML and CSS with no build system or
-runtime dependencies.
+The site uses standalone HTML and CSS. There is no build step.
 
 ## Local preview
 
@@ -31,14 +31,10 @@ Open `http://127.0.0.1:8081/` or append the page filename.
 The site is hosted by GitHub Pages. `CNAME` maps the deployment to
 `justha.us`, and pushing `main` triggers publication.
 
-Before publishing, verify changed HTML, local asset references, responsive
-layout, robots metadata for unlisted pages, and the staged diff.
-
 ## Project context
 
 - `AGENTS.md`: operating guidance for coding agents and LLMs.
-- `docs/project-brief.md`: mission, audiences, voice, and positioning.
+- `docs/project-brief.md`: what the site is for, and the voice.
 - `docs/decisions.md`: durable product and technical decisions.
 - `docs/handoff.md`: current state and next actions.
-- `docs/outreach/claims-to-verify.md`: claims that must be confirmed before
-  external outreach.
+- `REDESIGN_PLAN.md`: the redesign record, including what was deleted.

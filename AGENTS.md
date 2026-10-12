@@ -10,49 +10,40 @@ focused on compact, highly efficient homes, durable construction, resilient
 energy systems, and low-impact site planning.
 
 This repository is a dependency-free static website hosted by GitHub Pages at
-`https://justha.us`. Pages contain their own HTML and CSS. Preserve that simple
+`https://justha.us`. Pages share `css/site.css`. Preserve that simple
 architecture unless the user explicitly approves a broader migration.
 
 ## Page map
 
 - `index.html`: public homepage.
-- `alpha.html`: public Just Haus Alpha project page.
-- `telo.html`: detailed TELO field-partner proposal; intentionally unlisted.
-- `telo-concept.html`: concise TELO site concept; intentionally unlisted.
+- `approach.html`: philosophy.
+- `projects.html`: Alpha, the garage, and later intentions, each with a status.
+- `journal.html`: experiments. Linked in the nav as Experiments.
+- `alpha.html`: the Alpha project. Under construction.
+- `about.html`: Daniel, and `hello@justha.us`.
 
-The TELO pages must remain absent from public navigation and retain
-`noindex, nofollow, noarchive` unless the user explicitly changes the
-publication strategy. Direct-link-only is not access control.
+`presentations/` is the Science on Screen deck. Leave it untouched, and do not
+link it from the public nav.
 
 ## Product and editorial rules
 
 - Write in a quiet, architectural, practical voice: concise, credible, and
   specific. Avoid hype, luxury language, and generic sustainability claims.
+- The site documents the company and the work. It does not offer services,
+  quotes, pricing, or a sales call to action.
 - Compactness is about land, materials, energy, cost, and operational
-  efficiency—not novelty or deprivation.
-- The TELO story leads with packaging efficiency: useful pickup capability in
-  a smaller footprint, smaller garages, tight construction access, reduced
-  grading and clearing, centralized parking, and narrow service paths.
-- Solar-powered solo construction and reduced transportation emissions are
-  supporting benefits, not the central TELO pitch.
+  efficiency.
 - Treat vehicle capabilities, environmental outcomes, and site-planning
-  benefits as hypotheses until verified. Use conditional language and preserve
-  the verification checklist in `docs/outreach/claims-to-verify.md`.
-- Do not add email links or contact buttons to either TELO page.
-- Keep Tesla comparisons factual and grounded in Daniel's direct winter
-  experience. Relevant issues include deep cold, cold-soaked batteries,
-  windshield clearing, wipers and sprayers, frozen handles and latches, and
-  tailgate operation.
-- Daniel is willing to contribute testing time and structured feedback without
-  consulting fees. This does not imply paying for a vehicle, program expenses,
-  insurance, liability, or formal testing obligations.
+  benefits as hypotheses until verified. Do not publish costs, specifications,
+  or performance figures.
+- Contact on the site is `hello@justha.us` only, unless the user adds a phone
+  number. No form.
 
 ## Imagery
 
-- Production concept images are listed in `docs/outreach/concept-imagery.md`.
+- Use real construction photographs already in the repository.
+- Do not use stock imagery, and do not add claims in captions.
 - AI-generated concepts must be disclosed as independent and unofficial.
-- Never imply that generated imagery is official TELO material or depicts
-  confirmed production features.
 - Do not commit unused image-generation drafts.
 
 ## Working practices
@@ -62,7 +53,8 @@ publication strategy. Direct-link-only is not access control.
 - Stage explicit paths only.
 - Keep public pages responsive and accessible, including useful alt text,
   readable contrast, and sensible mobile stacking.
-- Do not link the TELO pages from `index.html` or `alpha.html`.
+- Phone first: base CSS for a small screen, then `min-width` queries. Tap
+  targets at least 44px.
 
 ## Preview and validation
 
@@ -78,9 +70,8 @@ Before committing:
 
 1. Parse or otherwise validate changed HTML.
 2. Confirm every referenced local asset exists.
-3. Check that TELO pages remain unlisted and retain their robots metadata.
-4. Run `git diff --check`.
-5. Review the exact staged diff.
+3. Run `git diff --check`.
+4. Review the exact staged diff.
 
 Pushing `main` publishes through GitHub Pages. Verify the affected URL after the
 Pages deployment completes.

@@ -37,11 +37,9 @@ Static HTML and CSS. GitHub Pages from `main`. `CNAME` is `justha.us`. No build 
 | `alpha.html` | The Alpha project. Under construction. |
 | `journal.html` | Experiments. Questions in play, not a talk recap. |
 | `about.html` | Daniel, and a contact email. |
-| `data.html` | Unlisted stub. No figures. `noindex`. Deletion candidate. |
-| `telo.html`, `telo-concept.html` | Unlisted. `noindex, nofollow, noarchive`. No contact link. Favicon only. |
 | `presentations/` | Untouched. The deck is not linked from the public nav. |
 | `images/` | Compressed copies of two real construction photographs, plus a small linen-grain tile. |
-| `docs/` | Untouched. |
+| `docs/` | Brief, decisions, and handoff. The TELO outreach notes are gone. |
 
 Two real photographs are used. The home hero is Alpha with vertical solar panels set into the wood walls. The home page and the Alpha page also show the light wood cladding. No photograph in the repo is charred cladding, so none is labeled that way. The page structure does not come from the talk. Charts, yields, and the talk’s indoor measurements are not on the site.
 
@@ -89,15 +87,22 @@ Costs, savings, square footage, R-values, energy yields, indoor measurements, co
 
 Family details, a street address, schedules, and finances are omitted. The town is not used; the place line is the White Mountains of New Hampshire.
 
-## Deletion candidates
+## Deleted
 
-Do not delete these until Daniel says so.
+Daniel approved removing anything that is not the company, the philosophy, and the record of the work. There was no sitemap file and no public nav entry for these.
 
-| Candidate | Why |
+| Removed | Why |
 | --- | --- |
-| `data.html` | Kept only so the file is not removed. It publishes nothing and is noindex. |
+| `telo.html` | TELO field-partner proposal. A partner pitch, not the company site. |
+| `telo-concept.html` | Shorter TELO concept page. Same reason. |
+| `images/telo-just-haus-winter-concept-v4.png` | Image used only by the TELO pages. |
+| `images/telo-just-haus-cabin-development-rear-trail.png` | Image used only by the TELO concept page. |
+| `docs/outreach/` | TELO emails, talking points, claims checklist, and image notes. They pointed at the deleted pages. |
+| `data.html` | Empty of figures on purpose. It published nothing. |
 
-`alpha.html` stays. It is the project page. The TELO pages, the deck, and the image folders stay.
+`alpha.html` stays. It is the project page. `presentations/` stays and is not linked from the nav.
+
+Kept, and not linked from a page: `images/just-haus-alpha-master-plan.jpg` is an Alpha site rendering, not a TELO asset. The original brand files in `brand/` stay as source artwork. The live header uses `brand/logo-mark-light.png`.
 
 ## Left to do
 
@@ -107,8 +112,7 @@ Do not delete these until Daniel says so.
 - Decide where the photo album lives, and whether experiments grow into a real journal.
 - A checked vector of the mark, if print needs one.
 - A typeface, when one is chosen.
-- TELO pages left visually as they are.
-- `docs/handoff.md` still describes the older next steps.
+- `docs/handoff.md` now matches this page list.
 
 ## Open questions
 
@@ -116,6 +120,5 @@ Do not delete these until Daniel says so.
 2. JUSTHA.US is only in the header. The JUST HAUS wordmark is not on the pages. Is that the right long-term relationship?
 3. Are later Greek letters a convention to keep showing, even as unsettled?
 4. Is one construction photo enough, and is the photo album link wanted on Alpha?
-5. Should `data.html` be deleted once this structure is accepted?
-6. How much of the failure record belongs on Experiments, beyond the one foam line?
-7. The ground is warm char `#161210`, type is birch `#F3EEE4`, and the accent is honey `#C6A56E`. Lock them?
+5. How much of the failure record belongs on Experiments, beyond the one foam line?
+6. The ground is warm char `#161210`, type is birch `#F3EEE4`, and the accent is honey `#C6A56E`. Lock them?
