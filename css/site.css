@@ -1,5 +1,39 @@
 /* Phone first, about 375px. Wider layouts start at 48em.
-   Grain is one small repeating tile. Light is CSS only. */
+   Grain is one small repeating tile.
+
+   Light effects, tuned on :root. Set a switch to 0 or a name to none.
+   prefers-reduced-motion makes each one static or absent.
+   --jh-laser-name: none          hide the hero scan
+   --jh-laser-duration            scan length (6.8s)
+   --jh-led: 0                    dividers stay at --jh-led-rest
+   --jh-led-rest / --jh-led-lit   divider brightness
+   --jh-edge-on: 0                hide card edge light
+   --jh-edge-rest / --jh-edge-lit edge brightness
+   --jh-heading-light: 0          no traveling heading glow
+   --jh-word-name: none           same, if the spans are already there
+   --jh-word-duration / --jh-word-step / --jh-word-delay
+   --jh-pointer: 0                no cursor pool
+   --jh-pointer-size / --jh-pointer-alpha */
+
+:root {
+  --jh-laser-name: laser-scan;
+  --jh-laser-duration: 6.8s;
+  --jh-laser-delay: 0.55s;
+  --jh-led: 1;
+  --jh-led-rest: 0.46;
+  --jh-led-lit: 1;
+  --jh-edge-on: 1;
+  --jh-edge-rest: 0.55;
+  --jh-edge-lit: 1;
+  --jh-heading-light: 1;
+  --jh-word-name: word-light;
+  --jh-word-duration: 0.85s;
+  --jh-word-step: 0.28s;
+  --jh-word-delay: 1.05s;
+  --jh-pointer: 1;
+  --jh-pointer-size: 28rem;
+  --jh-pointer-alpha: 0.42;
+}
 
 * { box-sizing: border-box; }
 
@@ -227,14 +261,55 @@ h2 {
 
 .section::before,
 .project::before,
-.path::before {
+.path::before,
+.site-footer::before {
   content: "";
   position: absolute;
   left: 0;
   right: 22%;
   top: -1px;
   height: 1px;
-  box-shadow: 0 0 8px rgba(198, 165, 110, 0.28);
+  background: linear-gradient(
+    90deg,
+    rgba(168, 188, 180, 0.22) 0%,
+    rgba(243, 238, 228, 0.82) 16%,
+    rgba(198, 165, 110, 0.95) 44%,
+    rgba(198, 165, 110, 0.22) 72%,
+    transparent 100%
+  );
+  box-shadow:
+    0 0 6px rgba(243, 238, 228, 0.28),
+    0 0 12px rgba(198, 165, 110, 0.55),
+    0 0 22px rgba(198, 165, 110, 0.18);
+  opacity: var(--jh-led-rest);
+  pointer-events: none;
+}
+
+.section.is-lit::before,
+.project.is-lit::before,
+.path.is-lit::before,
+.site-footer.is-lit::before {
+  opacity: calc(var(--jh-led-rest) + (var(--jh-led-lit) - var(--jh-led-rest)) * var(--jh-led));
+}
+
+.path::after,
+.project::after {
+  content: "";
+  position: absolute;
+  top: 10%;
+  bottom: 12%;
+  left: -18px;
+  width: 28px;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(198, 165, 110, 0.08) 22%,
+    rgba(243, 238, 228, 0.9) 40%,
+    rgba(198, 165, 110, 0.55) 52%,
+    rgba(198, 165, 110, 0.1) 76%,
+    transparent 100%
+  );
+  opacity: calc(var(--jh-edge-rest) * var(--jh-edge-on));
   pointer-events: none;
 }
 
@@ -293,6 +368,7 @@ h2 {
 }
 
 .site-footer {
+  position: relative;
   padding: 8px var(--jh-edge) 28px;
   border-top: 1px solid var(--jh-line);
 }
@@ -316,6 +392,29 @@ h2 {
   align-items: flex-end;
   overflow: hidden;
   background: #161210;
+}
+
+/* Sits over the photograph and under the scrim. One pass, then the script removes it. */
+.laser {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 1.35rem;
+  pointer-events: none;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(168, 188, 180, 0.2) 40%,
+    rgba(243, 238, 228, 0.95) 50%,
+    rgba(198, 165, 110, 0.62) 57%,
+    transparent 78%
+  );
+  -webkit-mask-image: linear-gradient(to bottom, transparent 0%, #000 14%, #000 76%, transparent 100%);
+  mask-image: linear-gradient(to bottom, transparent 0%, #000 14%, #000 76%, transparent 100%);
+  opacity: 0;
+  transform: translate3d(-1.35rem, 0, 0);
 }
 
 .hero-photo {
@@ -528,6 +627,7 @@ a:focus-visible,
 }
 
 .welcome[open] {
+  z-index: 6;
   animation: welcome-in 280ms ease both;
 }
 
@@ -622,12 +722,176 @@ a:focus-visible,
   to { opacity: 1; }
 }
 
+/* Content sits above the cursor pool. The pool is fixed and empty of text. */
+.site-header,
+main,
+.site-footer { z-index: 1; }
+
+.site-header,
+main { position: relative; }
+
+h1 .light-word {
+  position: relative;
+  z-index: 0;
+}
+
+h1 .light-word::after {
+  content: attr(data-w);
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: transparent;
+  text-shadow:
+    0 0 7px rgba(243, 238, 228, 1),
+    0 0 16px rgba(198, 165, 110, 0.95),
+    0 0 28px rgba(198, 165, 110, 0.4);
+  opacity: 0;
+  pointer-events: none;
+  user-select: none;
+}
+
+.pointer-light { display: none; }
+
+@keyframes laser-scan {
+  0% { opacity: 0; transform: translate3d(-1.35rem, 0, 0); }
+  8% { opacity: 0.9; }
+  86% { opacity: 0.72; }
+  100% { opacity: 0; transform: translate3d(100vw, 0, 0); }
+}
+
+@keyframes led-brighten {
+  from { opacity: var(--jh-led-rest); }
+  to { opacity: calc(var(--jh-led-rest) + (var(--jh-led-lit) - var(--jh-led-rest)) * var(--jh-led)); }
+}
+
+@keyframes word-light {
+  0% { opacity: 0; }
+  36% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .laser {
+    animation-name: var(--jh-laser-name);
+    animation-duration: var(--jh-laser-duration);
+    animation-timing-function: linear;
+    animation-delay: var(--jh-laser-delay);
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+  }
+
+  h1 .light-word::after {
+    animation-name: var(--jh-word-name);
+    animation-duration: var(--jh-word-duration);
+    animation-timing-function: ease;
+    animation-delay: calc(var(--jh-word-delay) + (var(--i) * var(--jh-word-step)));
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+  }
+
+  .path::after,
+  .project::after { transition: opacity 0.55s ease; }
+
+  .path:focus-visible::after,
+  .path:active::after,
+  .project:focus-within::after,
+  .project:active::after {
+    opacity: calc(var(--jh-edge-lit) * var(--jh-edge-on));
+  }
+
+  @media (hover: hover) and (pointer: fine) {
+    .path:hover::after,
+    .project:hover::after {
+      opacity: calc(var(--jh-edge-lit) * var(--jh-edge-on));
+    }
+  }
+
+  @supports (animation-timeline: view()) {
+    .section::before,
+    .project::before,
+    .path::before,
+    .site-footer::before {
+      animation-name: led-brighten;
+      animation-duration: auto;
+      animation-timing-function: linear;
+      animation-fill-mode: both;
+      animation-timeline: view();
+      animation-range: entry 0% entry 42%;
+    }
+  }
+
+  @supports not (animation-timeline: view()) {
+    .section::before,
+    .project::before,
+    .path::before,
+    .site-footer::before { transition: opacity 0.8s ease; }
+  }
+
+  @media (pointer: fine) and (hover: hover) {
+    .pointer-light {
+      display: block;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 0;
+      width: var(--jh-pointer-size);
+      height: var(--jh-pointer-size);
+      border-radius: 50%;
+      pointer-events: none;
+      background: radial-gradient(
+        circle,
+        rgba(243, 238, 228, calc(var(--jh-pointer-alpha) * 0.55)) 0%,
+        rgba(198, 165, 110, var(--jh-pointer-alpha)) 16%,
+        rgba(198, 165, 110, calc(var(--jh-pointer-alpha) * 0.28)) 46%,
+        rgba(198, 165, 110, 0) 72%
+      );
+      opacity: 0;
+      transform: translate3d(-100vw, -100vh, 0);
+      transition: opacity 0.45s ease;
+    }
+
+    .pointer-light.is-on { opacity: 1; }
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
 
   .hero-copy,
   .site-header::after,
-  .welcome[open] { animation: none; }
+  .welcome[open],
+  .laser,
+  h1 .light-word::after,
+  .section::before,
+  .project::before,
+  .path::before,
+  .site-footer::before { animation: none; }
 
   .site-header::after { opacity: 0.75; }
+
+  .laser { opacity: 0; }
+
+  .section::before,
+  .project::before,
+  .path::before,
+  .site-footer::before {
+    opacity: 0.72;
+    transition: none;
+  }
+
+  .path::after,
+  .project::after,
+  .path:hover::after,
+  .path:focus-visible::after,
+  .path:active::after,
+  .project:hover::after,
+  .project:focus-within::after,
+  .project:active::after {
+    opacity: calc(var(--jh-edge-rest) * var(--jh-edge-on));
+    transition: none;
+  }
+
+  h1 .light-word::after { opacity: 0; }
+
+  .pointer-light { display: none; }
 }

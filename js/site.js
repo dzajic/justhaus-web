@@ -127,3 +127,139 @@
 
   if (closeButton) closeButton.focus();
 })();
+
+(function () {
+  var laser = document.querySelector(".laser");
+  if (!laser) return;
+  var reduce = window.matchMedia("(prefers-reduced-motion: reduce)");
+  if (reduce.matches) {
+    laser.remove();
+    return;
+  }
+  laser.addEventListener("animationend", function () {
+    laser.remove();
+  });
+})();
+
+(function () {
+  var reduce = window.matchMedia("(prefers-reduced-motion: reduce)");
+  if (reduce.matches) return;
+  var led = getComputedStyle(document.documentElement).getPropertyValue("--jh-led");
+  if (led && led.trim() === "0") return;
+  if (window.CSS && CSS.supports && CSS.supports("animation-timeline", "view()")) return;
+  if (!("IntersectionObserver" in window)) return;
+
+  var nodes = document.querySelectorAll(".section, .project, .path, .site-footer");
+  if (!nodes.length) return;
+
+  var observer = new IntersectionObserver(function (entries) {
+    entries.forEach(function (entry) {
+      if (!entry.isIntersecting) return;
+      entry.target.classList.add("is-lit");
+      observer.unobserve(entry.target);
+    });
+  }, { rootMargin: "0px 0px -10% 0px", threshold: 0.08 });
+
+  Array.prototype.forEach.call(nodes, function (node) {
+    observer.observe(node);
+  });
+})();
+
+(function () {
+  var reduce = window.matchMedia("(prefers-reduced-motion: reduce)");
+  if (reduce.matches) return;
+  var flag = getComputedStyle(document.documentElement).getPropertyValue("--jh-heading-light");
+  if (flag && flag.trim() === "0") return;
+
+  var skip = {
+    a: 1, an: 1, the: 1, for: 1, to: 1, of: 1, by: 1, is: 1,
+    and: 1, or: 1, in: 1, on: 1, it: 1, so: 1, be: 1, at: 1, as: 1
+  };
+
+  function bare(word) {
+    return word.replace(/^[^A-Za-z0-9]+|[^A-Za-z0-9]+$/g, "").toLowerCase();
+  }
+
+  Array.prototype.forEach.call(document.querySelectorAll("main h1"), function (heading) {
+    if (heading.childNodes.length !== 1 || heading.firstChild.nodeType !== 3) return;
+    var text = heading.firstChild.nodeValue;
+    var parts = text.split(/(\s+)/);
+    var count = 0;
+    parts.forEach(function (part) {
+      if (!part || /^\s+$/.test(part)) return;
+      var word = bare(part);
+      if (word && !skip[word]) count += 1;
+    });
+    if (!count) return;
+
+    var index = 0;
+    var frag = document.createDocumentFragment();
+    parts.forEach(function (part) {
+      if (!part) return;
+      if (/^\s+$/.test(part)) {
+        frag.appendChild(document.createTextNode(part));
+        return;
+      }
+      var word = bare(part);
+      if (!word || skip[word]) {
+        frag.appendChild(document.createTextNode(part));
+        return;
+      }
+      var span = document.createElement("span");
+      span.className = "light-word";
+      span.style.setProperty("--i", String(index));
+      span.dataset.w = part;
+      index += 1;
+      span.textContent = part;
+      frag.appendChild(span);
+    });
+    heading.replaceChild(frag, heading.firstChild);
+  });
+})();
+
+(function () {
+  var reduce = window.matchMedia("(prefers-reduced-motion: reduce)");
+  var fine = window.matchMedia("(pointer: fine)");
+  var hover = window.matchMedia("(hover: hover)");
+  if (reduce.matches || !fine.matches || !hover.matches) return;
+  var flag = getComputedStyle(document.documentElement).getPropertyValue("--jh-pointer");
+  if (flag && flag.trim() === "0") return;
+
+  var light = document.createElement("div");
+  light.className = "pointer-light";
+  light.setAttribute("aria-hidden", "true");
+  document.body.appendChild(light);
+
+  var frame = 0;
+  var x = 0;
+  var y = 0;
+
+  function draw() {
+    frame = 0;
+    if (!light.isConnected) return;
+    light.style.transform = "translate3d(" + x + "px," + y + "px,0) translate(-50%, -50%)";
+  }
+
+  function place(event) {
+    if (!light.isConnected) return;
+    if (event.pointerType && event.pointerType !== "mouse") return;
+    x = event.clientX;
+    y = event.clientY;
+    light.classList.add("is-on");
+    if (!frame) frame = window.requestAnimationFrame(draw);
+  }
+
+  document.addEventListener("pointermove", place, { passive: true });
+  document.addEventListener("mousemove", place, { passive: true });
+
+  function hide() {
+    light.classList.remove("is-on");
+  }
+
+  document.documentElement.addEventListener("mouseleave", hide);
+  window.addEventListener("blur", hide);
+
+  document.addEventListener("pointerdown", function (event) {
+    if (event.pointerType && event.pointerType !== "mouse") light.remove();
+  }, { passive: true });
+})();
