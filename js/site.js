@@ -144,30 +144,6 @@
 (function () {
   var reduce = window.matchMedia("(prefers-reduced-motion: reduce)");
   if (reduce.matches) return;
-  var led = getComputedStyle(document.documentElement).getPropertyValue("--jh-led");
-  if (led && led.trim() === "0") return;
-  if (window.CSS && CSS.supports && CSS.supports("animation-timeline", "view()")) return;
-  if (!("IntersectionObserver" in window)) return;
-
-  var nodes = document.querySelectorAll(".section, .project, .path, .site-footer");
-  if (!nodes.length) return;
-
-  var observer = new IntersectionObserver(function (entries) {
-    entries.forEach(function (entry) {
-      if (!entry.isIntersecting) return;
-      entry.target.classList.add("is-lit");
-      observer.unobserve(entry.target);
-    });
-  }, { rootMargin: "0px 0px -10% 0px", threshold: 0.08 });
-
-  Array.prototype.forEach.call(nodes, function (node) {
-    observer.observe(node);
-  });
-})();
-
-(function () {
-  var reduce = window.matchMedia("(prefers-reduced-motion: reduce)");
-  if (reduce.matches) return;
   var flag = getComputedStyle(document.documentElement).getPropertyValue("--jh-heading-light");
   if (flag && flag.trim() === "0") return;
 
@@ -215,51 +191,4 @@
     });
     heading.replaceChild(frag, heading.firstChild);
   });
-})();
-
-(function () {
-  var reduce = window.matchMedia("(prefers-reduced-motion: reduce)");
-  var fine = window.matchMedia("(pointer: fine)");
-  var hover = window.matchMedia("(hover: hover)");
-  if (reduce.matches || !fine.matches || !hover.matches) return;
-  var flag = getComputedStyle(document.documentElement).getPropertyValue("--jh-pointer");
-  if (flag && flag.trim() === "0") return;
-
-  var light = document.createElement("div");
-  light.className = "pointer-light";
-  light.setAttribute("aria-hidden", "true");
-  document.body.appendChild(light);
-
-  var frame = 0;
-  var x = 0;
-  var y = 0;
-
-  function draw() {
-    frame = 0;
-    if (!light.isConnected) return;
-    light.style.transform = "translate3d(" + x + "px," + y + "px,0) translate(-50%, -50%)";
-  }
-
-  function place(event) {
-    if (!light.isConnected) return;
-    if (event.pointerType && event.pointerType !== "mouse") return;
-    x = event.clientX;
-    y = event.clientY;
-    light.classList.add("is-on");
-    if (!frame) frame = window.requestAnimationFrame(draw);
-  }
-
-  document.addEventListener("pointermove", place, { passive: true });
-  document.addEventListener("mousemove", place, { passive: true });
-
-  function hide() {
-    light.classList.remove("is-on");
-  }
-
-  document.documentElement.addEventListener("mouseleave", hide);
-  window.addEventListener("blur", hide);
-
-  document.addEventListener("pointerdown", function (event) {
-    if (event.pointerType && event.pointerType !== "mouse") light.remove();
-  }, { passive: true });
 })();
