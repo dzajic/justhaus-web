@@ -100,6 +100,16 @@
   <footer class="site-footer">
     <p>© Just Haus LLC · <a href="mailto:hello@justha.us">hello@justha.us</a></p>
   </footer>
+  <dialog id="card-welcome" class="welcome" aria-labelledby="welcome-title" aria-describedby="welcome-line">
+    <button type="button" class="welcome-close">Close</button>
+    <h2 id="welcome-title">Hi, thanks for coming!</h2>
+    <p id="welcome-line">The card worked. I'm curious what you came looking for.</p>
+    <div class="welcome-choices">
+      <button type="button" class="welcome-choice" data-welcome="look">Look around</button>
+      <a class="welcome-choice" href="mailto:hello@justha.us?subject=My%20wildest%20house%20idea">Tell me your wildest house idea</a>
+      <p class="welcome-soon"><span>Design your own Just Haus</span> <span class="welcome-soon-note">Coming soon</span></p>
+    </div>
+  </dialog>
   <script src="js/site.js"></script>
 </body>
 </html>
