@@ -127,3 +127,68 @@
 
   if (closeButton) closeButton.focus();
 })();
+
+(function () {
+  var laser = document.querySelector(".laser");
+  if (!laser) return;
+  var reduce = window.matchMedia("(prefers-reduced-motion: reduce)");
+  if (reduce.matches) {
+    laser.remove();
+    return;
+  }
+  laser.addEventListener("animationend", function () {
+    laser.remove();
+  });
+})();
+
+(function () {
+  var reduce = window.matchMedia("(prefers-reduced-motion: reduce)");
+  if (reduce.matches) return;
+  var flag = getComputedStyle(document.documentElement).getPropertyValue("--jh-heading-light");
+  if (flag && flag.trim() === "0") return;
+
+  var skip = {
+    a: 1, an: 1, the: 1, for: 1, to: 1, of: 1, by: 1, is: 1,
+    and: 1, or: 1, in: 1, on: 1, it: 1, so: 1, be: 1, at: 1, as: 1
+  };
+
+  function bare(word) {
+    return word.replace(/^[^A-Za-z0-9]+|[^A-Za-z0-9]+$/g, "").toLowerCase();
+  }
+
+  Array.prototype.forEach.call(document.querySelectorAll("main h1"), function (heading) {
+    if (heading.childNodes.length !== 1 || heading.firstChild.nodeType !== 3) return;
+    var text = heading.firstChild.nodeValue;
+    var parts = text.split(/(\s+)/);
+    var count = 0;
+    parts.forEach(function (part) {
+      if (!part || /^\s+$/.test(part)) return;
+      var word = bare(part);
+      if (word && !skip[word]) count += 1;
+    });
+    if (!count) return;
+
+    var index = 0;
+    var frag = document.createDocumentFragment();
+    parts.forEach(function (part) {
+      if (!part) return;
+      if (/^\s+$/.test(part)) {
+        frag.appendChild(document.createTextNode(part));
+        return;
+      }
+      var word = bare(part);
+      if (!word || skip[word]) {
+        frag.appendChild(document.createTextNode(part));
+        return;
+      }
+      var span = document.createElement("span");
+      span.className = "light-word";
+      span.style.setProperty("--i", String(index));
+      span.dataset.w = part;
+      index += 1;
+      span.textContent = part;
+      frag.appendChild(span);
+    });
+    heading.replaceChild(frag, heading.firstChild);
+  });
+})();

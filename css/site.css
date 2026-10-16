@@ -1,16 +1,37 @@
 /* Phone first, about 375px. Wider layouts start at 48em.
-   Grain is one small repeating tile. Light is CSS only. */
+   Ground is flat char. Two lights remain, tuned on :root.
+   prefers-reduced-motion makes each one static or absent.
+   --jh-laser-name: none          hide the hero scan
+   --jh-laser-duration            scan length (6.8s)
+   --jh-heading-light: 0          no traveling heading glow
+   --jh-word-name: none           same, if the spans are already there
+   --jh-word-duration / --jh-word-step / --jh-word-delay
+   --jh-link-name: none           links do not grow an underline */
+
+:root {
+  --jh-laser-name: laser-scan;
+  --jh-laser-duration: 6.8s;
+  --jh-laser-delay: 0.55s;
+  --jh-heading-light: 1;
+  --jh-word-name: word-light;
+  --jh-word-duration: 0.85s;
+  --jh-word-step: 0.28s;
+  --jh-word-delay: 1.05s;
+  --jh-link-name: link-grow;
+}
 
 * { box-sizing: border-box; }
 
-html { scroll-behavior: smooth; }
+html {
+  scroll-behavior: smooth;
+  background-color: var(--jh-bg);
+  background-image: none;
+}
 
 body {
   margin: 0;
   background-color: var(--jh-bg);
-  background-image: url("../images/linen-grain.png");
-  background-repeat: repeat;
-  background-size: 220px 220px;
+  background-image: none;
   color: var(--jh-ivory);
   font-family: var(--jh-font);
   font-size: 17px;
@@ -149,13 +170,13 @@ a { color: inherit; }
 }
 
 .site-nav a[aria-current="page"] {
-  text-decoration: underline;
-  text-underline-offset: 6px;
+  text-decoration: none;
 }
 
 .page {
-  padding: 48px var(--jh-edge) 88px;
+  padding: 48px var(--jh-edge) 0;
   max-width: calc(var(--jh-content) + var(--jh-edge));
+  background-image: none;
 }
 
 h1 {
@@ -218,24 +239,18 @@ h2 {
 }
 
 .section,
-.project {
-  position: relative;
-  max-width: 36em;
-  padding: 28px 0 4px;
-  border-top: 1px solid var(--jh-line);
+.project,
+.path,
+.site-footer {
+  --jh-rule: 2rem;
+  margin-top: var(--jh-rule);
+  border-top: 1px solid rgba(198, 165, 110, 0.22);
 }
 
-.section::before,
-.project::before,
-.path::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 22%;
-  top: -1px;
-  height: 1px;
-  box-shadow: 0 0 8px rgba(198, 165, 110, 0.28);
-  pointer-events: none;
+.section,
+.project {
+  max-width: 36em;
+  padding: var(--jh-rule) 0 0;
 }
 
 .section p,
@@ -247,18 +262,17 @@ h2 {
 .paths {
   display: flex;
   flex-direction: column;
-  margin-top: 56px;
+  margin-top: 0;
+  background-image: none;
 }
 
 .path {
-  position: relative;
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
   justify-content: center;
   gap: 6px;
-  min-height: 76px;
-  padding: 18px 0 18px 0;
-  border-top: 1px solid var(--jh-line);
+  padding: var(--jh-rule) 0 0;
   color: inherit;
   text-decoration: none;
 }
@@ -272,7 +286,6 @@ h2 {
 
 .path span {
   max-width: 32em;
-  padding-left: 1.25rem;
 }
 
 .frame {
@@ -293,8 +306,8 @@ h2 {
 }
 
 .site-footer {
-  padding: 8px var(--jh-edge) 28px;
-  border-top: 1px solid var(--jh-line);
+  padding: var(--jh-rule) var(--jh-edge) 2rem;
+  background-image: none;
 }
 
 .site-footer p {
@@ -316,6 +329,29 @@ h2 {
   align-items: flex-end;
   overflow: hidden;
   background: #161210;
+}
+
+/* Sits over the photograph and under the scrim. One pass, then the script removes it. */
+.laser {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 1.35rem;
+  pointer-events: none;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(168, 188, 180, 0.2) 40%,
+    rgba(243, 238, 228, 0.95) 50%,
+    rgba(198, 165, 110, 0.62) 57%,
+    transparent 78%
+  );
+  -webkit-mask-image: linear-gradient(to bottom, transparent 0%, #000 14%, #000 76%, transparent 100%);
+  mask-image: linear-gradient(to bottom, transparent 0%, #000 14%, #000 76%, transparent 100%);
+  opacity: 0;
+  transform: translate3d(-1.35rem, 0, 0);
 }
 
 .hero-photo {
@@ -393,13 +429,94 @@ h2 {
   letter-spacing: 0.03em;
 }
 
-.site-nav a:hover,
-.path:hover strong,
-.project a:hover,
-.section a:hover,
-.prose a:hover,
-.site-footer a:hover {
-  text-shadow: 0 0 12px rgba(198, 165, 110, 0.45);
+.site-nav a,
+.prose a,
+.section a,
+.project a,
+.site-footer a,
+.contact-link,
+.path strong,
+.welcome-choice {
+  position: relative;
+  text-decoration: none;
+}
+
+.site-nav a::after,
+.prose a::after,
+.section a::after,
+.project a::after,
+.site-footer a::after,
+.contact-link::after,
+.path strong::after,
+.welcome-choice::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0.15em;
+  width: 100%;
+  height: 1px;
+  background: #c6a56e;
+  box-shadow: 0 0 8px rgba(198, 165, 110, 0.8);
+  transform: scaleX(0);
+  transform-origin: left center;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.welcome-choice::after {
+  left: 14px;
+  right: 14px;
+  bottom: 8px;
+  width: auto;
+}
+
+.site-nav a::after,
+.site-footer a::after,
+.contact-link::after {
+  bottom: 10px;
+}
+
+.site-nav a:hover::after,
+.site-nav a:focus-visible::after,
+.site-nav a:active::after,
+.prose a:hover::after,
+.prose a:focus-visible::after,
+.prose a:active::after,
+.section a:hover::after,
+.section a:focus-visible::after,
+.section a:active::after,
+.project a:hover::after,
+.project a:focus-visible::after,
+.project a:active::after,
+.site-footer a:hover::after,
+.site-footer a:focus-visible::after,
+.site-footer a:active::after,
+.contact-link:hover::after,
+.contact-link:focus-visible::after,
+.contact-link:active::after,
+.path:hover strong::after,
+.path:focus-visible strong::after,
+.path:active strong::after,
+.welcome-choice:hover::after,
+.welcome-choice:focus-visible::after,
+.welcome-choice:active::after {
+  animation-name: var(--jh-link-name);
+  animation-duration: 0.35s;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+}
+
+.site-nav a[aria-current="page"]::after {
+  transform: scaleX(1);
+  opacity: 0.45;
+  animation: none;
+}
+
+.site-nav a[aria-current="page"]:hover::after,
+.site-nav a[aria-current="page"]:focus-visible::after,
+.site-nav a[aria-current="page"]:active::after {
+  opacity: 1;
+  animation: none;
 }
 
 a:focus-visible,
@@ -463,7 +580,7 @@ a:focus-visible,
 
   .domain { font-size: 15px; letter-spacing: 0.22em; }
 
-  .page { padding-top: 80px; padding-bottom: 120px; }
+  .page { padding-top: 80px; padding-bottom: 0; }
 
   h1 { font-size: 3.15rem; }
 
@@ -479,9 +596,7 @@ a:focus-visible,
 
   .frame { max-width: 34rem; }
 
-  .paths { margin-top: 80px; }
-
-  .site-footer { padding-bottom: 40px; }
+  .site-footer { padding-bottom: 2.5rem; }
 }
 
 /* Card welcome. Closed unless script opens it, so the page is intact without JS. */
@@ -495,9 +610,7 @@ a:focus-visible,
   overflow: auto;
   border: 1px solid var(--jh-line);
   background-color: var(--jh-bg);
-  background-image: url("../images/linen-grain.png");
-  background-repeat: repeat;
-  background-size: 220px 220px;
+  background-image: none;
   color: var(--jh-ivory);
   box-shadow:
     0 0 0 1px rgba(198, 165, 110, 0.16),
@@ -528,6 +641,7 @@ a:focus-visible,
 }
 
 .welcome[open] {
+  z-index: 6;
   animation: welcome-in 280ms ease both;
 }
 
@@ -622,12 +736,129 @@ a:focus-visible,
   to { opacity: 1; }
 }
 
+h1 .light-word {
+  position: relative;
+  z-index: 0;
+}
+
+h1 .light-word::after {
+  content: attr(data-w);
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: transparent;
+  text-shadow:
+    0 0 7px rgba(243, 238, 228, 1),
+    0 0 16px rgba(198, 165, 110, 0.95),
+    0 0 28px rgba(198, 165, 110, 0.4);
+  opacity: 0;
+  pointer-events: none;
+  user-select: none;
+}
+
+@keyframes laser-scan {
+  0% { opacity: 0; transform: translate3d(-1.35rem, 0, 0); }
+  8% { opacity: 0.9; }
+  86% { opacity: 0.72; }
+  100% { opacity: 0; transform: translate3d(100vw, 0, 0); }
+}
+
+@keyframes word-light {
+  0% { opacity: 0; }
+  36% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+@keyframes link-grow {
+  from { transform: scaleX(0); opacity: 0; }
+  to { transform: scaleX(1); opacity: 1; }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .laser {
+    animation-name: var(--jh-laser-name);
+    animation-duration: var(--jh-laser-duration);
+    animation-timing-function: linear;
+    animation-delay: var(--jh-laser-delay);
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+  }
+
+  h1 .light-word::after {
+    animation-name: var(--jh-word-name);
+    animation-duration: var(--jh-word-duration);
+    animation-timing-function: ease;
+    animation-delay: calc(var(--jh-word-delay) + (var(--i) * var(--jh-word-step)));
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+  }
+
+}
+
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
 
   .hero-copy,
   .site-header::after,
-  .welcome[open] { animation: none; }
+  .welcome[open],
+  .laser,
+  h1 .light-word::after,
+  .site-nav a:hover::after,
+  .site-nav a:focus-visible::after,
+  .site-nav a:active::after,
+  .prose a:hover::after,
+  .prose a:focus-visible::after,
+  .prose a:active::after,
+  .section a:hover::after,
+  .section a:focus-visible::after,
+  .section a:active::after,
+  .project a:hover::after,
+  .project a:focus-visible::after,
+  .project a:active::after,
+  .site-footer a:hover::after,
+  .site-footer a:focus-visible::after,
+  .site-footer a:active::after,
+  .contact-link:hover::after,
+  .contact-link:focus-visible::after,
+  .contact-link:active::after,
+  .path:hover strong::after,
+  .path:focus-visible strong::after,
+  .path:active strong::after,
+  .welcome-choice:hover::after,
+  .welcome-choice:focus-visible::after,
+  .welcome-choice:active::after { animation: none; }
 
   .site-header::after { opacity: 0.75; }
+
+  .laser { opacity: 0; }
+
+  h1 .light-word::after { opacity: 0; }
+
+  .site-nav a:hover::after,
+  .site-nav a:focus-visible::after,
+  .site-nav a:active::after,
+  .prose a:hover::after,
+  .prose a:focus-visible::after,
+  .prose a:active::after,
+  .section a:hover::after,
+  .section a:focus-visible::after,
+  .section a:active::after,
+  .project a:hover::after,
+  .project a:focus-visible::after,
+  .project a:active::after,
+  .site-footer a:hover::after,
+  .site-footer a:focus-visible::after,
+  .site-footer a:active::after,
+  .contact-link:hover::after,
+  .contact-link:focus-visible::after,
+  .contact-link:active::after,
+  .path:hover strong::after,
+  .path:focus-visible strong::after,
+  .path:active strong::after,
+  .welcome-choice:hover::after,
+  .welcome-choice:focus-visible::after,
+  .welcome-choice:active::after {
+    transform: scaleX(1);
+    opacity: 1;
+  }
 }
