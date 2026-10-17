@@ -362,6 +362,7 @@ h2 {
   max-width: none;
   object-fit: cover;
   object-position: center 40%;
+  filter: brightness(1.36);
 }
 
 .hero::after {
@@ -371,9 +372,11 @@ h2 {
   background: linear-gradient(
     to top,
     #161210 0%,
-    rgba(22, 18, 16, 0.9) 24%,
-    rgba(22, 18, 16, 0.22) 58%,
-    rgba(22, 18, 16, 0.28) 100%
+    rgba(22, 18, 16, 0.92) 18%,
+    rgba(22, 18, 16, 0.76) 34%,
+    rgba(22, 18, 16, 0.5) 48%,
+    rgba(22, 18, 16, 0.08) 62%,
+    rgba(22, 18, 16, 0.36) 100%
   );
 }
 
