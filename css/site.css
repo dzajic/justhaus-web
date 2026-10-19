@@ -38,6 +38,7 @@ body {
   line-height: 1.6;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
+  isolation: isolate;
 }
 
 img { max-width: 100%; height: auto; }
@@ -798,6 +799,143 @@ h1 .light-word::after {
 
 }
 
+/* One floor plan behind every page. The current room sits near the
+   middle and carries a quiet honey edge. It is not a control. */
+:root {
+  --plan-board: 186vw;
+  --plan-fit: 1;
+  --ox: 50%;
+  --oy: 46%;
+  --plan-scale: 1.15;
+  --room-w: 220;
+  --room-h: 160;
+  --plan-glow-w: calc(var(--room-w) / 860 * var(--plan-board) * var(--plan-scale) * var(--plan-fit));
+  --plan-glow-h: calc(var(--room-h) / 860 * var(--plan-board) * var(--plan-scale) * var(--plan-fit));
+}
+
+body[data-room="entry"] {
+  --ox: 24.65%;
+  --oy: 65.18%;
+  --plan-scale: 2.821;
+  --room-w: 126;
+  --room-h: 136;
+}
+
+body[data-room="living"] {
+  --ox: 41.92%;
+  --oy: 65.18%;
+  --plan-scale: 1.86;
+  --room-w: 197;
+  --room-h: 136;
+}
+
+body[data-room="workshop"] {
+  --ox: 60.99%;
+  --oy: 65.18%;
+  --plan-scale: 2.395;
+  --room-w: 157;
+  --room-h: 136;
+}
+
+body[data-room="hall"] {
+  --ox: 46.86%;
+  --oy: 38.30%;
+  --plan-scale: 1.261;
+  --room-w: 282;
+  --room-h: 191;
+}
+
+body[data-room="studio"] {
+  --ox: 76.57%;
+  --oy: 49.29%;
+  --plan-scale: 1.72;
+  --room-w: 137;
+  --room-h: 314;
+}
+
+body[data-room="nook"] {
+  --ox: 24.65%;
+  --oy: 31.43%;
+  --plan-scale: 3.082;
+  --room-w: 126;
+  --room-h: 114;
+}
+
+.plan {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  overflow: hidden;
+  pointer-events: none;
+  user-select: none;
+  view-transition-name: haus-plan;
+}
+
+.plan-layer {
+  position: absolute;
+  inset: 0;
+}
+
+.plan-base { opacity: 0.082; }
+
+.plan-hot {
+  opacity: 0.06;
+  -webkit-mask-image: linear-gradient(#000, #000);
+  mask-image: linear-gradient(#000, #000);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-position: center;
+  -webkit-mask-size: var(--plan-glow-w) var(--plan-glow-h);
+  mask-size: var(--plan-glow-w) var(--plan-glow-h);
+}
+
+.plan-shift {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: var(--plan-board);
+  aspect-ratio: 860 / 560;
+  transform-origin: var(--ox) var(--oy);
+  transform: translate(calc(var(--ox) * -1), calc(var(--oy) * -1)) scale(calc(var(--plan-scale) * var(--plan-fit)));
+}
+
+.plan-shift img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -webkit-user-drag: none;
+}
+
+.plan-glow {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: var(--plan-glow-w);
+  height: var(--plan-glow-h);
+  transform: translate(-50%, -50%);
+  box-shadow:
+    0 0 0 1px rgba(198, 165, 110, 0.55),
+    0 0 22px 3px rgba(198, 165, 110, 0.42),
+    inset 0 0 36px rgba(198, 165, 110, 0.12);
+}
+
+@view-transition {
+  navigation: auto;
+}
+
+::view-transition-group(*) {
+  animation-duration: 280ms;
+  animation-timing-function: ease;
+}
+
+@media (min-width: 48em) {
+  :root {
+    --plan-board: 132vw;
+    --plan-fit: 0.78;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
 
@@ -834,6 +972,19 @@ h1 .light-word::after {
   .site-header::after { opacity: 0.75; }
 
   .laser { opacity: 0; }
+
+  .plan,
+  .plan-shift,
+  .plan-glow {
+    animation: none;
+    transition: none;
+  }
+
+  ::view-transition-group(*),
+  ::view-transition-old(*),
+  ::view-transition-new(*) {
+    animation-duration: 0s;
+  }
 
   h1 .light-word::after { opacity: 0; }
 
