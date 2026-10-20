@@ -4,7 +4,7 @@ This folder is the public source of truth for the company and its projects, and 
 
 Everything in this folder is public. It holds company and project knowledge only. Contact is [hello@justha.us](mailto:hello@justha.us).
 
-These notes are not linked from the website navigation. The site stays the public introduction. This folder is the working record.
+The site stays the public introduction. These notes are the working record, opened from a Notebook link in the footer. They stay out of the main navigation.
 
 ## How to use it
 

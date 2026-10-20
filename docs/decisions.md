@@ -2,7 +2,11 @@
 
 Dated choices for the company and the site. Add a new entry when a decision changes. Leave the old entry in place so the path stays visible.
 
-The site stays static HTML and CSS on GitHub Pages. This knowledge base lives in `docs/` and is not linked from the site navigation.
+The site stays static HTML and CSS on GitHub Pages. This knowledge base lives in `docs/`. Notebook in the footer opens it. It stays out of the main navigation.
+
+## 2026-10-20 — Notebook in the footer
+
+The notes in `docs/` stay the source of truth. `/docs/` reads those files and renders them in the same dark pages. Notebook sits in the footer, out of the main navigation. A new note is a Markdown file plus a link from the notebook index. The project template folder starts with an underscore, so the Pages config includes it.
 
 ## 2026-10-19 — A public knowledge base
 

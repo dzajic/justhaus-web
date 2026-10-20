@@ -1,0 +1,5 @@
+# Publish the project template. Jekyll skips folders whose names
+# start with an underscore. No theme: existing pages stay as they are.
+include:
+  - docs/projects/_template
+  - docs/projects/_template/README.md
