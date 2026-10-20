@@ -1,133 +1,121 @@
-# Just Haus — historical and strategic briefing
+# Historical briefing
 
-**Snapshot date:** 2026-10-11  
-**Use:** Background for human collaborators and AI assistants working on the website and broader brand.  
-**Evidence standard:** This draws on the founder's conversations, plus the repo's existing documents as inspected on 2026-10-11. Distinguish `Confirmed` (stated by founder), `Accepted` (founder liked or approved wording/design), `Exploratory` (discussed but not selected), `Historical` (may be superseded), and `Uncertain` (not known). Quotations are direct statements where identified; other wording is an editorial summary, **not** a quote. Do not fabricate gaps.
+Snapshot 2026-10-11, for collaborators. Labels: Confirmed (founder stated), Accepted (founder liked), Exploratory (discussed), Historical (may be superseded), Uncertain (unknown). Quotations are direct; other lines are summary.
 
-## 1. What Just Haus is
+## What it is
 
-**Confirmed:** Just Haus LLC is an emerging design/build company in the White Mountains of New Hampshire, founded by Daniel Zajic. In an earlier conversation, he called it “The solo build/design company I'm incubating.” This captures its origin but may not describe future staffing.
+| Status | Fact |
+| --- | --- |
+| Confirmed | Just Haus LLC is a design and build company in the White Mountains of New Hampshire, founded by Daniel Zajic. |
+| Accepted | “Just Haus is a system for discovering better ways to build houses.” Buildings are places to live and experiments the next one can learn from. |
+| Confirmed | “Just Haus is defined by what's removed not by what's added.” |
+| Confirmed | “Extreme minimalism is the idea.” Restraint in the rooms, and subtraction in the work. |
+| Accepted | “Nature sets the forces. Just Haus applies leverage.” |
+| Confirmed | The public account describes the practice and the buildings. A product line, a certification, or a license waits until it exists. |
 
-**Accepted mission phrasing:** “Just Haus is a system for discovering better ways to build houses.” This is the clearest concise expression of the underlying ambition. Buildings are both useful places to live and iterative experiments from which better construction approaches can emerge.
+## Principles
 
-**Problem being addressed (editorial synthesis):** Conventional building can involve many materials, processes, trades and dependencies. The founder repeatedly asks what can be removed, simplified or redesigned without compromising the actual goals. Other themes: maintainability, adaptability, cost, energy resilience and cold-climate performance.
+| Status | Principle |
+| --- | --- |
+| Confirmed | Remove parts, operations, and whole categories of products. In the Science on Screen talk he described “eliminating entire aisles” of a home-improvement store. |
+| Confirmed | Learn by doing. Experiments run together, not one at a time. |
+| Confirmed | Envelope, air sealing, and balanced ventilation work as one system. |
+| Confirmed | Judge the whole: winter use, integration, and installation, not a single yield number. Vertical facade solar is one case. |
+| Confirmed | Removable interior panels, in place of drywall as the default, so a wall can be opened, changed, and repaired. |
+| Confirmed | Natural surfaces, wood, and a tolerance for patina. Calm rooms let people, daylight, and objects add the variety. |
+| Confirmed | Technology earns its place by simplifying the building. |
+| Confirmed | Foam trouble, weather, damaged material, and a changed decision belong in the record of the work. |
+| Uncertain | A fixed manifesto, an internal engineering standard, or a commercial acceptance test is still ahead. |
 
-Just Haus is **not established** as a modular house manufacturer, solar installer, licensed architectural practice, Passive House certification practice, or seller of a proven house-product catalogue. Never imply those models already exist.
+## Name and scope
 
-## 2. Principles and reasons
+| Status | Fact |
+| --- | --- |
+| Historical | The first major building was also “the Cube,” for its simple form. The early website was a basic page of photos. |
+| Confirmed | That project became Just Haus Alpha. Greek letters for later projects were welcomed. Which building is Beta is still open. |
+| Confirmed | The work grew from a founder-led experiment into an LLC. The scope includes renovations, smaller jobs, and design, along with new houses. |
+| Exploratory | Studio, Works, Build, and Projects were proposed as facets. They are not departments. |
+| Historical | Photos stay. The site is the company and the work, and the real logo stays the simple house mark. |
 
-- **Confirmed:** “Just Haus is defined by what's removed not by what's added.” Avoid unnecessary components, installation operations and whole categories of building products. The founder described “eliminating entire aisles” of a home-improvement store during his Science on Screen talk.
-- **Confirmed:** “Extreme minimalism is the idea.” Minimalism is both aesthetic restraint and practical subtraction.
-- **Confirmed:** Learn by doing; experiments are simultaneous, not neatly isolated. In response to a presentation phrase about “one” experiment, the founder objected that it was “like a dozen! LOL”.
-- **Accepted:** “Nature sets the forces. Just Haus applies leverage.” Work with physics, climate and materials through deliberate choices.
-- **Confirmed:** Use high-performance envelopes, air sealing, and balanced ventilation together rather than considering equipment in isolation. Energy performance is a system question.
-- **Confirmed:** Look at total economic and construction value instead of one isolated metric: e.g. vertical facade solar can make sense for winter production, integration and installation even if annual yield is lower than a conventionally angled array.
-- **Confirmed:** Adaptability and access matter. Interior removable panels, without conventional drywall as the default, are meant to simplify inspection, alterations and replacement.
-- **Confirmed:** Material honesty, natural surfaces, wood, subtle texture and wabi-sabi-inspired tolerance of patina. Calm neutral interiors let people, daylight and objects add variety.
-- **Confirmed:** Technology can improve buildings but should not add complexity simply for novelty. The founder brings a long software-engineering mindset to questions of modularity and systems.
-- **Confirmed:** Report failures honestly and with humor. Foam problems, damaged materials, weather, construction setbacks and revised decisions are part of learning, not necessarily hidden mistakes.
-- **Uncertain:** No formal, fixed design manifesto, internal engineering standard, commercial acceptance criteria or evidence-backed cost-reduction guarantee has yet been adopted.
+## Work in view, October 2026
 
-## 3. Evolution of the idea and name
+| Status | Fact |
+| --- | --- |
+| Alpha | A two-story experiment under construction: upstairs living, kitchen, bedroom, bath, and office; downstairs garage and mechanical, with later living uses possible. |
+| Alpha, in progress | Continuous exterior insulation, a high-performing roof, careful air sealing, ERV, a photovoltaic facade, battery and inverter power, mini splits, pellet heat, wood or slabless floors, and modular wood interior panels. Assemblies change as the work proceeds. Results are shared when they are measured and ready. |
+| Later, tentative | A detached garage, a single-story house with an attached garage, a separate ADU, and in time a first project intended for sale. Sequence and names can change. The detached garage's foundation and floor are experiments for that building. |
+| Open | Where the practice puts its weight: design and build for others, remodeling, houses built to sell, reusable systems, or a mix. Pricing, staffing, and schedule stay off this page. |
 
-**Historical:** The first major building project was also called “the Cube,” a reference to its simple form. The founder described the early website as “super basic,” linking to photos of years of building.
+## Audiences
 
-**Later:** The first project gained the identity **Just Haus Alpha**. Greek letters for subsequent projects, potentially through variations on the house-logo mark, were received positively; it is **not known** which specific subsequent structure is formally Beta.
+| Status | Fact |
+| --- | --- |
+| Historical | The first site was a public photo index. |
+| 2026-10-11 | A dependency-free static site on GitHub Pages at `justha.us`. |
+| Inferred | People following the build, curious builders, collaborators, people who might commission work, and someone who scanned the card. The ranking is not a founder decision. |
+| Message | Real buildings, subtraction, and learning. Say what is built, what is underway, and how to reach the company. |
+| Open | Primary audience, the one visitor action, and how much of the site is services versus a record of the work. |
 
-**Confirmed evolution:** What began as a founder-led building experiment became an LLC and emerging company. The intended scope widened beyond new houses to renovations, smaller jobs, design and other work.
+## Language
 
-**Exploratory sub-brands:** Just Haus Studio, Just Haus Works, Just Haus Build, and Just Haus Projects were proposed as possible facets. These should not be represented as existing departments or separate businesses.
+| Status | Line |
+| --- | --- |
+| Founder | Direct, curious, precise, warm, sometimes playful. |
+| Accepted | “Just Haus is a system for discovering better ways to build houses.” |
+| Accepted | “Nature sets the forces. Just Haus applies leverage.” |
+| Founder | “Just Haus is defined by what's removed not by what's added.” |
+| Founder | “Extreme minimalism is the idea.” |
+| Liked, not locked | “Thoughtfully designed”, “Justly built”, “Made to last”. One further card line was set aside on 2026-10-19. See [decisions.md](../decisions.md). |
+| Guardrail | Claims stay with what is built or underway. A license, a certification, a guaranteed figure, a large team, or a finished product waits until it is real. |
 
-**Superseded assumptions:** “Just a personal photo archive” is inadequate as the *entire* future website, though photos remain important. “Only new homes” is too narrow. Detailed logo variations should not replace the founder's actual simple symbol.
+## Mark and materials
 
-**Unknown:** No verified full timeline of discarded prior company names or complete list of abandoned business models exists. Do not invent one.
+| Status | Fact |
+| --- | --- |
+| Confirmed | Legal name Just Haus LLC. Brand Just Haus. Domain `justha.us`. |
+| Accepted | Wordmark JUSTHA.US, so the name can also be the URL. “Just Haus” stays in use beside it. |
+| Confirmed | The logo is his real mark: a simple pitched-roof house with a central door cutout and no windows. |
+| Accepted | A vertical-slat motif, added beside the mark, was welcomed. |
+| Proposed | Charcoal `#111111`, ivory `#F3EFE6`, taupe `#B7A58E`. A clean sans serif, open space, clear hierarchy. Tokens are not locked. The live site uses its own warm char, birch, and honey. |
+| Images | Real project photos: dark wood, vertical cladding, integrated photovoltaic panels, construction close-ups, northern weather. A drawing or a generated image is labeled as a concept. |
+| Extensions | The same identity can run to cards, letterhead, clothing, and equipment. Card ideas have included a QR code, a “Design → Build” line, and a back with a short note and contact. Later card studies can supersede the details. |
 
-## 4. Position and next steps as of October 2026
+## Site
 
-**Confirmed:** The founder remains a Principal Engineer in software at Form Health and expects an eventual shift toward construction. An earlier estimate was roughly three or more years before concentrating on building; it is not a launch date.
+| Status | Fact |
+| --- | --- |
+| Established | Dependency-free pages on GitHub Pages. The founder reviews changes in pull requests. |
+| Established | The Science on Screen deck, “Science the House Out of It” (October 2026), stays in the repo and out of the main nav. |
+| Candidate, not a sitemap | Home, Approach, Projects starting with Alpha, Experiments, About, contact. |
+| Constraint | Use the real logo. Keep room for renovations and smaller work, not only new houses. |
 
-**Alpha:** A real two-story experimental garage/apartment: approximately 750 sq ft of upstairs open living/kitchen, bedroom, bath and office; downstairs initially garage/mechanical with possible later living uses. Features and experiments have included continuous exterior insulation, high roof R-value, careful air sealing, ERV, photovoltaic wall/facade, battery/inverter power, mini splits, pellet heat, wood-based or slabless floor approaches, and modular wood interior panels. Designs and assemblies change as work progresses. **Not a completed, commercially validated reference house**.
+## What can be public
 
-**Other planned work (tentative sequencing):** a separate detached garage, a future single-story house with attached garage, a separate family ADU, and eventually a first project intended for sale. The specific sequence and project identities can change. The 26x26 detached garage foundation and floor approach have been active experiments; do not automatically treat its detailed design as approved for general use.
+| Ready when verified | Stays out |
+| --- | --- |
+| Company and site name, the northern New Hampshire region, the founder's name, the buildings and the approaches, real photos with permission, and a clear line between built, underway, and proposed | Street addresses, family arrangements, finances, schedules, travel, access and security details, private correspondence, and deals still in conversation |
+| Contact on the site is hello@justha.us | A personal email or a phone number stays off these notes until it is chosen for the site |
+| Intentions, labeled as intentions | R-values, costs, output, code calls, certifications, and longevity claims, until the as-built record is ready |
 
-**Emerging business activities:** personal build R&D; real paid smaller construction/renovation work as a possible path; eventually building houses for others or for sale; potentially reusing refined details and systems. Whether the company ultimately emphasizes client design/build, speculative development, remodeling, systems/IP or some mix is **unsettled**. Likewise pricing, licensing, staffing, portfolio, capacity and schedule.
+## Open
 
-## 5. Website audiences and outcome
+1. Primary audience, and the one action the site invites.
+2. Which services are available now, and which are later intentions.
+3. Whether Just Haus or JUSTHA.US leads the wordmark.
+4. Final colors, type, logo geometry, and the slat treatment.
+5. Alpha's public identity, and the Greek-letter sequence after it.
+6. Whether to keep a journal, technical notes, or a photo chronology.
+7. How much of the founder's story belongs on the public site.
+8. Which photos, diagrams, and technical claims are approved.
+9. The longer commercial path, partners, scale, and timing.
+10. How deep the public technical record should go.
 
-**Historical site:** Simple public project-photo index.
+## For the next editor
 
-**Current repo reality (2026-10-11):** Dependency-free static HTML/CSS site on GitHub Pages at `justha.us`. `index.html` is the homepage and `alpha.html` is a public project page; `telo.html` and `telo-concept.html` are unlisted outreach pages with `noindex, nofollow, noarchive`. See root `README.md`, `AGENTS.md`, `docs/project-brief.md`, and `docs/decisions.md` for the existing site architecture and project-specific guidance. Their TELO work is an exploratory partnership scenario, not a core general brand claim.
+1. Start with root `AGENTS.md` and `README.md`. `BRAND.md` is the working voice. This file is history.
+2. Brand choices live in `docs/brand/decisions.md`. Site choices live in `docs/decisions.md`.
+3. A suggestion stays a suggestion, a plan stays a plan, and a trial stays a trial, until the record says otherwise.
+4. On a change, update the note that owns it and say what the new row supersedes.
+5. Personal details stay out of the public repo.
 
-**Possible audiences (inferred rather than founder-ranked):** people following the build, technically curious builders/designers, collaborators, potential construction clients, and recipients of a business card. Existing repo project brief also specifies interested product/energy partners and TELO stakeholders.
-
-**Appropriate message:** This is real physical work, guided by a distinctive process of experiments, subtraction and learning. Explain the company, approach, project history, what's actually built, and how to reach it. Visitor emotions such as trust, curiosity and inspiration are **plausible interpretations**, not verbatim declared goals.
-
-**Unresolved:** The website's *primary audience*, primary visitor action and whether to emphasize active services or documentation are not confirmed. Do not create an unsupported “book a build” funnel.
-
-## 6. Voice and claims
-
-**Founder style:** direct, curious, skeptical of default conventions, technically precise without needing to sound academic, warm, sometimes playful and self-deprecating. During a presentation he used “thinking outside the box — or in my case, the cube,” and joked about construction mishaps and “4D chess” because time matters.
-
-**Accepted or liked brand language:**
-- “Just Haus is a system for discovering better ways to build houses.” (assistant wording accepted by founder)
-- “Nature sets the forces. Just Haus applies leverage.” (accepted)
-- “Just Haus is defined by what's removed not by what's added.” (direct founder statement)
-- “Extreme minimalism is the idea.” (direct founder statement)
-- “Thoughtfully designed”, “Justly built”, “Made to last”, “Always becoming more” (approved *direction* from a card discussion; not all final taglines).
-
-**Avoid as editorial guardrails:** corporate hype, luxury-real-estate clichés, empty sustainability claims, exaggerated disruption claims, unearned certainty and fictional achievements. Do not claim certified construction, licensed architecture/engineering credentials, guaranteed costs/energy performance, operating business divisions, a large team, or a proven standard product without verified evidence. The founder's software job title does not establish a professional building engineering license.
-
-## 7. Identity and materials
-
-**Confirmed:** legal name **Just Haus LLC**, brand **Just Haus**, domain **justha.us** (not justhau.us).
-
-**Accepted recent direction:** Stylize wordmark **JUSTHA.US** so the name doubles as URL. This does not establish exclusive use of that spelling over “Just Haus.”
-
-**Confirmed actual logo:** very simple outline of a pitched-roof house/cabin with central doorway cutout at the base, **no windows**. The founder asked to use his *real logo* rather than an assistant's substitute. An added **vertical-slat** motif in a card concept was enthusiastically liked.
-
-**Proposed, not locked:** charcoal `#111111`, warm ivory `#F3EFE6`, taupe `#B7A58E`; clean modern sans serif, generous white space, letterspacing and clear hierarchy. The existing repo brief also says black/white/gray with warm natural accents, grids and rounded panels. **No final named font or fixed tokens**.
-
-**Imagery:** authentic project photos, dark wood with vertical cladding and integrated photovoltaic panels, natural wood and close-up construction, northern weather and landscape, simple shapes. Treat conceptual or generated artwork as concepts, not real construction photos or actual product renders.
-
-**Physical extensions:** coherent identity for website, cards, letterhead, clothing, vehicle/equipment graphics. Founder requested brand assets/guidelines live in the repo. Earlier business card concepts explored a front-mounted QR code integrated into the logo, a “Design → Build” line and a back philosophy/contact layout. Later October 2026 hybrid card proposals may supersede some card-specific details.
-
-## 8. Website architecture and features
-
-**Already established:** simple dependency-free website, GitHub Pages; existing pages and TELO noindex rules in root `AGENTS.md`. Founder uses GitHub PRs to review changes. The web repo also contains a Science on Screen presentation (“Science the House Out of It,” delivered in October 2026) whose imagery and experimental story may be useful; no decision makes it a prominent permanent site section.
-
-**Candidate content, not approved sitemap:** Home, Philosophy/Approach, Projects (starting with Alpha), Journal/Experiments, About, Contact. Could be fewer or more pages; no formal information architecture chosen. Photography, project updates and real engineering reasoning are strong sources. A structured learning journal is an *idea*, not an approved publishing commitment.
-
-**Actual constraints:** use the real logo and keep its minimal geometry; do not narrow the offering to new builds only. Keep TELO pages unlisted and their contact rules per existing repo guidance. No evidence for blanket rejections of animations, forms, blogs or dark mode, so do not attribute any such objection to the founder.
-
-## 9. Publishing boundaries
-
-**Appropriate public material if verified current:** company and website name, general northern NH region, founder's name and non-sensitive professional experience, the building experiment and chosen approaches, real project images with permission, explicit distinctions between built/underway/proposed, and future intentions *as intentions*.
-
-**Private by default:** home and parcel street addresses; family identities and arrangements; finances, debt, income, precise schedules and travel; credentials, access or security details; vendor/private correspondence; nonpublic deal negotiations. Public repo documents are not private notes.
-
-**Contact:** A personal Gmail address and a phone number were offered for a business card; do not automatically duplicate personal contact details into public brand-history documentation. A site contact scheme remains to be chosen.
-
-**Technical claims:** Check up-to-date as-built status and sources before printing R-values, costs, PV output, code compliance, certifications, test results or longevity predictions. Project designs have been repeatedly revised.
-
-## 10. Open questions
-
-1. Primary audience and one website action to prioritize *now*.
-2. Which services are actually available now vs future intentions?
-3. Whether Just Haus vs JUSTHA.US is the default wordmark hierarchy.
-4. Final colors, font family, logo geometry and slat treatment.
-5. Final Alpha identity and subsequent Greek-letter naming sequence.
-6. Whether and how to write a journal, public technical notes, or a photo chronology.
-7. How heavily to foreground the founder's personal story and failures.
-8. Which real project images, diagrams and technical claims are approved for publication.
-9. Long-term commercial model, partner roles, scale and timing.
-10. How to balance a minimalist public site with deeper technical documentation.
-
-## Instructions for future collaborators
-
-1. Start with root `AGENTS.md` and `README.md`; treat `BRAND.md` as current working voice/identity guidance and this file as historical context.
-2. Check brand decisions in `docs/brand/decisions.md` and technical/site decisions in `docs/decisions.md`.
-3. Do not silently convert a suggestion into a founder statement, a plan into a finished building, or a trial into a validated standard.
-4. On change, update the appropriate reference and record what is superseded and why.
-5. Keep sensitive personal details out of public repo content.
-
-**Most useful organizing idea:** The building is not only the product; the evolving method of discovering better ways to build is the distinguishing work.
+The distinguishing work is the method of finding better ways to build, practiced on real buildings.

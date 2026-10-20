@@ -1,25 +1,22 @@
-# Current handoff
+# Handoff
 
-Last updated: 2026-10-12
+Site state as of 2026-10-12. Contact is [hello@justha.us](mailto:hello@justha.us).
 
-## Published pages
+## Pages
 
-- Home: `index.html`
-- Approach: `approach.html`
-- Projects: `projects.html`
-- Experiments: `journal.html`
-- Alpha: `alpha.html`
-- About: `about.html`
+| Page | File |
+| --- | --- |
+| Home | `index.html` |
+| Approach | `approach.html` |
+| Projects | `projects.html` |
+| Experiments | `journal.html` |
+| Alpha | `alpha.html` |
+| About | `about.html` |
 
-Contact is `hello@justha.us`. There is no phone and no form.
+`presentations/` stays as it is, and stays out of the public nav. The TELO pages, their images, and `data.html` are off the site.
 
-## Removed
+## Open
 
-TELO pages, TELO images, the TELO outreach notes, and `data.html` are gone.
-`presentations/` is unchanged and is not linked from the public nav.
-
-## Next actions
-
-1. Confirm whether a phone number belongs on About.
-2. Decide whether later projects keep Greek-letter names.
-3. Decide whether the Alpha photo album link stays.
+1. Whether a phone number belongs on About.
+2. Whether later projects keep Greek-letter names.
+3. Whether the Alpha photo album link stays.

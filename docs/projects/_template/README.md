@@ -1,34 +1,30 @@
 # Project name
 
-One sentence on what this project is. Copy this file to `docs/projects/<name>/README.md` and replace the prompts.
-
-Keep it public. No client names, no street address, no costs, no personal details. Contact for the company is [hello@justha.us](mailto:hello@justha.us).
+One sentence on what this project is. Copy this file to `docs/projects/<name>/README.md`, keep it public, and use [hello@justha.us](mailto:hello@justha.us) as the company contact.
 
 ## Goals
 
-What this project is aiming for. Name goals as goals.
+Name goals as goals.
 
-- Comfort:
-- Health:
-- Efficiency:
-- Sustainability:
-- Anything particular to this project:
+| Aim | For this project |
+| --- | --- |
+| Comfort |  |
+| Health |  |
+| Efficiency |  |
+| Sustainability |  |
+| Particular to this project |  |
 
 ## Site and orientation
 
-What the place asks of the building: climate, sun, slope, and how the rooms want to face. Describe the conditions, not a street address.
-
--
+Conditions the place asks of the building: climate, sun, slope, and how the rooms want to face. Describe the conditions, not a street address.
 
 ## Program
 
-The rooms and the life they hold. Note where public and private zones meet, and where a mini hallway can make that transition.
-
--
+The rooms, and where a mini hallway makes the public-to-private transition.
 
 ## Checklist
 
-Use [the design checklist](../../principles/design-checklist.md). Mark every rule **applied**, **exception**, or **n/a**, and give a reason.
+Use the [design checklist](../../principles/design-checklist.md). Mark every rule applied, an exception, or n/a, with a reason.
 
 | Rule | Applied / exception / n/a | Reason |
 | --- | --- | --- |
@@ -39,7 +35,7 @@ Use [the design checklist](../../principles/design-checklist.md). Mark every rul
 | Landscape windows on the south |  |  |
 | A north window only when that wall is the room's only exterior wall |  |  |
 | No roof penetrations |  |  |
-| No HVAC ducting; ERV airflow only |  |  |
+| No HVAC ducting. ERV airflow only |  |  |
 | Subtract parts |  |  |
 | Removable panels where drywall would usually go |  |  |
 | Assemblies that open |  |  |
@@ -51,8 +47,12 @@ Use [the design checklist](../../principles/design-checklist.md). Mark every rul
 
 ## Decisions
 
-- YYYY-MM-DD — 
+| Date | Decision | Reason |
+| --- | --- | --- |
+| YYYY-MM-DD |  |  |
 
 ## Lessons
 
-- 
+| Lesson |  |
+| --- | --- |
+|  |  |

@@ -228,7 +228,8 @@
     rows.forEach(function (row) {
       html += "<tr>";
       for (var cell = 0; cell < head.length; cell++) {
-        html += "<td>" + inline(row[cell] || "", baseDir) + "</td>";
+        var label = head[cell] ? '<span class="cell-label">' + inline(head[cell], baseDir) + "</span>" : "";
+        html += "<td>" + label + inline(row[cell] || "", baseDir) + "</td>";
       }
       html += "</tr>";
     });

@@ -1,41 +1,14 @@
 # Decisions
 
-Dated choices for the company and the site. Add a new entry when a decision changes. Leave the old entry in place so the path stays visible.
+Dated choices for the company and the site; a new choice adds a row, and the older row stays.
 
-The site stays static HTML and CSS on GitHub Pages. This knowledge base lives in `docs/`. Notebook in the footer opens it. It stays out of the main navigation.
-
-## 2026-10-20 — Notebook in the footer
-
-The notes in `docs/` stay the source of truth. `/docs/` reads those files and renders them in the same dark pages. Notebook sits in the footer, out of the main navigation. A new note is a Markdown file plus a link from the notebook index. The project template folder starts with an underscore, so the Pages config includes it.
-
-## 2026-10-19 — A public knowledge base
-
-`docs/` is the public source of truth for the company and projects, and the planner for a future project. It is all public. Contact in these notes is hello@justha.us only.
-
-## 2026-10-19 — The public voice says yes
-
-Public language is direct, informal, curious, and playful, and it stays on what is possible. Words to skip: "affordable", "bad", and the line "Always becoming more". Goals can be named as goals. The copy pass is in review and updates the live pages when it lands.
-
-A conversation about a house is welcome at hello@justha.us. The site publishes no price list and no fixed service menu.
-
-## 2026-10-17 — The hero photograph, a little lighter
-
-The homepage hero was lightened modestly so the wood grain can read, while the headline stays on a near-black field.
-
-## 2026-10-16 — Quiet light on the dark site
-
-The hero keeps a single laser sweep, and headings keep a one-time word glow. The ground is flat and near-black. Dividers are quiet hairlines. Links grow a honey underline. The pointer glow and the thick card edges were dropped.
-
-## 2026-10-16 — A welcome from the card
-
-Visitors who arrive with `?ref=card` get a one-time welcome. It can be dismissed, and it stays out of the way on an ordinary visit.
-
-## 2026-10-12 — TELO leaves the site
-
-The TELO pages, their images, and `data.html` were removed. They stay off the site unless Daniel asks to bring them back.
-
-## 2026-10-11 — A dark, phone-first site, still static
-
-The public site is standalone HTML and CSS on GitHub Pages. It is a dark, warm, phone-first room: near-black ground, birch type, honey for hairlines and light. A framework waits for a concrete need and an explicit yes.
-
-The pages document Just Haus and the work. Alpha is the first project, and the practice is the series of lessons after it.
+| Date | Decision | Reason |
+| --- | --- | --- |
+| 2026-10-20 | Notebook in the footer | Notes in `docs/` stay the source. `/docs/` renders them in the same dark pages. Notebook is in the footer, out of the main nav. A new note is a Markdown file plus a link from the index. The underscore template folder is included so Pages publishes it. |
+| 2026-10-19 | A public knowledge base | `docs/` is the public source for the company and projects, and the planner for a future project. Contact in these notes is hello@justha.us only. |
+| 2026-10-19 | The public voice says yes | Direct, informal, curious, and playful, on what is possible. The words "affordable" and "bad", and the line "Always becoming more", stay off the public pages. A goal can be named as a goal. A conversation is welcome at hello@justha.us. The pages carry the record; a price list and a fixed service menu stay off them. |
+| 2026-10-17 | Hero photograph, a little lighter | Lightened modestly so the wood grain reads, with the headline on a near-black field. |
+| 2026-10-16 | Quiet light on the dark site | One laser sweep on the hero, a one-time word glow on headings, a flat near-black ground, hairline dividers, and a honey underline on links. |
+| 2026-10-16 | A welcome from the card | Visitors with `?ref=card` get a one-time welcome. It can be dismissed, and an ordinary visit stays clear. |
+| 2026-10-12 | TELO stays off the site | The TELO pages, their images, and `data.html` came off the site. |
+| 2026-10-11 | A dark, phone-first site, still static | Standalone HTML and CSS on GitHub Pages. Near-black ground, birch type, honey for hairlines and light. The pages document Just Haus and the work. Alpha is the first project. |
