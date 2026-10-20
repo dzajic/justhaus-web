@@ -175,7 +175,7 @@ a { color: inherit; }
 
 .page {
   padding: 48px var(--jh-edge) 0;
-  max-width: calc(var(--jh-content) + var(--jh-edge));
+  max-width: none;
   background-image: none;
 }
 
@@ -205,12 +205,12 @@ h2 {
 
 .lede {
   margin: 0 0 28px;
-  max-width: 34em;
+  max-width: 70ch;
   font-size: 1.125rem;
   line-height: 1.45;
 }
 
-.prose { max-width: 36em; }
+.prose { max-width: 70ch; }
 
 .prose p,
 .prose li { margin: 0 0 16px; }
@@ -221,7 +221,11 @@ h2 {
 .frame a,
 .site-footer a,
 .section a,
-.project a {
+.project a,
+.points a,
+.about-split a,
+.points a,
+.about-split a {
   text-underline-offset: 3px;
 }
 
@@ -249,14 +253,16 @@ h2 {
 
 .section,
 .project {
-  max-width: 36em;
+  max-width: none;
   padding: var(--jh-rule) 0 0;
 }
 
 .section p,
-.project p {
+.project p,
+.points p,
+.about-split p {
   margin: 0;
-  max-width: 36em;
+  max-width: 70ch;
 }
 
 .paths {
@@ -285,12 +291,12 @@ h2 {
 }
 
 .path span {
-  max-width: 32em;
+  max-width: 70ch;
 }
 
 .frame {
   margin: 48px 0 0;
-  max-width: 36em;
+  max-width: none;
 }
 
 .frame img {
@@ -301,9 +307,25 @@ h2 {
 
 .frame figcaption {
   margin-top: 10px;
-  max-width: 36em;
+  max-width: 70ch;
   font-size: 14px;
 }
+
+.points {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.points li {
+  margin: 0;
+  padding: 2rem 0 0;
+  border-top: 1px solid rgba(198, 165, 110, 0.22);
+}
+
+.points h2 { max-width: 70ch; }
+
+.about-split .section { margin-top: 2rem; }
 
 .site-footer {
   padding: var(--jh-rule) var(--jh-edge) 2rem;
@@ -436,6 +458,8 @@ h2 {
 .prose a,
 .section a,
 .project a,
+.points a,
+.about-split a,
 .site-footer a,
 .contact-link,
 .path strong,
@@ -448,6 +472,8 @@ h2 {
 .prose a::after,
 .section a::after,
 .project a::after,
+.points a::after,
+.about-split a::after,
 .site-footer a::after,
 .contact-link::after,
 .path strong::after,
@@ -488,6 +514,12 @@ h2 {
 .section a:hover::after,
 .section a:focus-visible::after,
 .section a:active::after,
+.points a:hover::after,
+.points a:focus-visible::after,
+.points a:active::after,
+.about-split a:hover::after,
+.about-split a:focus-visible::after,
+.about-split a:active::after,
 .project a:hover::after,
 .project a:focus-visible::after,
 .project a:active::after,
@@ -597,7 +629,68 @@ a:focus-visible,
 
   .slats { width: 36px; }
 
-  .frame { max-width: 34rem; }
+  .frame { max-width: none; }
+
+  .paths {
+    flex-direction: row;
+    align-items: stretch;
+    gap: 2.5rem;
+  }
+
+  .path {
+    flex: 1 1 0;
+    margin-top: 2rem;
+  }
+
+  .points {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3rem;
+  }
+
+  .project {
+    display: grid;
+    grid-template-columns: 13rem minmax(0, 1fr);
+    column-gap: 1.5rem;
+    align-items: start;
+  }
+
+  .project .status {
+    grid-column: 1;
+    grid-row: 1;
+    margin: 0.2rem 0 0;
+  }
+
+  .project h2 {
+    grid-column: 2;
+    grid-row: 1;
+    margin: 0;
+  }
+
+  .project p {
+    grid-column: 2;
+    grid-row: 2;
+    margin-top: 0.4rem;
+  }
+
+  .trials {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3rem;
+  }
+
+  .about-split {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    column-gap: 4rem;
+    align-items: start;
+  }
+
+  .about-split .section {
+    margin-top: 0;
+    padding-top: 0;
+    border-top: 0;
+  }
 
   .site-footer { padding-bottom: 2.5rem; }
 }
@@ -818,6 +911,12 @@ h1 .light-word::after {
   .project a:hover::after,
   .project a:focus-visible::after,
   .project a:active::after,
+  .points a:hover::after,
+  .points a:focus-visible::after,
+  .points a:active::after,
+  .about-split a:hover::after,
+  .about-split a:focus-visible::after,
+  .about-split a:active::after,
   .site-footer a:hover::after,
   .site-footer a:focus-visible::after,
   .site-footer a:active::after,
@@ -849,6 +948,12 @@ h1 .light-word::after {
   .project a:hover::after,
   .project a:focus-visible::after,
   .project a:active::after,
+  .points a:hover::after,
+  .points a:focus-visible::after,
+  .points a:active::after,
+  .about-split a:hover::after,
+  .about-split a:focus-visible::after,
+  .about-split a:active::after,
   .site-footer a:hover::after,
   .site-footer a:focus-visible::after,
   .site-footer a:active::after,
